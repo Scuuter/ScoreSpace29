@@ -1110,6 +1110,29 @@
         "name": "Bonus",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Jersey10-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Jersey10-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "GloriaHallelujah-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "GloriaHallelujah-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2300.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2300.PNG",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1163,8 +1186,8 @@
           "name": "OnScreenControlsButton",
           "persistentUuid": "c845df74-c7e7-417e-a070-4f75743bc483",
           "width": 0,
-          "x": 374,
-          "y": 236,
+          "x": 380,
+          "y": 338,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1179,9 +1202,42 @@
           "name": "Score",
           "persistentUuid": "56cb706e-509c-44ef-bedf-65d768f50312",
           "width": 0,
-          "x": 457,
-          "y": 336,
+          "x": 461,
+          "y": 439,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 82,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Title1",
+          "persistentUuid": "36920859-a595-4e92-914d-1a56c1a01b5e",
+          "width": 293,
+          "x": 315,
+          "y": 32,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Title_2",
+          "persistentUuid": "6bb9ed02-1cc1-4906-bf1f-980f218cafb7",
+          "width": 0,
+          "x": 346,
+          "y": 96,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1311,6 +1367,88 @@
             "characterSize": 50,
             "color": "255;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Title1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "E, S, C, A, P",
+          "font": "Jersey10-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 80,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "E, S, C, A, P",
+            "font": "Jersey10-Regular.ttf",
+            "textAlignment": "left",
+            "characterSize": 80,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Title_2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "from the \n     wrong game",
+          "font": "GloriaHallelujah-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "from the \n     wrong game",
+            "font": "GloriaHallelujah-Regular.ttf",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -1321,6 +1459,12 @@
           },
           {
             "objectName": "Score"
+          },
+          {
+            "objectName": "Title1"
+          },
+          {
+            "objectName": "Title_2"
           }
         ]
       },
@@ -1425,6 +1569,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
         {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
