@@ -980,6 +980,41 @@
         "name": "assets\\Destroyer.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fence.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fence.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/5219e483a052b6d9dc758e11d80832127198ba729db14224f9534a15d9a3c523_fence.png",
+          "name": "fence.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gold star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gold star.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/d2c87a6e3ac348938548c317e0ef9609d267e8b4ddd1438cccedb4117b5862e0_Gold star.png",
+          "name": "Gold star.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fence2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fence",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1118,8 +1153,35 @@
         "zoomFactor": 0.5320619346001247,
         "windowMask": false
       },
-      "objectsGroups": [],
-      "variables": [],
+      "objectsGroups": [
+        {
+          "name": "Obstacles",
+          "objects": [
+            {
+              "name": "Cactus"
+            },
+            {
+              "name": "Fence"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "ObstaclesArray",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "Cactus"
+            },
+            {
+              "type": "string",
+              "value": "Fence"
+            }
+          ]
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -3578,7 +3640,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "b34b4be213e9cc1ffec038b9ee1b118316bbd7f4f2584072369b5b4a68ebcc98",
-          "name": "Cactus1",
+          "name": "Cactus",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -3601,7 +3663,7 @@
                       "originPoint": {
                         "name": "origine",
                         "x": 27.5,
-                        "y": 40
+                        "y": 30
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4573,6 +4635,127 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "b0fa8e7f548bb1f4edef1ed8d765f3d39219f7b7cfb3fa65c95b6e4479e9fd52",
+          "name": "Fence",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "fence",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fence",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 20,
+                        "y": 14
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 89,
+                            "y": 1
+                          },
+                          {
+                            "x": 89,
+                            "y": 66
+                          },
+                          {
+                            "x": 1,
+                            "y": 66
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "89e62a4f9681acbdcd1d65929c730c9b83cd30353c3625d082965a246d73c14f",
+          "name": "Star",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Gold star.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 31,
+                            "y": 0
+                          },
+                          {
+                            "x": 31,
+                            "y": 30
+                          },
+                          {
+                            "x": 0,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4591,7 +4774,7 @@
             "objectName": "DesertBackground"
           },
           {
-            "objectName": "Cactus1"
+            "objectName": "Cactus"
           },
           {
             "objectName": "LetterKey_up"
@@ -4607,6 +4790,12 @@
           },
           {
             "objectName": "Destroyer"
+          },
+          {
+            "objectName": "Fence"
+          },
+          {
+            "objectName": "Star"
           }
         ]
       },
@@ -4663,7 +4852,7 @@
               },
               "parameters": [
                 "",
-                "\"Spawn\""
+                "\"Obstacle\""
               ]
             },
             {
@@ -4916,9 +5105,9 @@
               },
               "parameters": [
                 "",
-                "\"Spawn\"",
+                "\"Obstacle\"",
                 ">=",
-                "2"
+                "1"
               ]
             },
             {
@@ -4934,11 +5123,12 @@
           "actions": [
             {
               "type": {
-                "value": "Create"
+                "value": "CreateByName"
               },
               "parameters": [
                 "",
-                "Cactus1",
+                "Obstacles",
+                "ObstaclesArray[Random(VariableChildCount(ObstaclesArray) - 1)]",
                 "Spawn.X()",
                 "Spawn.Y()",
                 ""
@@ -4949,9 +5139,9 @@
                 "value": "AddForceXY"
               },
               "parameters": [
-                "Cactus1",
+                "Obstacles",
                 "-150",
-                "",
+                "0",
                 "1"
               ]
             },
@@ -4961,7 +5151,7 @@
               },
               "parameters": [
                 "",
-                "\"Spawn\""
+                "\"Obstacle\""
               ]
             }
           ]
@@ -4974,7 +5164,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Cactus1",
+                "Obstacles",
                 "Destroyer",
                 "",
                 "",
@@ -4988,7 +5178,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "Cactus1",
+                "Obstacles",
                 ""
               ]
             }
