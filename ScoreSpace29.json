@@ -63,7 +63,697 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Dead_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Dead_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/22f06996b5ac22ea83b2464206f74dab5908c4d13d93990fb9ee7ebf91810976_Red Hat Boy_Dead_1.png",
+          "name": "Red Hat Boy_Dead_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Dead_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Dead_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/f56b9dd50ca8af66863b64dfb0a18ec6f8b8c3ff9a42cdb12533c3fed29b69c1_Red Hat Boy_Dead_10.png",
+          "name": "Red Hat Boy_Dead_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Dead_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Dead_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/053c7d4776f380237823b81071a3ec060dafde0a4600dd7df37c78a07db916ba_Red Hat Boy_Dead_2.png",
+          "name": "Red Hat Boy_Dead_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Dead_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Dead_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/842a169239a2d9b6420c55d9f8e0e17dddcf0d2db152c8fb152c68fcbb7ba213_Red Hat Boy_Dead_3.png",
+          "name": "Red Hat Boy_Dead_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Dead_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Dead_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/5672b01e5a77d1e498a26283bc4a0a1270fc1c0577d2b3e5359d2065533d5ae8_Red Hat Boy_Dead_4.png",
+          "name": "Red Hat Boy_Dead_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Dead_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Dead_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/4cfb42c38eb62ca4961aaeaaa12f80d5a9cbb2416943703bc3cd0f4ab2ad3608_Red Hat Boy_Dead_5.png",
+          "name": "Red Hat Boy_Dead_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Dead_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Dead_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/2f153dcf4a3bf91577ce46f6f3c953067b25270496c12feedf3a0d884e144b37_Red Hat Boy_Dead_6.png",
+          "name": "Red Hat Boy_Dead_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Dead_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Dead_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/329b3d7034d0eb3a89f8e336cb5b26590eb97b2fa2d716ea5f88fd20f0049343_Red Hat Boy_Dead_7.png",
+          "name": "Red Hat Boy_Dead_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Dead_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Dead_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/28093b431fbb8faa4d645449415e7cf5983818e76f35c2a9a5b09b93ee450540_Red Hat Boy_Dead_8.png",
+          "name": "Red Hat Boy_Dead_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Dead_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Dead_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/181281d696700a4d80b6369c17b63d856c32265c6896617c3a1a4250da95da0b_Red Hat Boy_Dead_9.png",
+          "name": "Red Hat Boy_Dead_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Hurt_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Hurt_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/a241a0dc335e91fdeb3bf785b5dd3313f77dec6d87541ff376626f8f94b3cf4d_Red Hat Boy_Hurt_1.png",
+          "name": "Red Hat Boy_Hurt_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Hurt_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Hurt_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/4b61265576478d9eb6efca8761483e020d5d38b48eafd0271f19e9247a7e1e50_Red Hat Boy_Hurt_2.png",
+          "name": "Red Hat Boy_Hurt_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Hurt_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Hurt_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/7bda2c4976a9cdff45d49fc4aa904e80ea6b1f5e6d49fd33ed6818cc9bf80caa_Red Hat Boy_Hurt_3.png",
+          "name": "Red Hat Boy_Hurt_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Hurt_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Hurt_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/6caa26c9b9f4aa2a7c850226bb7cf670545e9b785a1aeca12286f5a160471a2e_Red Hat Boy_Hurt_4.png",
+          "name": "Red Hat Boy_Hurt_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Hurt_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Hurt_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/a25216abf5ea25e08cc765d8f6dc6c4647bc0e65fd533dcecf023f4f85f74a5d_Red Hat Boy_Hurt_5.png",
+          "name": "Red Hat Boy_Hurt_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Hurt_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Hurt_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/709324c2b2cc1c6aa5e143e02d6066d020bf9b46106babe32511b22627d1cab0_Red Hat Boy_Hurt_6.png",
+          "name": "Red Hat Boy_Hurt_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Hurt_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Hurt_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/f7d367c2e0277852c559513573e513d787b707ea89a547e4a418b5df97402083_Red Hat Boy_Hurt_7.png",
+          "name": "Red Hat Boy_Hurt_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Hurt_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Hurt_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/aaa315700ff5fd66b0934945acce064cf90b5f334204cdf1a224cded6c55787a_Red Hat Boy_Hurt_8.png",
+          "name": "Red Hat Boy_Hurt_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Idle_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/9eac40f67289b8f4bed003213334d23156134da043afed56a311b1c6a57f6e6f_Red Hat Boy_Idle_1.png",
+          "name": "Red Hat Boy_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Idle_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Idle_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/6c05e54f83f18d0ae6a5805575f4b2c38d64bdc932c139da2340bdf528ff9980_Red Hat Boy_Idle_10.png",
+          "name": "Red Hat Boy_Idle_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Idle_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/3b4f9b01cd8753de9d23183aaa4482e53ef51c2af6f5a61a993b15f773c73b44_Red Hat Boy_Idle_2.png",
+          "name": "Red Hat Boy_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Idle_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/8ffa7ae3949fee58e0c58077cb816bdcc08afafbd97b0e62886a8932d0b47cae_Red Hat Boy_Idle_3.png",
+          "name": "Red Hat Boy_Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Idle_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/29530825f42887caeb5827a3bf6b5cd8ed8461a269401c7b525ee983d970cf6e_Red Hat Boy_Idle_4.png",
+          "name": "Red Hat Boy_Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Idle_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/3f1c6e2e3b3f04762d6c4c62d80b91b458781eba59aace0aebc9b128d456dec4_Red Hat Boy_Idle_5.png",
+          "name": "Red Hat Boy_Idle_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Idle_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/eaa6e397e68227fc7daf48a6636b34cadd134357c2cf8e5278f36972382d99d7_Red Hat Boy_Idle_6.png",
+          "name": "Red Hat Boy_Idle_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Idle_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/a220569b7ebf7eb67bc0baf43e6d30024493101fdfdbe6371ade9c2ec184ea18_Red Hat Boy_Idle_7.png",
+          "name": "Red Hat Boy_Idle_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Idle_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/dd8bff7fb12f6cef788f135e523129e27695250c51f66dfc1c679e3d8ceb0cff_Red Hat Boy_Idle_8.png",
+          "name": "Red Hat Boy_Idle_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Idle_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/d1e2f3b0e648793c7b64311347ff0327cb2a8238173a95a67e7ce463203cfd17_Red Hat Boy_Idle_9.png",
+          "name": "Red Hat Boy_Idle_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Jump_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Jump_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/afe4e0adbe46f22f41a4f92e7e981a1747f31dd465410f44357894fa42c38e65_Red Hat Boy_Jump_1.png",
+          "name": "Red Hat Boy_Jump_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Jump_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Jump_10.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/b38c0952987e9c67429be3d6d8c6ee7287c7699132081ca434cfe2a9cf6d9f1a_Red Hat Boy_Jump_10.png",
+          "name": "Red Hat Boy_Jump_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Jump_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Jump_11.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/bf0e7dc15e6234c852bb6c920c9df74cf2f376be6f75af53d9651cb2cb1f7d53_Red Hat Boy_Jump_11.png",
+          "name": "Red Hat Boy_Jump_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Jump_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Jump_12.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/df096bc3f6f2666396324eef2a87e1bb973ce4554ff90e193c55a30a80872203_Red Hat Boy_Jump_12.png",
+          "name": "Red Hat Boy_Jump_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Jump_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Jump_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/930b8dd56672c20be2aae246a8afd1bd61c580fe9e623801053abe55083f947b_Red Hat Boy_Jump_2.png",
+          "name": "Red Hat Boy_Jump_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Jump_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Jump_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/498748c5f08ebb3c8902ceccb545da0667ea19b44f9122078f2ff39f09aaebef_Red Hat Boy_Jump_3.png",
+          "name": "Red Hat Boy_Jump_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Jump_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Jump_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/0c63e4377208bc9e7414368767a7486e15561e97e2ec3726e68fc77a5a234ac1_Red Hat Boy_Jump_4.png",
+          "name": "Red Hat Boy_Jump_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Jump_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Jump_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/5c28cc48ece2c502af67a85bfed814e3c1d0e34be374952f9125cf69a2964a15_Red Hat Boy_Jump_5.png",
+          "name": "Red Hat Boy_Jump_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Jump_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Jump_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/f3d968ad523a02ac1813aaf2d82bb1d801b50d57530c4d909fa4006deebf76af_Red Hat Boy_Jump_6.png",
+          "name": "Red Hat Boy_Jump_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Jump_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Jump_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/486480acbfd0ee181ef65a65293f72c8fa1fb912a8bd5548d632ec559a12e2b8_Red Hat Boy_Jump_7.png",
+          "name": "Red Hat Boy_Jump_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Jump_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Jump_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/cf308fa8248816ffb842aeaefbe17a9339d0730bf701c1e98edaf31f20237c7d_Red Hat Boy_Jump_8.png",
+          "name": "Red Hat Boy_Jump_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Jump_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Jump_9.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/c5c91e43ee83c5df5b1a9fc837b13856402cf24b08439c67732b8650ab66cf9b_Red Hat Boy_Jump_9.png",
+          "name": "Red Hat Boy_Jump_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Run_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Run_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/017020a6c04db19c4c3cb5e14d665bcb8cd7c87c2f71c8c4ae7455cfad4739b4_Red Hat Boy_Run_1.png",
+          "name": "Red Hat Boy_Run_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Run_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Run_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/5d758ed0723b8af1c435bbd4989e9d6e600722d65d0df6c5b276c9af8ac3506e_Red Hat Boy_Run_2.png",
+          "name": "Red Hat Boy_Run_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Run_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Run_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/0cb6469edb40d74d3ac0b86355887fbc832980dd84b942f013e34bd41e9ba303_Red Hat Boy_Run_3.png",
+          "name": "Red Hat Boy_Run_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Run_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Run_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/362f1d3ea407b9a87f7fa6fbcdf4eb094e847cfbe90d7871f22a058bc417ac67_Red Hat Boy_Run_4.png",
+          "name": "Red Hat Boy_Run_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Run_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Run_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/d4fbc843cb67389fa7c7bbd201e7fc94f2f9b93e76378cbbd23dcce8628bcd3e_Red Hat Boy_Run_5.png",
+          "name": "Red Hat Boy_Run_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Run_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Run_6.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/024627e3053f08ec1fed397bc61b3399192ffbc227ccd8da29fe8054994060f7_Red Hat Boy_Run_6.png",
+          "name": "Red Hat Boy_Run_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Run_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Run_7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/84063a18f581d5dd1394d509408a8d7a5de96ca52a5de116e5db6ccba94d68a3_Red Hat Boy_Run_7.png",
+          "name": "Red Hat Boy_Run_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Run_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Run_8.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/a0f7fc4fa9cd48958856aac8f274a3626141b84a274c875e23a912600b3ffa3c_Red Hat Boy_Run_8.png",
+          "name": "Red Hat Boy_Run_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Slide_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Slide_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/1138cc546c7d55653d9934eed829bfce25e7be69e24e59ae8151477393e382a1_Red Hat Boy_Slide_1.png",
+          "name": "Red Hat Boy_Slide_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Slide_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Slide_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/ad1cd5ced38dd57371ae3d2c96d1e9c487e751c2a269641d87227a40a274da65_Red Hat Boy_Slide_2.png",
+          "name": "Red Hat Boy_Slide_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Slide_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Slide_3.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/d03877dca53a927c5e65b4b4fa7959716fe0986154083a4f4544ef2937022f3c_Red Hat Boy_Slide_3.png",
+          "name": "Red Hat Boy_Slide_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Slide_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Slide_4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/d03877dca53a927c5e65b4b4fa7959716fe0986154083a4f4544ef2937022f3c_Red Hat Boy_Slide_4.png",
+          "name": "Red Hat Boy_Slide_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Hat Boy_Slide_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Hat Boy_Slide_5.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/ad1cd5ced38dd57371ae3d2c96d1e9c487e751c2a269641d87227a40a274da65_Red Hat Boy_Slide_5.png",
+          "name": "Red Hat Boy_Slide_5.png"
+        }
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -93,7 +783,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.6244537826599987,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -202,10 +892,2025 @@
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RedHatBoy",
+          "persistentUuid": "fda728e1-1e64-49cd-8454-fc43fb114b74",
+          "width": 0,
+          "x": -61,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "02d4dcf26a684f17c5d9ac63e2cf8169005a5262202e78062a9c416438e59572",
+          "name": "RedHatBoy",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Idle_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Idle_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Idle_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Idle_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Idle_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Idle_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Run",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Run_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Run_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Run_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Run_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Run_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Run_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Run_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Run_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.0833,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Jump_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Jump_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Jump_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Jump_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Jump_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Jump_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Jump_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Jump_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Jump_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Jump_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Jump_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Jump_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hurt",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Hurt_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Hurt_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Hurt_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Hurt_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Hurt_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Hurt_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Hurt_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Hurt_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Dead",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Dead_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Dead_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Dead_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Dead_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Dead_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Dead_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Dead_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Dead_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Dead_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Dead_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Slide",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Slide_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Slide_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Slide_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Slide_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Red Hat Boy_Slide_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 62,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 10
+                          },
+                          {
+                            "x": 134,
+                            "y": 128
+                          },
+                          {
+                            "x": 62,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "RedHatBoy"
+          }
+        ]
       },
       "events": [],
       "layers": [
