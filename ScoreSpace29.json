@@ -5349,11 +5349,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ]
         },
@@ -5994,96 +5989,255 @@
                   ]
                 }
               ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Spawn",
-                "\"Cooldown\"",
-                ">=",
-                "Spawn.Cooldown"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Spawn",
-                "\"Cooldown\""
-              ]
-            }
-          ],
-          "events": [
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                    "value": "CompareObjectTimer"
                   },
                   "parameters": [
                     "Spawn",
-                    "Animation",
-                    "=",
-                    "\"Obstacle\""
+                    "\"Cooldown\"",
+                    ">=",
+                    "Spawn.Cooldown"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "CreateByName"
-                  },
-                  "parameters": [
-                    "",
-                    "Obstacles",
-                    "ObstaclesArray[Random(VariableChildCount(ObstaclesArray) - 1)]",
-                    "Spawn.X()",
-                    "Spawn.Y()",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "Obstacles",
-                    "-speed",
-                    "0",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
+                    "value": "ResetObjectTimer"
                   },
                   "parameters": [
                     "Spawn",
-                    "State",
-                    "=",
-                    "mod(Random(2), 2)"
+                    "\"Cooldown\""
                   ]
                 }
               ],
               "events": [
                 {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "spawn obstacle"
+                },
+                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "VarObjet"
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Spawn",
+                        "Animation",
+                        "=",
+                        "\"Obstacle\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "CreateByName"
+                      },
+                      "parameters": [
+                        "",
+                        "Obstacles",
+                        "ObstaclesArray[Random(VariableChildCount(ObstaclesArray) - 1)]",
+                        "Spawn.X()",
+                        "Spawn.Y()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Obstacles",
+                        "-speed",
+                        "0",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "2/3 chance to keep obstacle, 1/3 to swap to bonus"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Spawn",
+                            "State",
+                            "=",
+                            "mod(Random(2), 2)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "next obstacle is in 2-5 seconds"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Spawn",
+                            "State",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Spawn",
+                            "Cooldown",
+                            "=",
+                            "RandomFloatInRange(2, 5)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "next bonus is in 1-2 seconds"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Spawn",
+                            "State",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Spawn",
+                            "Cooldown",
+                            "=",
+                            "RandomFloatInRange(1,2)"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "spawn bonus and set next obstacle in 1-2 seconds"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Spawn",
+                        "Animation",
+                        "=",
+                        "\"Bonus\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Star",
+                        "Spawn.X()",
+                        "Spawn.Y()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Star",
+                        "-speed",
+                        "0",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
                         "Spawn",
@@ -6091,38 +6245,7 @@
                         "=",
                         "0"
                       ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Spawn",
-                        "Cooldown",
-                        "=",
-                        "RandomFloatInRange(2, 5)"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "Spawn",
-                        "State",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ],
-                  "actions": [
+                    },
                     {
                       "type": {
                         "value": "ModVarObjet"
@@ -6135,90 +6258,40 @@
                       ]
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "Spawn",
-                    "Animation",
-                    "=",
-                    "\"Bonus\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Star",
-                    "Spawn.X()",
-                    "Spawn.Y()",
-                    ""
-                  ]
                 },
                 {
-                  "type": {
-                    "value": "AddForceXY"
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
                   },
-                  "parameters": [
-                    "Star",
-                    "-speed",
-                    "0",
-                    "1"
-                  ]
+                  "comment": "swap animation to the next object to be spawned"
                 },
                 {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Spawn",
-                    "State",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Spawn",
-                    "Cooldown",
-                    "=",
-                    "RandomFloatInRange(1,2)"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                  },
-                  "parameters": [
-                    "Spawn",
-                    "Animation",
-                    "=",
-                    "Spawn.State"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "Spawn",
+                        "Animation",
+                        "=",
+                        "Spawn.State"
+                      ]
+                    }
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         }
       ],
       "layers": [
