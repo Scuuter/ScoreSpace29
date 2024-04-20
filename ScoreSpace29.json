@@ -1141,12 +1141,12 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Controls",
           "name": "LetterKey_up",
           "persistentUuid": "a5a93be4-ca7a-43ec-9ffe-8b5b876d930b",
           "width": 0,
-          "x": 859,
-          "y": -4,
+          "x": 834,
+          "y": -6,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1157,12 +1157,12 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Controls",
           "name": "LetterKey_down",
           "persistentUuid": "e4ab3ac5-62f9-4cc3-a28f-9352d64dc4b0",
           "width": 0,
-          "x": 860,
-          "y": 81,
+          "x": 834,
+          "y": 74,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -3928,6 +3928,39 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Controls",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
