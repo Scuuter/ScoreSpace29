@@ -962,6 +962,24 @@
         "name": "cactus3",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Destroyer.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Destroyer",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Destroyer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Destroyer.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1195,7 +1213,7 @@
           "persistentUuid": "a5a93be4-ca7a-43ec-9ffe-8b5b876d930b",
           "width": 80,
           "x": 0,
-          "y": 123,
+          "y": 145,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1212,7 +1230,7 @@
           "persistentUuid": "e4ab3ac5-62f9-4cc3-a28f-9352d64dc4b0",
           "width": 80,
           "x": 0,
-          "y": 223,
+          "y": 240,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1222,12 +1240,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 10,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "Spawn",
           "persistentUuid": "d99fa3e4-4f3f-4d67-9f5f-bf68eee7b228",
-          "width": 10,
+          "width": 16,
           "x": 980,
           "y": 136,
           "zOrder": 6,
@@ -1239,12 +1257,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 10,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "Spawn",
           "persistentUuid": "dacfeca9-5c8a-41e1-b0ba-587051e62127",
-          "width": 10,
+          "width": 16,
           "x": 980,
           "y": 244,
           "zOrder": 7,
@@ -1256,12 +1274,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 10,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "Spawn",
           "persistentUuid": "37c735d6-4a85-4ed8-87aa-ca562e2f510f",
-          "width": 10,
+          "width": 16,
           "x": 980,
           "y": 352,
           "zOrder": 8,
@@ -1388,15 +1406,99 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 10,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "Spawn",
           "persistentUuid": "a7718ecc-4768-4d53-9dc7-f2b0031ac09b",
-          "width": 10,
+          "width": 16,
           "x": 980,
           "y": 460,
           "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Destroyer",
+          "persistentUuid": "00abdba9-7069-45b0-a9f6-396f4e245bc8",
+          "width": 16,
+          "x": 75,
+          "y": 352,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Destroyer",
+          "persistentUuid": "6c6b4da3-eb01-4592-b7c2-b1c9be081268",
+          "width": 16,
+          "x": 75,
+          "y": 460,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Destroyer",
+          "persistentUuid": "430363b2-e008-4b33-8630-6e1d9acf407b",
+          "width": 16,
+          "x": 75,
+          "y": 244,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Destroyer",
+          "persistentUuid": "5a36802d-81c1-4d11-b8b9-85e7764d182d",
+          "width": 16,
+          "x": 75,
+          "y": 136,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 988,
+          "layer": "",
+          "name": "DesertBackground",
+          "persistentUuid": "f25045da-61d4-4703-a93b-d0b8369dbfa2",
+          "width": 1028,
+          "x": 2056,
+          "y": -448,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4047,7 +4149,56 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Destroyer.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -4361,6 +4512,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Destroyer",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Destroyer",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Destroyer",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 8
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4392,6 +4604,9 @@
           },
           {
             "objectName": "Spawn"
+          },
+          {
+            "objectName": "Destroyer"
           }
         ]
       },
@@ -4472,8 +4687,24 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "DesertBackground",
+                    "-",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
               "type": "BuiltinCommonInstructions::ForEach",
-              "object": "",
+              "object": "DesertBackground",
               "conditions": [
                 {
                   "type": {
@@ -4482,7 +4713,7 @@
                   "parameters": [
                     "DesertBackground",
                     "<=",
-                    "DesertBackground.Width()"
+                    "-DesertBackground.Width()"
                   ]
                 }
               ],
@@ -4494,23 +4725,7 @@
                   "parameters": [
                     "DesertBackground",
                     "=",
-                    "DesertBackground.Width()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreX"
-                  },
-                  "parameters": [
-                    "DesertBackground",
-                    "-",
-                    "1"
+                    "DesertBackground.Width()*2"
                   ]
                 }
               ]
@@ -4603,6 +4818,96 @@
           "parameters": []
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Change input",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Input_change\"",
+                    ">=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "LetterKey_up",
+                    "Animation",
+                    "=",
+                    "Random(4)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "LetterKey_down",
+                    "Animation",
+                    "=",
+                    "Random(4)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Input_change\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "LetterKey_up",
+                    "Animation",
+                    "=",
+                    "LetterKey_down.Animation::Index()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "LetterKey_down",
+                    "Animation",
+                    "=",
+                    "Random(4)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4666,75 +4971,25 @@
           "conditions": [
             {
               "type": {
-                "value": "CompareTimer"
+                "value": "CollisionNP"
               },
               "parameters": [
+                "Cactus1",
+                "Destroyer",
                 "",
-                "\"Input_change\"",
-                ">=",
-                "5"
+                "",
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                "value": "Delete"
               },
               "parameters": [
-                "LetterKey_up",
-                "Animation",
-                "=",
-                "Random(4)"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "LetterKey_down",
-                "Animation",
-                "=",
-                "Random(4)"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Input_change\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Index"
-              },
-              "parameters": [
-                "LetterKey_up",
-                "Animation",
-                "=",
-                "LetterKey_down.Animation::Index()"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "LetterKey_down",
-                "Animation",
-                "=",
-                "Random(4)"
+                "Cactus1",
+                ""
               ]
             }
           ]
