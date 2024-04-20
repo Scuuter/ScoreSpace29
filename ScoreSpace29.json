@@ -913,6 +913,24 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/96b06f7e489cb39d4b04f5f97d0a9c50c34e4ee9d938f5334fcf56be578de130_Letter Key_Z.png",
           "name": "Letter Key_Z.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cactus2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cactus 1",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cactus3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cactus2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1077,10 +1095,10 @@
           "height": 4,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Line",
           "persistentUuid": "841500f6-5d4d-4b18-ba37-c1b6342bfd53",
           "width": 960,
-          "x": -1,
+          "x": 0,
           "y": 253,
           "zOrder": 2,
           "numberProperties": [],
@@ -1094,7 +1112,7 @@
           "height": 4,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "Line",
           "persistentUuid": "be7bfafb-53ba-4d35-a54f-5c7f8279983d",
           "width": 960,
           "x": 0,
@@ -1164,6 +1182,54 @@
           "x": 834,
           "y": 74,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spawn",
+          "persistentUuid": "d99fa3e4-4f3f-4d67-9f5f-bf68eee7b228",
+          "width": 0,
+          "x": 974,
+          "y": 163,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spawn",
+          "persistentUuid": "dacfeca9-5c8a-41e1-b0ba-587051e62127",
+          "width": 0,
+          "x": 973,
+          "y": 300,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spawn",
+          "persistentUuid": "37c735d6-4a85-4ed8-87aa-ca562e2f510f",
+          "width": 0,
+          "x": 969,
+          "y": 447,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3171,7 +3237,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "Line",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -3251,21 +3317,22 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "cactus 1",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.025,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "cactus 1.png",
+                      "image": "cactus2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 45,
+                        "y": 65
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3280,16 +3347,16 @@
                             "y": 0
                           },
                           {
-                            "x": 192,
+                            "x": 90,
                             "y": 0
                           },
                           {
-                            "x": 192,
-                            "y": 278
+                            "x": 90,
+                            "y": 130
                           },
                           {
                             "x": 0,
-                            "y": 278
+                            "y": 130
                           }
                         ]
                       ]
@@ -3803,6 +3870,17 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Spawn",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "objectsFolderStructure": {
@@ -3812,7 +3890,7 @@
             "objectName": "RedHatBoy"
           },
           {
-            "objectName": "NewSprite"
+            "objectName": "Line"
           },
           {
             "objectName": "DesertBackground"
@@ -3825,6 +3903,9 @@
           },
           {
             "objectName": "LetterKey_down"
+          },
+          {
+            "objectName": "Spawn"
           }
         ]
       },
@@ -3873,6 +3954,24 @@
                 "Animation",
                 "=",
                 "\"Run\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Spawn\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Input_change\""
               ]
             }
           ]
@@ -3997,6 +4096,143 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Spawn\"",
+                ">=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AjoutHasard"
+              },
+              "parameters": [
+                "",
+                "Spawn"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Cactus1",
+                "Spawn.X()",
+                "Spawn.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Cactus1",
+                "-150",
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Spawn\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Input_change\"",
+                ">=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "LetterKey_up",
+                "Animation",
+                "=",
+                "Random(4)"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "LetterKey_down",
+                "Animation",
+                "=",
+                "Random(4)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Input_change\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Index"
+              },
+              "parameters": [
+                "LetterKey_up",
+                "Animation",
+                "=",
+                "LetterKey_down.Animation::Index()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "LetterKey_down",
+                "Animation",
+                "=",
+                "Random(4)"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
