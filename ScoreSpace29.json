@@ -1133,6 +1133,24 @@
         "name": "IMG_2300.PNG",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2318.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2318.PNG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/IMG_2318.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "IMG_2318",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2076,6 +2094,22 @@
           "x": 1032,
           "y": 40,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "HandofFate",
+          "persistentUuid": "a62619a0-9040-413a-8b64-5531049df8cd",
+          "width": 0,
+          "x": 145,
+          "y": 281,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5446,6 +5480,86 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "HandofFate",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 20,
+                "padding": 30,
+                "quality": 15,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "32;31;31"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "IMG_2318",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2318",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 23
+                          },
+                          {
+                            "x": 302,
+                            "y": 23
+                          },
+                          {
+                            "x": 302,
+                            "y": 138
+                          },
+                          {
+                            "x": 9,
+                            "y": 138
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5492,6 +5606,9 @@
           },
           {
             "objectName": "Background_soil"
+          },
+          {
+            "objectName": "HandofFate"
           }
         ]
       },
