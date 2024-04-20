@@ -128,9 +128,9 @@ gdjs.copyArray(runtimeScene.getObjects("Score"), gdjs.Game_32sceneCode.GDScoreOb
 {for(var i = 0, len = gdjs.Game_32sceneCode.GDStarObjects2.length ;i < len;++i) {
     gdjs.Game_32sceneCode.GDStarObjects2[i].deleteFromScene(runtimeScene);
 }
-}{runtimeScene.getGame().getVariables().getFromIndex(0).add(1);
+}{runtimeScene.getScene().getVariables().getFromIndex(1).add(1);
 }{for(var i = 0, len = gdjs.Game_32sceneCode.GDScoreObjects2.length ;i < len;++i) {
-    gdjs.Game_32sceneCode.GDScoreObjects2[i].getBehavior("Text").setText(gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0))));
+    gdjs.Game_32sceneCode.GDScoreObjects2[i].getBehavior("Text").setText(gdjs.evtTools.common.toString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber()));
 }
 }}
 
@@ -147,8 +147,8 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Game_32sceneCode.mapOfGDgdjs_9546Game_959532sceneCode_9546GDRedHatBoyObjects1Objects, gdjs.Game_32sceneCode.mapOfGDgdjs_9546Game_959532sceneCode_9546GDCactusObjects1ObjectsGDgdjs_9546Game_959532sceneCode_9546GDFenceObjects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
-}{gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "Game scene");
+{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(Math.max(runtimeScene.getGame().getVariables().getFromIndex(0).getAsNumber(), runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber()));
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Menu scene", false);
 }}
 
 }
