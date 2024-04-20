@@ -1110,6 +1110,24 @@
         "name": "Bonus",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2310.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2310.PNG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/IMG_2310.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "IMG_2310",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1471,7 +1489,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5320619346001247,
+        "zoomFactor": 0.6492030249510135,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1928,6 +1946,38 @@
           "x": 1032,
           "y": 40,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background_bushlow",
+          "persistentUuid": "66b4f5a3-75ac-4fab-ba8a-76cb309f309b",
+          "width": 0,
+          "x": 152,
+          "y": 453,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "background_bushlow",
+          "persistentUuid": "31cab712-4527-43f3-ace5-8a2a77a8dbf8",
+          "width": 0,
+          "x": 1032,
+          "y": 453,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5298,6 +5348,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "background_bushlow",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "IMG_2310",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2310",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 33
+                          },
+                          {
+                            "x": 880,
+                            "y": 33
+                          },
+                          {
+                            "x": 880,
+                            "y": 132
+                          },
+                          {
+                            "x": 0,
+                            "y": 132
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5344,6 +5455,9 @@
           },
           {
             "objectName": "Background_soil"
+          },
+          {
+            "objectName": "background_bushlow"
           }
         ]
       },
@@ -5412,6 +5526,14 @@
               "parameters": [
                 "",
                 "\"Obstacle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Line"
               ]
             }
           ],
@@ -5743,6 +5865,16 @@
                     "Background_soil",
                     "-",
                     "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "background_bushlow",
+                    "-",
+                    "2.2"
                   ]
                 }
               ]
