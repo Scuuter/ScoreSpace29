@@ -6042,6 +6042,17 @@
                         "=",
                         "\"Obstacle\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Obstacle\"",
+                        ">=",
+                        "0.5"
+                      ]
                     }
                   ],
                   "actions": [
@@ -6067,6 +6078,15 @@
                         "-speed",
                         "0",
                         "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Obstacle\""
                       ]
                     }
                   ],
