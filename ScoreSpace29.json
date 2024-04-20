@@ -944,6 +944,15 @@
         "name": "cactus2",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1087,15 +1096,16 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
           "keepRatio": true,
           "layer": "",
           "name": "RedHatBoy",
           "persistentUuid": "fda728e1-1e64-49cd-8454-fc43fb114b74",
-          "width": 0,
-          "x": 104,
-          "y": 194,
+          "width": 100,
+          "x": 281,
+          "y": 145,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1111,9 +1121,9 @@
           "name": "Line",
           "persistentUuid": "841500f6-5d4d-4b18-ba37-c1b6342bfd53",
           "width": 960,
-          "x": 0,
-          "y": 253,
-          "zOrder": 2,
+          "x": 150,
+          "y": 298,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1128,9 +1138,9 @@
           "name": "Line",
           "persistentUuid": "be7bfafb-53ba-4d35-a54f-5c7f8279983d",
           "width": 960,
-          "x": 0,
-          "y": 394,
-          "zOrder": 2,
+          "x": 150,
+          "y": 514,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1169,15 +1179,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 80,
           "keepRatio": true,
           "layer": "Controls",
           "name": "LetterKey_up",
           "persistentUuid": "a5a93be4-ca7a-43ec-9ffe-8b5b876d930b",
-          "width": 0,
-          "x": 834,
-          "y": -6,
+          "width": 80,
+          "x": 0,
+          "y": 123,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1185,16 +1196,17 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 80,
           "keepRatio": true,
           "layer": "Controls",
           "name": "LetterKey_down",
           "persistentUuid": "e4ab3ac5-62f9-4cc3-a28f-9352d64dc4b0",
-          "width": 0,
-          "x": 834,
-          "y": 74,
-          "zOrder": 4,
+          "width": 80,
+          "x": 0,
+          "y": 223,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1243,6 +1255,124 @@
           "x": 969,
           "y": 447,
           "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 4,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Line",
+          "persistentUuid": "74c8c572-3c92-4fb0-922a-e54a26c47590",
+          "width": 960,
+          "x": 150,
+          "y": 406,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 4,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Line",
+          "persistentUuid": "b278c742-2920-4340-b146-737b1278faac",
+          "width": 960,
+          "x": 150,
+          "y": 190,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 4,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Line",
+          "persistentUuid": "0bb5ba7a-0b36-4278-b18c-e9fe0bcd32b5",
+          "width": 960,
+          "x": 150,
+          "y": 82,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 540,
+          "layer": "",
+          "name": "Line",
+          "persistentUuid": "e498f41b-1e36-4b4d-9d1c-fd78cad7b730",
+          "width": 4,
+          "x": 150,
+          "y": 0,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LetterKey_ability",
+          "persistentUuid": "2baeee7d-881d-4eee-ae86-7ddd01ddd03d",
+          "width": 80,
+          "x": 0,
+          "y": 342,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 106,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "96bfdc89-acbc-4b97-b075-548f5cdc37c4",
+          "width": 54,
+          "x": 151,
+          "y": 85,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 106,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "23b96903-41c7-44c7-84f0-c09a670599df",
+          "width": 292,
+          "x": 109,
+          "y": 193,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3894,6 +4024,319 @@
           "effects": [],
           "behaviors": [],
           "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "6e15bfe9c47f69b8d9caa5098c128b1943da60700e2084524f93a0263b8e9424",
+          "name": "LetterKey_ability",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "a",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Letter Key_A.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 86
+                          },
+                          {
+                            "x": 12,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "c",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Letter Key_C.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 86
+                          },
+                          {
+                            "x": 12,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "e",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Letter Key_E.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 86
+                          },
+                          {
+                            "x": 12,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "p",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Letter Key_P.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 86
+                          },
+                          {
+                            "x": 12,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "s",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Letter Key_S.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 86
+                          },
+                          {
+                            "x": 12,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -3901,6 +4344,9 @@
         "children": [
           {
             "objectName": "RedHatBoy"
+          },
+          {
+            "objectName": "NewSprite"
           },
           {
             "objectName": "Line"
@@ -3916,6 +4362,9 @@
           },
           {
             "objectName": "LetterKey_down"
+          },
+          {
+            "objectName": "LetterKey_ability"
           },
           {
             "objectName": "Spawn"
