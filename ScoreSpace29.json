@@ -3863,6 +3863,17 @@
                 "=",
                 "\"c\""
               ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "RedHatBoy",
+                "Animation",
+                "=",
+                "\"Run\""
+              ]
             }
           ]
         },
@@ -3937,7 +3948,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextPressed"
+                    "value": "KeyFromTextReleased"
                   },
                   "parameters": [
                     "",
@@ -3948,13 +3959,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                    "value": "MettreY"
                   },
                   "parameters": [
                     "RedHatBoy",
-                    "Animation",
-                    "=",
-                    "\"Jump\""
+                    "+",
+                    "143"
                   ]
                 }
               ]
@@ -3964,7 +3974,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextPressed"
+                    "value": "KeyFromTextReleased"
                   },
                   "parameters": [
                     "",
@@ -3975,40 +3985,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                    "value": "MettreY"
                   },
                   "parameters": [
                     "RedHatBoy",
-                    "Animation",
-                    "=",
-                    "\"Dead\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Space"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "RedHatBoy",
-                    "Animation",
-                    "=",
-                    "\"Run\""
+                    "-",
+                    "143"
                   ]
                 }
               ]
