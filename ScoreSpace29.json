@@ -1077,6 +1077,33 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "IMG_2295.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2295.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2296.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2296.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2297.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2297.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/Bonus.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -1547,38 +1574,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 988,
-          "layer": "",
-          "name": "DesertBackground",
-          "persistentUuid": "981ec475-99ed-4cde-9d93-6760f14ebc13",
-          "width": 1028,
-          "x": 0,
-          "y": -447,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 988,
-          "layer": "",
-          "name": "DesertBackground",
-          "persistentUuid": "f3802cef-98ed-4983-8930-cb18e3a42876",
-          "width": 1028,
-          "x": 1028,
-          "y": -447,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 0,
           "height": 80,
           "keepRatio": true,
@@ -1752,8 +1747,8 @@
           "name": "NewSprite",
           "persistentUuid": "96bfdc89-acbc-4b97-b075-548f5cdc37c4",
           "width": 54,
-          "x": 151,
-          "y": 85,
+          "x": -193,
+          "y": 640,
           "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1769,8 +1764,8 @@
           "name": "NewSprite",
           "persistentUuid": "23b96903-41c7-44c7-84f0-c09a670599df",
           "width": 292,
-          "x": 109,
-          "y": 193,
+          "x": -165,
+          "y": 739,
           "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1889,6 +1884,38 @@
           "x": 9,
           "y": 9,
           "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background_soil",
+          "persistentUuid": "9166cea7-ddb3-4d1a-88e6-9ddb93b72e9e",
+          "width": 0,
+          "x": 152,
+          "y": 40,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background_soil",
+          "persistentUuid": "b1cc7a54-a15e-46a8-9a1f-0b2278b59ba8",
+          "width": 0,
+          "x": 1032,
+          "y": 40,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5199,6 +5226,66 @@
             "characterSize": 50,
             "color": "255;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background_soil",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2297.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 880,
+                            "y": 0
+                          },
+                          {
+                            "x": 880,
+                            "y": 490
+                          },
+                          {
+                            "x": 0,
+                            "y": 490
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5242,6 +5329,9 @@
           },
           {
             "objectName": "Star"
+          },
+          {
+            "objectName": "Background_soil"
           }
         ]
       },
@@ -5426,6 +5516,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Collide with player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5526,7 +5617,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Background",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5540,7 +5630,7 @@
                     "value": "MettreX"
                   },
                   "parameters": [
-                    "DesertBackground",
+                    "Background_soil",
                     "-",
                     "2"
                   ]
@@ -5549,16 +5639,16 @@
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
-              "object": "DesertBackground",
+              "object": "Background_soil",
               "conditions": [
                 {
                   "type": {
                     "value": "PosX"
                   },
                   "parameters": [
-                    "DesertBackground",
+                    "Background_soil",
                     "<=",
-                    "-DesertBackground.Width()"
+                    "-Background_soil.Width() + 150"
                   ]
                 }
               ],
@@ -5568,9 +5658,9 @@
                     "value": "MettreX"
                   },
                   "parameters": [
-                    "DesertBackground",
+                    "Background_soil",
                     "=",
-                    "DesertBackground.Width()*2"
+                    "Background_soil.Width()+150"
                   ]
                 }
               ]
@@ -6312,6 +6402,11 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
