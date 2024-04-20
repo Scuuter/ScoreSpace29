@@ -953,6 +953,15 @@
         "name": "NewSprite",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cactus4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "cactus3",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1116,11 +1125,10 @@
           "customSize": true,
           "depth": 1,
           "height": 4,
-          "keepRatio": true,
           "layer": "",
           "name": "Line",
           "persistentUuid": "841500f6-5d4d-4b18-ba37-c1b6342bfd53",
-          "width": 960,
+          "width": 810,
           "x": 150,
           "y": 298,
           "zOrder": 1,
@@ -1133,11 +1141,10 @@
           "customSize": true,
           "depth": 1,
           "height": 4,
-          "keepRatio": true,
           "layer": "",
           "name": "Line",
           "persistentUuid": "be7bfafb-53ba-4d35-a54f-5c7f8279983d",
-          "width": 960,
+          "width": 810,
           "x": 150,
           "y": 514,
           "zOrder": 1,
@@ -1213,15 +1220,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 10,
           "keepRatio": true,
           "layer": "",
           "name": "Spawn",
           "persistentUuid": "d99fa3e4-4f3f-4d67-9f5f-bf68eee7b228",
-          "width": 0,
-          "x": 974,
-          "y": 163,
+          "width": 10,
+          "x": 980,
+          "y": 136,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -1229,15 +1237,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 10,
           "keepRatio": true,
           "layer": "",
           "name": "Spawn",
           "persistentUuid": "dacfeca9-5c8a-41e1-b0ba-587051e62127",
-          "width": 0,
-          "x": 973,
-          "y": 300,
+          "width": 10,
+          "x": 980,
+          "y": 244,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -1245,15 +1254,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 10,
           "keepRatio": true,
           "layer": "",
           "name": "Spawn",
           "persistentUuid": "37c735d6-4a85-4ed8-87aa-ca562e2f510f",
-          "width": 0,
-          "x": 969,
-          "y": 447,
+          "width": 10,
+          "x": 980,
+          "y": 352,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -1264,11 +1274,10 @@
           "customSize": true,
           "depth": 1,
           "height": 4,
-          "keepRatio": true,
           "layer": "",
           "name": "Line",
           "persistentUuid": "74c8c572-3c92-4fb0-922a-e54a26c47590",
-          "width": 960,
+          "width": 810,
           "x": 150,
           "y": 406,
           "zOrder": 1,
@@ -1279,13 +1288,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
+          "depth": 0.84375,
           "height": 4,
-          "keepRatio": true,
           "layer": "",
           "name": "Line",
           "persistentUuid": "b278c742-2920-4340-b146-737b1278faac",
-          "width": 960,
+          "width": 810,
           "x": 150,
           "y": 190,
           "zOrder": 1,
@@ -1298,11 +1306,10 @@
           "customSize": true,
           "depth": 1,
           "height": 4,
-          "keepRatio": true,
           "layer": "",
           "name": "Line",
           "persistentUuid": "0bb5ba7a-0b36-4278-b18c-e9fe0bcd32b5",
-          "width": 960,
+          "width": 810,
           "x": 150,
           "y": 82,
           "zOrder": 1,
@@ -1373,6 +1380,23 @@
           "x": 109,
           "y": 193,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 10,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spawn",
+          "persistentUuid": "a7718ecc-4768-4d53-9dc7-f2b0031ac09b",
+          "width": 10,
+          "x": 980,
+          "y": 460,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3470,12 +3494,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "cactus2",
+                      "image": "cactus3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 45,
-                        "y": 65
+                        "x": 27.5,
+                        "y": 40
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3490,16 +3514,16 @@
                             "y": 0
                           },
                           {
-                            "x": 90,
+                            "x": 55,
                             "y": 0
                           },
                           {
-                            "x": 90,
-                            "y": 130
+                            "x": 55,
+                            "y": 80
                           },
                           {
                             "x": 0,
-                            "y": 130
+                            "y": 80
                           }
                         ]
                       ]
@@ -4443,7 +4467,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Background",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4515,6 +4538,16 @@
                     "",
                     "LetterKey_up.Animation::Name()"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "RedHatBoy",
+                    ">",
+                    "145"
+                  ]
                 }
               ],
               "actions": [
@@ -4525,7 +4558,7 @@
                   "parameters": [
                     "RedHatBoy",
                     "-",
-                    "143"
+                    "108"
                   ]
                 }
               ]
@@ -4541,6 +4574,16 @@
                     "",
                     "LetterKey_down.Animation::Name()"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "RedHatBoy",
+                    "<",
+                    "469"
+                  ]
                 }
               ],
               "actions": [
@@ -4551,7 +4594,7 @@
                   "parameters": [
                     "RedHatBoy",
                     "+",
-                    "143"
+                    "108"
                   ]
                 }
               ]
