@@ -913,6 +913,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/96b06f7e489cb39d4b04f5f97d0a9c50c34e4ee9d938f5334fcf56be578de130_Letter Key_Z.png",
           "name": "Letter Key_Z.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Star Gold.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Star Gold.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Star/80254157b7c3e874fc5c872eac09af4a337ee1b92e48fe67421d354547a471fc_Star Gold.png",
+          "name": "Star Gold.png"
+        }
       }
     ],
     "resourceFolders": []
