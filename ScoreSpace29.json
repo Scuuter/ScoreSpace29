@@ -692,7 +692,7 @@
         "alwaysLoaded": false,
         "file": "assets/Red Hat Boy_Slide_1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Red Hat Boy_Slide_1.png\",\"extension\":\".png\"}",
         "name": "Red Hat Boy_Slide_1.png",
         "smoothed": true,
         "userAdded": false,
@@ -705,7 +705,7 @@
         "alwaysLoaded": false,
         "file": "assets/Red Hat Boy_Slide_2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Red Hat Boy_Slide_2.png\",\"extension\":\".png\"}",
         "name": "Red Hat Boy_Slide_2.png",
         "smoothed": true,
         "userAdded": false,
@@ -718,7 +718,7 @@
         "alwaysLoaded": false,
         "file": "assets/Red Hat Boy_Slide_3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Red Hat Boy_Slide_3.png\",\"extension\":\".png\"}",
         "name": "Red Hat Boy_Slide_3.png",
         "smoothed": true,
         "userAdded": false,
@@ -731,7 +731,7 @@
         "alwaysLoaded": false,
         "file": "assets/Red Hat Boy_Slide_4.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Red Hat Boy_Slide_4.png\",\"extension\":\".png\"}",
         "name": "Red Hat Boy_Slide_4.png",
         "smoothed": true,
         "userAdded": false,
@@ -744,7 +744,7 @@
         "alwaysLoaded": false,
         "file": "assets/Red Hat Boy_Slide_5.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Red Hat Boy_Slide_5.png\",\"extension\":\".png\"}",
         "name": "Red Hat Boy_Slide_5.png",
         "smoothed": true,
         "userAdded": false,
@@ -752,6 +752,483 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Characters/Red Hat Boy/ad1cd5ced38dd57371ae3d2c96d1e9c487e751c2a269641d87227a40a274da65_Red Hat Boy_Slide_5.png",
           "name": "Red Hat Boy_Slide_5.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Run8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Run8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Jump12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Jump12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hurt8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dead10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dead10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Slide.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Slide",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Slide2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Slide2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Slide3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Slide3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Slide4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Slide4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Slide5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Slide5",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -902,8 +1379,8 @@
           "name": "RedHatBoy",
           "persistentUuid": "fda728e1-1e64-49cd-8454-fc43fb114b74",
           "width": 0,
-          "x": -61,
-          "y": 0,
+          "x": 142,
+          "y": 111,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -927,364 +1404,365 @@
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Idle_1.png",
+                      "image": "Idle",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Idle_2.png",
+                      "image": "Idle2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Idle_3.png",
+                      "image": "Idle3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Idle_4.png",
+                      "image": "Idle4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Idle_5.png",
+                      "image": "Idle5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Idle_6.png",
+                      "image": "Idle6",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Idle_7.png",
+                      "image": "Idle7",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Idle_8.png",
+                      "image": "Idle8",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Idle_9.png",
+                      "image": "Idle9",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Idle_10.png",
+                      "image": "Idle10",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
@@ -1299,292 +1777,293 @@
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.125,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Run_1.png",
+                      "image": "Run",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Run_2.png",
+                      "image": "Run2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Run_3.png",
+                      "image": "Run3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Run_4.png",
+                      "image": "Run4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Run_5.png",
+                      "image": "Run5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Run_6.png",
+                      "image": "Run6",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Run_7.png",
+                      "image": "Run7",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Run_8.png",
+                      "image": "Run8",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
@@ -1599,436 +2078,437 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.0833,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Jump_1.png",
+                      "image": "Jump",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Jump_2.png",
+                      "image": "Jump2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Jump_3.png",
+                      "image": "Jump3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Jump_4.png",
+                      "image": "Jump4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Jump_5.png",
+                      "image": "Jump5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Jump_6.png",
+                      "image": "Jump6",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Jump_7.png",
+                      "image": "Jump7",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Jump_8.png",
+                      "image": "Jump8",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Jump_9.png",
+                      "image": "Jump9",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Jump_10.png",
+                      "image": "Jump10",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Jump_11.png",
+                      "image": "Jump11",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Jump_12.png",
+                      "image": "Jump12",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
@@ -2043,292 +2523,293 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.125,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Hurt_1.png",
+                      "image": "Hurt",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Hurt_2.png",
+                      "image": "Hurt2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Hurt_3.png",
+                      "image": "Hurt3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Hurt_4.png",
+                      "image": "Hurt4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Hurt_5.png",
+                      "image": "Hurt5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Hurt_6.png",
+                      "image": "Hurt6",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Hurt_7.png",
+                      "image": "Hurt7",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Hurt_8.png",
+                      "image": "Hurt8",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
@@ -2343,364 +2824,365 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Dead_1.png",
+                      "image": "Dead",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Dead_2.png",
+                      "image": "Dead2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Dead_3.png",
+                      "image": "Dead3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Dead_4.png",
+                      "image": "Dead4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Dead_5.png",
+                      "image": "Dead5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Dead_6.png",
+                      "image": "Dead6",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Dead_7.png",
+                      "image": "Dead7",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Dead_8.png",
+                      "image": "Dead8",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Dead_9.png",
+                      "image": "Dead9",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Dead_10.png",
+                      "image": "Dead10",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
@@ -2715,184 +3197,185 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Slide_1.png",
+                      "image": "Slide",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Slide_2.png",
+                      "image": "Slide2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Slide_3.png",
+                      "image": "Slide3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Slide_4.png",
+                      "image": "Slide4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Red Hat Boy_Slide_5.png",
+                      "image": "Slide5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 102.5,
+                        "y": 82
                       },
                       "customCollisionMask": [
                         [
                           {
-                            "x": 62,
-                            "y": 10
+                            "x": 50,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 10
+                            "x": 120,
+                            "y": 11
                           },
                           {
-                            "x": 134,
-                            "y": 128
+                            "x": 120,
+                            "y": 127
                           },
                           {
-                            "x": 62,
-                            "y": 128
+                            "x": 50,
+                            "y": 127
                           }
                         ]
                       ]
@@ -2912,7 +3395,40 @@
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "RedHatBoy",
+                "Animation",
+                "=",
+                "\"Run\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -2959,7 +3475,32 @@
           ]
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [],
