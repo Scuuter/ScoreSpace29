@@ -1458,7 +1458,7 @@
           "width": 54,
           "x": 151,
           "y": 85,
-          "zOrder": 10,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1475,7 +1475,7 @@
           "width": 292,
           "x": 109,
           "y": 193,
-          "zOrder": 10,
+          "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
