@@ -962,6 +962,68 @@
         "name": "cactus3",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Destroyer.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Destroyer",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Destroyer.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Destroyer.png\",\"extension\":\".png\"}",
+        "name": "assets\\Destroyer.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fence.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fence.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/5219e483a052b6d9dc758e11d80832127198ba729db14224f9534a15d9a3c523_fence.png",
+          "name": "fence.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gold star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gold star.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/d2c87a6e3ac348938548c317e0ef9609d267e8b4ddd1438cccedb4117b5862e0_Gold star.png",
+          "name": "Gold star.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fence2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fence",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SpawnBonus.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "SpawnBonus",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -971,7 +1033,14 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Score",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -1100,8 +1169,35 @@
         "zoomFactor": 0.5320619346001247,
         "windowMask": false
       },
-      "objectsGroups": [],
-      "variables": [],
+      "objectsGroups": [
+        {
+          "name": "Obstacles",
+          "objects": [
+            {
+              "name": "Cactus"
+            },
+            {
+              "name": "Fence"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "ObstaclesArray",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "Cactus"
+            },
+            {
+              "type": "string",
+              "value": "Fence"
+            }
+          ]
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -1195,7 +1291,7 @@
           "persistentUuid": "a5a93be4-ca7a-43ec-9ffe-8b5b876d930b",
           "width": 80,
           "x": 0,
-          "y": 123,
+          "y": 145,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1212,7 +1308,7 @@
           "persistentUuid": "e4ab3ac5-62f9-4cc3-a28f-9352d64dc4b0",
           "width": 80,
           "x": 0,
-          "y": 223,
+          "y": 240,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1222,12 +1318,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 10,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "Spawn",
           "persistentUuid": "d99fa3e4-4f3f-4d67-9f5f-bf68eee7b228",
-          "width": 10,
+          "width": 16,
           "x": 980,
           "y": 136,
           "zOrder": 6,
@@ -1239,12 +1335,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 10,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "Spawn",
           "persistentUuid": "dacfeca9-5c8a-41e1-b0ba-587051e62127",
-          "width": 10,
+          "width": 16,
           "x": 980,
           "y": 244,
           "zOrder": 7,
@@ -1256,12 +1352,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 10,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "Spawn",
           "persistentUuid": "37c735d6-4a85-4ed8-87aa-ca562e2f510f",
-          "width": 10,
+          "width": 16,
           "x": 980,
           "y": 352,
           "zOrder": 8,
@@ -1362,7 +1458,7 @@
           "width": 54,
           "x": 151,
           "y": 85,
-          "zOrder": 10,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1379,7 +1475,7 @@
           "width": 292,
           "x": 109,
           "y": 193,
-          "zOrder": 10,
+          "zOrder": -2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1388,15 +1484,115 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 10,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "Spawn",
           "persistentUuid": "a7718ecc-4768-4d53-9dc7-f2b0031ac09b",
-          "width": 10,
+          "width": 16,
           "x": 980,
           "y": 460,
           "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Destroyer",
+          "persistentUuid": "00abdba9-7069-45b0-a9f6-396f4e245bc8",
+          "width": 16,
+          "x": 30,
+          "y": 352,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Destroyer",
+          "persistentUuid": "6c6b4da3-eb01-4592-b7c2-b1c9be081268",
+          "width": 16,
+          "x": 30,
+          "y": 460,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Destroyer",
+          "persistentUuid": "430363b2-e008-4b33-8630-6e1d9acf407b",
+          "width": 16,
+          "x": 30,
+          "y": 244,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Destroyer",
+          "persistentUuid": "5a36802d-81c1-4d11-b8b9-85e7764d182d",
+          "width": 16,
+          "x": 30,
+          "y": 136,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 988,
+          "layer": "",
+          "name": "DesertBackground",
+          "persistentUuid": "f25045da-61d4-4703-a93b-d0b8369dbfa2",
+          "width": 1028,
+          "x": 2056,
+          "y": -448,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Score",
+          "persistentUuid": "c2cf069c-8931-4da4-a348-b93381c0337c",
+          "width": 0,
+          "x": 9,
+          "y": 9,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3476,7 +3672,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "b34b4be213e9cc1ffec038b9ee1b118316bbd7f4f2584072369b5b4a68ebcc98",
-          "name": "Cactus1",
+          "name": "Cactus",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -3499,7 +3695,7 @@
                       "originPoint": {
                         "name": "origine",
                         "x": 27.5,
-                        "y": 40
+                        "y": 30
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4047,7 +4243,106 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Destroyer.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Bonus",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "SpawnBonus",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -4298,6 +4593,17 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "Escape",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
             }
           ]
         },
@@ -4361,6 +4667,229 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Destroyer",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Destroyer",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Destroyer",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 8
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "b0fa8e7f548bb1f4edef1ed8d765f3d39219f7b7cfb3fa65c95b6e4479e9fd52",
+          "name": "Fence",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "fence",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fence",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 20,
+                        "y": 14
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 89,
+                            "y": 1
+                          },
+                          {
+                            "x": 89,
+                            "y": 66
+                          },
+                          {
+                            "x": 1,
+                            "y": 66
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "89e62a4f9681acbdcd1d65929c730c9b83cd30353c3625d082965a246d73c14f",
+          "name": "Star",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Gold star.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 15.5,
+                        "y": 15
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 31,
+                            "y": 0
+                          },
+                          {
+                            "x": 31,
+                            "y": 30
+                          },
+                          {
+                            "x": 0,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Score",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 50,
+            "color": "255;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -4379,7 +4908,7 @@
             "objectName": "DesertBackground"
           },
           {
-            "objectName": "Cactus1"
+            "objectName": "Cactus"
           },
           {
             "objectName": "LetterKey_up"
@@ -4391,7 +4920,19 @@
             "objectName": "LetterKey_ability"
           },
           {
+            "objectName": "Score"
+          },
+          {
             "objectName": "Spawn"
+          },
+          {
+            "objectName": "Destroyer"
+          },
+          {
+            "objectName": "Fence"
+          },
+          {
+            "objectName": "Star"
           }
         ]
       },
@@ -4436,6 +4977,17 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
+                "LetterKey_ability",
+                "Animation",
+                "=",
+                "\"Escape\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
                 "RedHatBoy",
                 "Animation",
                 "=",
@@ -4448,7 +5000,7 @@
               },
               "parameters": [
                 "",
-                "\"Spawn\""
+                "\"Obstacle\""
               ]
             },
             {
@@ -4459,6 +5011,15 @@
                 "",
                 "\"Input_change\""
               ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"ChangeBonus\""
+              ]
             }
           ]
         },
@@ -4467,50 +5028,63 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Background",
+          "folded": true,
+          "name": "Destroy objects",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "",
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "PosX"
+                    "value": "CollisionNP"
                   },
                   "parameters": [
-                    "DesertBackground",
-                    "<=",
-                    "DesertBackground.Width()"
+                    "Obstacles",
+                    "Destroyer",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "MettreX"
+                    "value": "Delete"
                   },
                   "parameters": [
-                    "DesertBackground",
-                    "=",
-                    "DesertBackground.Width()"
+                    "Obstacles",
+                    ""
                   ]
                 }
               ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Star",
+                    "Destroyer",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
               "actions": [
                 {
                   "type": {
-                    "value": "MettreX"
+                    "value": "Delete"
                   },
                   "parameters": [
-                    "DesertBackground",
-                    "-",
-                    "1"
+                    "Star",
+                    ""
                   ]
                 }
               ]
@@ -4523,6 +5097,162 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Collide with player",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "RedHatBoy",
+                    "Star",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Star",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Score",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Score",
+                    "Text",
+                    "=",
+                    "ToString(GlobalVariable(Score))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "RedHatBoy",
+                    "Obstacles",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Score",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PushScene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Game scene\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Background",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "DesertBackground",
+                    "-",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "DesertBackground",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "DesertBackground",
+                    "<=",
+                    "-DesertBackground.Width()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "DesertBackground",
+                    "=",
+                    "DesertBackground.Width()*2"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
           "name": "Player input",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4603,141 +5333,339 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Change input",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Spawn\"",
-                ">=",
-                "2"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Input_change\"",
+                    ">=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "LetterKey_up",
+                    "Animation",
+                    "=",
+                    "Random(4)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "LetterKey_down",
+                    "Animation",
+                    "=",
+                    "Random(4)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Input_change\""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "AjoutHasard"
-              },
-              "parameters": [
-                "",
-                "Spawn"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "LetterKey_up",
+                    "Animation",
+                    "=",
+                    "LetterKey_down.Animation::Index()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "LetterKey_down",
+                    "Animation",
+                    "=",
+                    "Random(4)"
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Cactus1",
-                "Spawn.X()",
-                "Spawn.Y()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "Cactus1",
-                "-150",
-                "",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Spawn\""
-              ]
-            }
-          ]
+          "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Spawn objects",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Input_change\"",
-                ">=",
-                "5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "LetterKey_up",
-                "Animation",
-                "=",
-                "Random(4)"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ChangeBonus\"",
+                    ">=",
+                    "RandomFloatInRange(1,2)"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "Spawn"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Spawn",
+                        "Animation",
+                        "=",
+                        "\"Idle\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutHasard"
+                      },
+                      "parameters": [
+                        "",
+                        "Spawn"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Spawn",
+                        "Animation",
+                        "=",
+                        "\"Bonus\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"ChangeBonus\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"CurrentBonus\""
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "LetterKey_down",
-                "Animation",
-                "=",
-                "Random(4)"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Obstacle\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AjoutHasard"
+                  },
+                  "parameters": [
+                    "",
+                    "Spawn"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Spawn",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CreateByName"
+                  },
+                  "parameters": [
+                    "",
+                    "Obstacles",
+                    "ObstaclesArray[Random(VariableChildCount(ObstaclesArray) - 1)]",
+                    "Spawn.X()",
+                    "Spawn.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Obstacles",
+                    "-150",
+                    "0",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Obstacle\""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Input_change\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Index"
-              },
-              "parameters": [
-                "LetterKey_up",
-                "Animation",
-                "=",
-                "LetterKey_down.Animation::Index()"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"CurrentBonus\"",
+                    ">=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AjoutHasard"
+                  },
+                  "parameters": [
+                    "",
+                    "Spawn"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Spawn",
+                    "Animation",
+                    "=",
+                    "\"Bonus\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Star",
+                    "Spawn.X()",
+                    "Spawn.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Star",
+                    "-150",
+                    "0",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"CurrentBonus\""
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-              },
-              "parameters": [
-                "LetterKey_down",
-                "Animation",
-                "=",
-                "Random(4)"
-              ]
-            }
-          ]
+          "parameters": []
         }
       ],
       "layers": [
@@ -4843,6 +5771,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
