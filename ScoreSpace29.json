@@ -1346,7 +1346,7 @@
                 "Score",
                 "Text",
                 "=",
-                "ToString(GlobalVariable(HighScore))"
+                "ToString(roundTo(GlobalVariable(HighScore), 4))"
               ]
             }
           ]
@@ -1489,6 +1489,12 @@
       ],
       "variables": [
         {
+          "folded": true,
+          "name": "Index",
+          "type": "number",
+          "value": 0
+        },
+        {
           "name": "ObstaclesArray",
           "type": "array",
           "children": [
@@ -1510,15 +1516,21 @@
         },
         {
           "folded": true,
-          "name": "index",
+          "name": "ScoreMultiplier",
           "type": "number",
-          "value": 0
+          "value": 0.01
         },
         {
           "folded": true,
-          "name": "speed",
+          "name": "Speed",
           "type": "number",
-          "value": 150
+          "value": 100
+        },
+        {
+          "folded": true,
+          "name": "ObstaclesMultiplier",
+          "type": "number",
+          "value": 1.5
         }
       ],
       "instances": [
@@ -5512,11 +5524,37 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "CurrentScore",
+                "+",
+                "TimeDelta()*Speed*ScoreMultiplier"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Score",
+                "Text",
+                "=",
+                "ToString(round(CurrentScore))"
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Collide with player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5552,20 +5590,19 @@
                     "value": "ModVarScene"
                   },
                   "parameters": [
-                    "CurrentScore",
+                    "ScoreMultiplier",
                     "+",
-                    "1"
+                    "0.001"
                   ]
                 },
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "ModVarScene"
                   },
                   "parameters": [
-                    "Score",
-                    "Text",
-                    "=",
-                    "ToString(CurrentScore)"
+                    "CurrentScore",
+                    "+",
+                    "1"
                   ]
                 }
               ]
@@ -6165,7 +6202,7 @@
                       },
                       "parameters": [
                         "Obstacles",
-                        "-speed",
+                        "-(Speed*ObstaclesMultiplier)",
                         "0",
                         "1"
                       ]
@@ -6340,7 +6377,7 @@
                       },
                       "parameters": [
                         "Star",
-                        "-speed",
+                        "-(Speed*ObstaclesMultiplier)",
                         "0",
                         "1"
                       ]
@@ -6402,11 +6439,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
