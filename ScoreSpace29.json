@@ -3857,9 +3857,48 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "DesertBackground",
+                "<=",
+                "DesertBackground.Width()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "DesertBackground",
+                "=",
+                "DesertBackground.Width()"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "DesertBackground",
+                "-",
+                "1"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
