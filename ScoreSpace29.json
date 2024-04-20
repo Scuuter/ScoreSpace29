@@ -5439,14 +5439,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Line"
-              ]
             }
           ]
         },
@@ -5524,6 +5516,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Collide with player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5624,7 +5617,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Background",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5647,7 +5639,7 @@
             },
             {
               "type": "BuiltinCommonInstructions::ForEach",
-              "object": "DesertBackground",
+              "object": "Background_soil",
               "conditions": [
                 {
                   "type": {
@@ -5656,7 +5648,7 @@
                   "parameters": [
                     "Background_soil",
                     "<=",
-                    "-Background_soil.Width()"
+                    "-Background_soil.Width() + 150"
                   ]
                 }
               ],
@@ -5668,7 +5660,7 @@
                   "parameters": [
                     "Background_soil",
                     "=",
-                    "Background_soil.Width()*2"
+                    "Background_soil.Width()+150"
                   ]
                 }
               ]
@@ -5857,7 +5849,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Spawn objects",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
