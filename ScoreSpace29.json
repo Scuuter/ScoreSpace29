@@ -916,6 +916,19 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/Star Gold.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Star Gold.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Star/80254157b7c3e874fc5c872eac09af4a337ee1b92e48fe67421d354547a471fc_Star Gold.png",
+          "name": "Star Gold.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/cactus2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
