@@ -1083,6 +1083,24 @@
         "name": "IMG_2295.PNG",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2296.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2296.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2297.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2297.PNG",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5196,7 +5214,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "IMG_2295.PNG",
+                      "image": "IMG_2297.PNG",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6024,6 +6042,11 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
