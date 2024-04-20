@@ -3311,7 +3311,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "A",
+              "name": "a",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3359,7 +3359,7 @@
               ]
             },
             {
-              "name": "C",
+              "name": "c",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3407,7 +3407,7 @@
               ]
             },
             {
-              "name": "E",
+              "name": "e",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3455,7 +3455,7 @@
               ]
             },
             {
-              "name": "P",
+              "name": "p",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3503,7 +3503,7 @@
               ]
             },
             {
-              "name": "S",
+              "name": "s",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3563,7 +3563,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "A",
+              "name": "a",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3611,7 +3611,7 @@
               ]
             },
             {
-              "name": "C",
+              "name": "c",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3659,7 +3659,7 @@
               ]
             },
             {
-              "name": "E",
+              "name": "e",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3707,7 +3707,7 @@
               ]
             },
             {
-              "name": "P",
+              "name": "p",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3755,7 +3755,7 @@
               ]
             },
             {
-              "name": "S",
+              "name": "s",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3857,45 +3857,149 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "",
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Background",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "DesertBackground",
+                    "<=",
+                    "DesertBackground.Width()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "DesertBackground",
+                    "=",
+                    "DesertBackground.Width()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "DesertBackground",
+                    "-",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "PosX"
+                "value": "DepartScene"
               },
               "parameters": [
-                "DesertBackground",
-                "<=",
-                "DesertBackground.Width()"
+                ""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "MettreX"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "DesertBackground",
+                "LetterKey_up",
+                "Animation",
                 "=",
-                "DesertBackground.Width()"
+                "\"a\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "LetterKey_down",
+                "Animation",
+                "=",
+                "\"c\""
               ]
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "LetterKey_up.Animation::Name()"
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
-                "value": "MettreX"
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "DesertBackground",
-                "-",
-                "1"
+                "RedHatBoy",
+                "Animation",
+                "=",
+                "\"Jump\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "LetterKey_down.Animation::Name()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "RedHatBoy",
+                "Animation",
+                "=",
+                "\"Dead\""
               ]
             }
           ]
