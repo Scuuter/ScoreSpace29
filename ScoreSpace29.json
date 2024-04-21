@@ -1224,6 +1224,28 @@
         "name": "assets\\Stone.PNG",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Esc Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Esc Key.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/67bf8d3f8fa416d0338ad132d1875cb804751122206be524fa1461bbcf19bc1d_Esc Key.png",
+          "name": "Esc Key.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Esc Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Esc Key.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2804,7 +2826,7 @@
         },
         {
           "folded": true,
-          "name": "AbilityCharges",
+          "name": "CurrentAbilityCharges",
           "type": "number",
           "value": 0
         }
@@ -2873,7 +2895,12 @@
           "x": 0,
           "y": 240,
           "zOrder": 3,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -3302,7 +3329,12 @@
           "x": -1,
           "y": 387,
           "zOrder": 3,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -6315,7 +6347,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Letter Key_X.png",
+                      "image": "assets\\Esc Key.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7456,24 +7488,24 @@
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
                 "LetterKey_up",
                 "Animation",
                 "=",
-                "\"a\""
+                "Random(4)"
               ]
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
                 "LetterKey_down",
                 "Animation",
                 "=",
-                "\"c\""
+                "Random(4)"
               ]
             },
             {
@@ -7773,7 +7805,7 @@
                     "value": "ModVarScene"
                   },
                   "parameters": [
-                    "AbilityCharges",
+                    "CurrentAbilityCharges",
                     "+",
                     "1"
                   ]
@@ -8350,9 +8382,9 @@
                     "value": "VarScene"
                   },
                   "parameters": [
-                    "AbilityCharges",
+                    "CurrentAbilityCharges",
                     ">=",
-                    "1"
+                    "2"
                   ]
                 }
               ],
@@ -8376,9 +8408,9 @@
                     "value": "VarScene"
                   },
                   "parameters": [
-                    "AbilityCharges",
+                    "CurrentAbilityCharges",
                     "<",
-                    "1"
+                    "2"
                   ]
                 }
               ],
@@ -8420,7 +8452,7 @@
                     "value": "ModVarScene"
                   },
                   "parameters": [
-                    "AbilityCharges",
+                    "CurrentAbilityCharges",
                     "=",
                     "0"
                   ]
