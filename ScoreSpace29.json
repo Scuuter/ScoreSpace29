@@ -3249,7 +3249,7 @@
           "persistentUuid": "06aa0b54-d8c9-4574-b22e-224f944d4d4f",
           "width": 891,
           "x": 150,
-          "y": -52,
+          "y": -32,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -3265,7 +3265,7 @@
           "persistentUuid": "09a90291-92d4-4acc-9b08-3cbe6bfc8386",
           "width": 891,
           "x": 1041,
-          "y": -52,
+          "y": -32,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -6646,6 +6646,15 @@
               },
               "stringParameters": {},
               "booleanParameters": {}
+            },
+            {
+              "effectType": "LightNight",
+              "name": "Effect2",
+              "doubleParameters": {
+                "opacity": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
             }
           ],
           "behaviors": [],
@@ -6979,15 +6988,6 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [
-            {
-              "effectType": "LightNight",
-              "name": "Effect",
-              "doubleParameters": {
-                "opacity": 1
-              },
-              "stringParameters": {},
-              "booleanParameters": {}
-            },
             {
               "effectType": "DropShadow",
               "name": "Effect2",
