@@ -3186,7 +3186,7 @@
           "persistentUuid": "61775742-1509-4da7-aa5d-81602af301a3",
           "width": 0,
           "x": 1012,
-          "y": 440,
+          "y": 437,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -3202,7 +3202,7 @@
           "persistentUuid": "15bedba7-b020-4011-8394-caf8e18af75e",
           "width": 0,
           "x": 132,
-          "y": 440,
+          "y": 437,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -6715,6 +6715,19 @@
               },
               "stringParameters": {},
               "booleanParameters": {}
+            },
+            {
+              "effectType": "KawaseBlur",
+              "name": "Effect",
+              "doubleParameters": {
+                "blur": 0.4,
+                "padding": 0,
+                "pixelizeX": 0,
+                "pixelizeY": 0,
+                "quality": 5
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
             }
           ],
           "behaviors": [],
@@ -8144,7 +8157,7 @@
                   },
                   "parameters": [
                     "BackBushtop",
-                    "-(Speed*ObstaclesMultiplier)",
+                    "-(Speed*(ObstaclesMultiplier-0.02))",
                     "0",
                     "1"
                   ]
