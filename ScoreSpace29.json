@@ -3148,9 +3148,9 @@
           "name": "Hands",
           "persistentUuid": "48caf61d-b3df-4c83-be3f-76e524697545",
           "width": 0,
-          "x": 150,
+          "x": 120,
           "y": 355,
-          "zOrder": 14,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8105,7 +8105,7 @@
                     "\"HandsIndicator\"",
                     "190",
                     "\"linear\"",
-                    "1",
+                    "1.5",
                     "1"
                   ]
                 },
@@ -8185,7 +8185,7 @@
                     "Hands",
                     "Tween",
                     "\"HandsReturn\"",
-                    "150",
+                    "120",
                     "\"linear\"",
                     "2",
                     "1"
