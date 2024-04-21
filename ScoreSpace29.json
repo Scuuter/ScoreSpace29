@@ -1170,15 +1170,6 @@
         "name": "Controls",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "IMG_2296 копия.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "IMG_2296 копия.png",
-        "smoothed": true,
-        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2722,13 +2713,13 @@
           "folded": true,
           "name": "StarsToHandsTrigger",
           "type": "number",
-          "value": 1
+          "value": 3
         },
         {
           "folded": true,
           "name": "TimeFromHandsTrigger",
           "type": "number",
-          "value": 0
+          "value": -5
         },
         {
           "folded": true,
@@ -3235,38 +3226,6 @@
           "x": 101,
           "y": 88,
           "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BackBushtop",
-          "persistentUuid": "06aa0b54-d8c9-4574-b22e-224f944d4d4f",
-          "width": 0,
-          "x": 152,
-          "y": -51,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BackBushtop",
-          "persistentUuid": "09a90291-92d4-4acc-9b08-3cbe6bfc8386",
-          "width": 0,
-          "x": 1032,
-          "y": -52,
-          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6587,7 +6546,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "IMG_2296 копия.png",
+                      "image": "IMG_2297.PNG",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6957,66 +6916,6 @@
             "characterSize": 50,
             "color": "255;0;0"
           }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "BackBushtop",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "IMG_2310.PNG",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 33
-                          },
-                          {
-                            "x": 880,
-                            "y": 33
-                          },
-                          {
-                            "x": 880,
-                            "y": 132
-                          },
-                          {
-                            "x": 0,
-                            "y": 132
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -7066,9 +6965,6 @@
           },
           {
             "objectName": "BackBushlow"
-          },
-          {
-            "objectName": "BackBushtop"
           },
           {
             "objectName": "Hands"
@@ -7281,6 +7177,16 @@
               },
               "parameters": [
                 "TimeFromChangeInput",
+                "+",
+                "TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "TimeFromHandsTrigger",
                 "+",
                 "TimeDelta()"
               ]
@@ -8433,12 +8339,30 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "StarCount",
-                    "=",
-                    "StarsToHandsTrigger"
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "StarCount",
+                        "=",
+                        "StarsToHandsTrigger"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "TimeFromHandsTrigger",
+                        ">",
+                        "10"
+                      ]
+                    }
                   ]
                 },
                 {
@@ -8482,8 +8406,18 @@
                   },
                   "parameters": [
                     "StarsToHandsTrigger",
-                    "+",
-                    "5"
+                    "=",
+                    "StarCount+3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "TimeFromHandsTrigger",
+                    "=",
+                    "0"
                   ]
                 }
               ]
