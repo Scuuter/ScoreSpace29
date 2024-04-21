@@ -3241,32 +3241,32 @@
         },
         {
           "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
+          "customSize": true,
+          "depth": 0,
+          "height": 160,
           "layer": "",
           "name": "BackBushtop",
           "persistentUuid": "06aa0b54-d8c9-4574-b22e-224f944d4d4f",
-          "width": 0,
-          "x": 152,
-          "y": -51,
-          "zOrder": 17,
+          "width": 900,
+          "x": 150,
+          "y": -52,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
+          "customSize": true,
+          "depth": 0,
+          "height": 160,
           "layer": "",
           "name": "BackBushtop",
           "persistentUuid": "09a90291-92d4-4acc-9b08-3cbe6bfc8386",
-          "width": 0,
-          "x": 1032,
+          "width": 900,
+          "x": 1050,
           "y": -52,
-          "zOrder": 17,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7723,6 +7723,16 @@
                     "-",
                     "2.5"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "BackBushtop",
+                    "-",
+                    "1.5"
+                  ]
                 }
               ]
             },
@@ -7778,6 +7788,34 @@
                     "BackBushlow",
                     "=",
                     "BackBushlow.Width()+152"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "BackBushtop",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "BackBushtop",
+                    "<=",
+                    "-BackBushlow.Width() + 150"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "BackBushtop",
+                    "=",
+                    "BackBushlow.Width()+150"
                   ]
                 }
               ]
