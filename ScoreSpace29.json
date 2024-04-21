@@ -2816,7 +2816,7 @@
           "depth": 0,
           "height": 120,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Obstacles",
           "name": "RedHatBoy",
           "persistentUuid": "fda728e1-1e64-49cd-8454-fc43fb114b74",
           "width": 120,
@@ -2883,7 +2883,7 @@
           "depth": 0,
           "height": 16,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Obstacles",
           "name": "Spawn",
           "persistentUuid": "d99fa3e4-4f3f-4d67-9f5f-bf68eee7b228",
           "width": 16,
@@ -2900,7 +2900,7 @@
           "depth": 0,
           "height": 16,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Obstacles",
           "name": "Spawn",
           "persistentUuid": "dacfeca9-5c8a-41e1-b0ba-587051e62127",
           "width": 16,
@@ -2917,7 +2917,7 @@
           "depth": 0,
           "height": 16,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Obstacles",
           "name": "Spawn",
           "persistentUuid": "37c735d6-4a85-4ed8-87aa-ca562e2f510f",
           "width": 16,
@@ -3017,7 +3017,7 @@
           "depth": 0,
           "height": 16,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Obstacles",
           "name": "Spawn",
           "persistentUuid": "a7718ecc-4768-4d53-9dc7-f2b0031ac09b",
           "width": 16,
@@ -3101,7 +3101,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Controls",
           "name": "Score",
           "persistentUuid": "c2cf069c-8931-4da4-a348-b93381c0337c",
           "width": 0,
@@ -3165,13 +3165,13 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Obstacles",
           "name": "Hands",
           "persistentUuid": "48caf61d-b3df-4c83-be3f-76e524697545",
           "width": 0,
           "x": 120,
           "y": 355,
-          "zOrder": 1,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3181,11 +3181,11 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "BottomBush",
           "name": "BackBushlow",
           "persistentUuid": "61775742-1509-4da7-aa5d-81602af301a3",
           "width": 0,
-          "x": 1026,
+          "x": 1030,
           "y": 437,
           "zOrder": 11,
           "numberProperties": [],
@@ -3197,7 +3197,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "BottomBush",
           "name": "BackBushlow",
           "persistentUuid": "15bedba7-b020-4011-8394-caf8e18af75e",
           "width": 0,
@@ -3214,13 +3214,13 @@
           "depth": 1,
           "height": 560,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Controls",
           "name": "Controls",
           "persistentUuid": "8ac2c9d7-dae0-46b0-a15f-11ba8afa4bf1",
           "width": 152,
           "x": 0,
           "y": -3,
-          "zOrder": 12,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3230,7 +3230,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Controls",
           "name": "Stars",
           "persistentUuid": "7400f954-55b0-4578-bc90-17d82eb1fb27",
           "width": 0,
@@ -3246,7 +3246,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Controls",
           "name": "Star",
           "persistentUuid": "4836dc8c-d823-45b7-a2bc-fb5059a0d92a",
           "width": 0,
@@ -3262,7 +3262,7 @@
           "customSize": true,
           "depth": 0,
           "height": 160,
-          "layer": "",
+          "layer": "TopBush",
           "name": "BackBushtop",
           "persistentUuid": "06aa0b54-d8c9-4574-b22e-224f944d4d4f",
           "width": 891,
@@ -3278,7 +3278,7 @@
           "customSize": true,
           "depth": 0,
           "height": 160,
-          "layer": "",
+          "layer": "TopBush",
           "name": "BackBushtop",
           "persistentUuid": "09a90291-92d4-4acc-9b08-3cbe6bfc8386",
           "width": 891,
@@ -6715,19 +6715,6 @@
               },
               "stringParameters": {},
               "booleanParameters": {}
-            },
-            {
-              "effectType": "KawaseBlur",
-              "name": "Effect",
-              "doubleParameters": {
-                "blur": 0.4,
-                "padding": 0,
-                "pixelizeX": 0,
-                "pixelizeY": 0,
-                "quality": 5
-              },
-              "stringParameters": {},
-              "booleanParameters": {}
             }
           ],
           "behaviors": [],
@@ -7060,26 +7047,7 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [
-            {
-              "effectType": "DropShadow",
-              "name": "Effect2",
-              "doubleParameters": {
-                "alpha": 1,
-                "blur": 2,
-                "distance": 40,
-                "padding": 6,
-                "quality": 5,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "color": "10;10;10"
-              },
-              "booleanParameters": {
-                "shadowOnly": false
-              }
-            }
-          ],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -8226,7 +8194,7 @@
                   "parameters": [
                     "BackBushlow",
                     "+",
-                    "BackBushlow.Width()*2-8"
+                    "BackBushlow.Width()*2"
                   ]
                 }
               ]
@@ -8781,7 +8749,7 @@
                         "ObstaclesArray[Random(VariableChildCount(ObstaclesArray) - 1)]",
                         "Spawn.X()",
                         "Spawn.Y()",
-                        ""
+                        "\"Obstacles\""
                       ]
                     },
                     {
@@ -8966,7 +8934,7 @@
                         "Star",
                         "Spawn.X()",
                         "Spawn.Y()",
-                        ""
+                        "\"Obstacles\""
                       ]
                     },
                     {
@@ -9273,6 +9241,154 @@
                 "skyColor": "255;255;255",
                 "top": "Y-"
               },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "TopBush",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": -1,
+                "padding": 0,
+                "quality": 20,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Obstacles",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 1,
+                "padding": 0,
+                "quality": 3,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "BottomBush",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "KawaseBlur",
+              "name": "Effect",
+              "doubleParameters": {
+                "blur": 0.4,
+                "padding": 0,
+                "pixelizeX": 0,
+                "pixelizeY": 0,
+                "quality": 5
+              },
+              "stringParameters": {},
               "booleanParameters": {}
             }
           ]
