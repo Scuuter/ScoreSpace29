@@ -2722,7 +2722,7 @@
           "folded": true,
           "name": "StarsToHandsTrigger",
           "type": "number",
-          "value": 1
+          "value": 2
         },
         {
           "folded": true,
@@ -7290,6 +7290,16 @@
                 "value": "ModVarScene"
               },
               "parameters": [
+                "TimeFromHandsTrigger",
+                "+",
+                "TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
                 "Distance",
                 "+",
                 "TimeDelta()*Speed/10"
@@ -8433,12 +8443,30 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "StarCount",
-                    "=",
-                    "StarsToHandsTrigger"
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "StarCount",
+                        "=",
+                        "StarsToHandsTrigger"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "TimeFromHandsTrigger",
+                        ">",
+                        "15"
+                      ]
+                    }
                   ]
                 },
                 {
@@ -8482,8 +8510,18 @@
                   },
                   "parameters": [
                     "StarsToHandsTrigger",
-                    "+",
-                    "5"
+                    "=",
+                    "StarCount+3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "TimeFromHandsTrigger",
+                    "=",
+                    "0"
                   ]
                 }
               ]
