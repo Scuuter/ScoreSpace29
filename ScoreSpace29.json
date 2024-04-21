@@ -924,6 +924,69 @@
         "name": "assets\\EscapeAbility.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_EscapeAbility.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\EscapeAbility.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_EscapeAbilityBackground.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\EscapeAbilityBackground.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_EscapeAbility.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\EscapeAbility.png4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_EscapeAbility.png5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"assets\\\\\\\\EscapeAbility.png4\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":34,\\\"width\\\":60,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAiCAYAAAADILqZAAAAAXNSR0IArs4c6QAABHRJREFUaEPtWEsotG8UP3K/S3JJoShCFij3lRI2jLIwM2ZGg1CjmIWNlGvNJOWWy8RoRiNTxkqzIbeFjZWILNwWCilyyf35Ok//eTN/78z7mv+H7/9xlm/nnOf8zu+c55zndYJvJk7fDC/8AP7bGf9hWCgUEkdYNhgM/4vkvQlSr9eT0NDQd2M2mUwwNDT0x4NmBRwfH/8uwM/Pz6DVan8Avytrn6TMi+GnpyfOcCYmJv4Ohnd2dmB1dZUT8PDwMO/+bW1tJYGBgYCtcHZ2Bp2dnbxtLYHU1taSiIgI8PX1hYeHBzg+Pobu7m5OP5wMI2CRSMTpiCsj1dXVJCsrC6Kjo8HT09NK/fb2Fg4ODmBpaQnGxsZsnlVeXk5SUlIgMTER/Pz8wNnZmfFDCIGrqyvY3NwEhUJh08enAMZRV1paCsiILbm4uACj0QgjIyOswcpkMlJQUAAxMTFcuYX5+Xloampi9fMpgNvb20lhYSETKJbx7u4uuLm5UbYeHx+RWZicnGQNUiwWE4FAAFFRUYwPtEEfp6enEBwcDHFxcZRx/FZWVuY4w5zpBKClqFQqbR5iMplIZGQkdYVgDQYD6HQ6qi+Xy4m/vz/09PTYtG9paSFFRUVMKAhqcXERRkdHGZu6ujqCoNfX1xnfbLFzMvxfAWM5S6VSCAoKoq7wcsHS1ev1vO8Fo9FIsPdRzs/PIS8vj7ftv+P/cMB4oE6nIwkJCczZ+/v7sLKyAn19fZyBYwVUVVWBq6srtV9eXobGxkZOO1tEfQrgyspKIhaL6QixyMvLC1xeXsLh4SFsbGxAb28vK4j6+npaIRaZnp4GtVr9cYBPTk7g/v7ebmXv7e3Z7WE0bmhoINnZ2RAWFgbu7u5W/u7u7mhPNjc3vwGiVCqJUChk9HU6nc3k8Gk/ToZ/1xy2BIPjJTU1FZKSksDb29sqxvHxcRgcHLSKCS8juVzO6M3OzkJHR8fHMfy7Ab8GjnM5Pz+fYZwNDC4bMpkMAgICqOnW1hZIJJI/H7BUKiUuLi5vNimz2UxwjqKYzWbWstZoNCQ5OZnq4FaGfTwwMGAFGmd1bGwsncP2JgCvksY5y0c0Go3NzGu1WhISEgJTU1NMQNifJSUl4OHhQd3bupAUCgVl+bXMzMxAV1cXc15/fz/JzMyE7e1tEIvFji8euODzeS3hxcV2kEgkImlpaZCenk43IbwAced1cnKiZWrZh6+vr3F8se7SOMtxI8vNzQWsEhSMC/3gwwF389cT4OjoCAQCgWOrJR9mUcdWZmtqakhxcTFdPBAkm9zc3MDc3ByoVCq7valSqUhGRsaby+61T0zcwsICtLW1fQ1gSzBqtZoG6+XlZYWZbU20l+SKigr66sK/Mq/HG1Yh+uJ6cbH2cHh4OF9iGT1cGe31DipKJBLi4+MDOTk51A6ZwEvIkR+AeAli8vC5iLK2tmb3aWkJ9A1gHAPvRvuPAd/92HIGX3178bzXl8PzzNGkfLXdD+CvZuCjz/9h+KMz/NX+vx3DvwC4ZDZBLhiaiAAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAiCAYAAAADILqZAAAAAXNSR0IArs4c6QAAAFdJREFUaEPt1AERAEAIhEDtX/oDfANcGwjM7Ry7PfbveLhunGGGYwQkHRP6vcMwwzECko4JNVqSlnSMgKRjQq20pCUdIyDpmFArLWlJxwhIOibUSp9L+gFQQwAjL4Aj1wAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAiCAYAAAADILqZAAAAAXNSR0IArs4c6QAAAFdJREFUaEPt1AERAEAIhEDtX/oDfANcGwjM7Ry7PfbveLhunGGGYwQkHRP6vcMwwzECko4JNVqSlnSMgKRjQq20pCUdIyDpmFArLWlJxwhIOibUSp9L+gFQQwAjL4Aj1wAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[null],\"name\":\"assets\\\\EscapeAbility.png4\"}}",
+        "name": "assets\\EscapeAbility.png5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_EscapeAbilityBackground.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\EscapeAbilityBackground.png3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_EscapeAbilityBackground.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets\\EscapeAbilityBackground.png4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_EscapeAbilityBackground.png4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_EscapeAbilityBackground.png4.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2414,7 +2477,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7171164872656696,
+        "zoomFactor": 2.3664633378812274,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3036,15 +3099,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 48,
-          "height": 80,
-          "keepRatio": true,
+          "depth": 39.29766233766233,
+          "height": 62,
           "layer": "Controls",
           "name": "AbilityBar",
           "persistentUuid": "03edb65c-aadc-450b-ba90-6fd51249523d",
-          "width": 180,
-          "x": 1,
-          "y": 380,
+          "width": 120,
+          "x": 10,
+          "y": 392,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -7390,46 +7452,46 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "BarTopPadding": 20,
+            "BarTopPadding": 15,
             "BarLeftPadding": 20,
-            "BarRightPadding": 20,
-            "BarBottomPadding": 20,
+            "BarRightPadding": 40,
+            "BarBottomPadding": 15,
             "EasingDuration": 0,
             "PreviousHighValueDuration": 0,
             "ShowLabel": false,
-            "InitialValue": 1,
-            "MaxValue": 3
+            "InitialValue": 0,
+            "MaxValue": 2
           },
           "childrenContent": {
             "Background": {
               "bottomMargin": 0,
-              "height": 80,
+              "height": 60,
               "leftMargin": 0,
               "rightMargin": 0,
-              "texture": "assets\\EscapeAbilityBackground.png",
+              "texture": "assets\\EscapeAbilityBackground.png4",
               "tiled": true,
               "topMargin": 0,
-              "width": 180
+              "width": 120
             },
             "Buffer": {
               "bottomMargin": 0,
-              "height": 80,
+              "height": 60,
               "leftMargin": 0,
               "rightMargin": 0,
-              "texture": "assets\\EscapeAbilityBackground.png",
+              "texture": "assets\\assets_EscapeAbilityBackground.png4.png",
               "tiled": true,
               "topMargin": 0,
-              "width": 180
+              "width": 120
             },
             "FillBar": {
-              "bottomMargin": 20,
-              "height": 40,
+              "bottomMargin": 0,
+              "height": 30,
               "leftMargin": 0,
               "rightMargin": 0,
               "texture": "assets\\EscapeAbility.png",
               "tiled": true,
-              "topMargin": 20,
-              "width": 140
+              "topMargin": 0,
+              "width": 60
             },
             "Label": {
               "bold": false,
