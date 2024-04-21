@@ -2710,6 +2710,12 @@
           "name": "ObstaclesMultiplier",
           "type": "number",
           "value": 1.5
+        },
+        {
+          "folded": true,
+          "name": "StarCount",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -3136,8 +3142,8 @@
           "name": "Hands",
           "persistentUuid": "48caf61d-b3df-4c83-be3f-76e524697545",
           "width": 0,
-          "x": -159,
-          "y": 276,
+          "x": 151,
+          "y": 353,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -3188,6 +3194,38 @@
           "x": -1,
           "y": -3,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Stars",
+          "persistentUuid": "7400f954-55b0-4578-bc90-17d82eb1fb27",
+          "width": 0,
+          "x": 60,
+          "y": 63,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Star",
+          "persistentUuid": "4836dc8c-d823-45b7-a2bc-fb5059a0d92a",
+          "width": 0,
+          "x": 109,
+          "y": 94,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6662,8 +6700,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 310,
+                        "y": 70
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -6758,6 +6796,47 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Stars",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 50,
+            "color": "255;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -6789,6 +6868,9 @@
           },
           {
             "objectName": "Score"
+          },
+          {
+            "objectName": "Stars"
           },
           {
             "objectName": "Spawn"
@@ -7015,6 +7097,17 @@
                 "=",
                 "ToString(round(CurrentScore))"
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Stars",
+                "Text",
+                "=",
+                "StarCount"
+              ]
             }
           ]
         },
@@ -7051,6 +7144,16 @@
                   "parameters": [
                     "Star",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "StarCount",
+                    "+",
+                    "1"
                   ]
                 },
                 {
