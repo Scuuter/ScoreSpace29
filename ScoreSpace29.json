@@ -7297,6 +7297,16 @@
                       "actions": [
                         {
                           "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "TimeFromChangeInput",
+                            "-",
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
@@ -7311,7 +7321,7 @@
                             "value": "Wait"
                           },
                           "parameters": [
-                            "0.4"
+                            "1"
                           ]
                         },
                         {
@@ -7334,16 +7344,6 @@
                             "Animation",
                             "=",
                             "Random(4)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "TimeFromChangeInput",
-                            "-",
-                            "2"
                           ]
                         },
                         {
@@ -7471,6 +7471,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "TimeFromChangeInput",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -7485,7 +7495,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "0.4"
+                    "1"
                   ]
                 },
                 {
@@ -7508,16 +7518,6 @@
                     "Animation",
                     "=",
                     "Random(4)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "TimeFromChangeInput",
-                    "=",
-                    "0"
                   ]
                 },
                 {
