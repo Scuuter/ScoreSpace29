@@ -989,6 +989,7 @@
         "userAdded": true
       },
       {
+        "alwaysLoaded": false,
         "file": "IMG_2346.PNG",
         "kind": "image",
         "metadata": "",
@@ -2822,7 +2823,7 @@
           "persistentUuid": "a5a93be4-ca7a-43ec-9ffe-8b5b876d930b",
           "width": 80,
           "x": 0,
-          "y": 160,
+          "y": 175,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2839,7 +2840,7 @@
           "persistentUuid": "e4ab3ac5-62f9-4cc3-a28f-9352d64dc4b0",
           "width": 80,
           "x": 0,
-          "y": 260,
+          "y": 270,
           "zOrder": 3,
           "numberProperties": [
             {
@@ -3309,7 +3310,7 @@
           "persistentUuid": "7765ae12-1717-4b82-81ff-2bcfaff3dc1e",
           "width": 0,
           "x": 87,
-          "y": 167,
+          "y": 182,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -3325,7 +3326,7 @@
           "persistentUuid": "f64dd51d-a86c-473c-86d4-fd9f3f692141",
           "width": 0,
           "x": 92,
-          "y": 267,
+          "y": 277,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -3343,6 +3344,70 @@
           "x": 12,
           "y": 76,
           "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Lighting",
+          "name": "Small_Point_light",
+          "persistentUuid": "6c996285-696e-4001-b587-c6577b69fe60",
+          "width": 0,
+          "x": 75,
+          "y": 213,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Lighting",
+          "name": "Small_Point_light",
+          "persistentUuid": "43d2a8ea-205e-4b8f-adff-3c50057be683",
+          "width": 0,
+          "x": 75,
+          "y": 308,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Lighting",
+          "name": "Small_Point_light",
+          "persistentUuid": "5c19f94e-c4b6-4095-ba48-1264a5cb063a",
+          "width": 0,
+          "x": 75,
+          "y": 419,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Lighting",
+          "name": "Scene_light",
+          "persistentUuid": "111f43ba-05b9-4ad4-9177-f8b530af8226",
+          "width": 0,
+          "x": 637,
+          "y": 312,
+          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7865,6 +7930,34 @@
             "characterSize": 50,
             "color": "255;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Small_Point_light",
+          "type": "Lighting::LightObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "radius": 75,
+            "color": "255;255;255",
+            "debugMode": false,
+            "texture": ""
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Scene_light",
+          "type": "Lighting::LightObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "radius": 600,
+            "color": "201;198;198",
+            "debugMode": false,
+            "texture": ""
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -7944,6 +8037,12 @@
           },
           {
             "objectName": "Arrow"
+          },
+          {
+            "objectName": "Small_Point_light"
+          },
+          {
+            "objectName": "Scene_light"
           }
         ]
       },
@@ -9973,6 +10072,23 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Controls",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 171,
+          "ambientLightColorG": 209,
+          "ambientLightColorR": 231,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": true,
+          "isLightingLayer": true,
+          "isLocked": false,
+          "name": "Lighting",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
