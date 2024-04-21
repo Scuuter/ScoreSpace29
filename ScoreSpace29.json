@@ -6634,7 +6634,20 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Blur",
+              "name": "Effect",
+              "doubleParameters": {
+                "blur": 1,
+                "kernelSize": 5,
+                "quality": 1,
+                "resolution": 7
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "animations": [
             {
@@ -6965,7 +6978,35 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "LightNight",
+              "name": "Effect",
+              "doubleParameters": {
+                "opacity": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "DropShadow",
+              "name": "Effect2",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 40,
+                "padding": 6,
+                "quality": 5,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "10;10;10"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
           "behaviors": [],
           "animations": [
             {
