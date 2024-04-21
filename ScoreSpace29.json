@@ -552,19 +552,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tiled_Desert Background.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Desert Background.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/adb23475d1a1f9b2aba7be1b6c7016be7da921d53cfd2346a15bf0f5f7969478_tiled_Desert Background.png",
-          "name": "tiled_Desert Background.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/cactus 1.png",
         "kind": "image",
         "metadata": "",
@@ -912,19 +899,6 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/96b06f7e489cb39d4b04f5f97d0a9c50c34e4ee9d938f5334fcf56be578de130_Letter Key_Z.png",
           "name": "Letter Key_Z.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Star Gold.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Star Gold.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Star/80254157b7c3e874fc5c872eac09af4a337ee1b92e48fe67421d354547a471fc_Star Gold.png",
-          "name": "Star Gold.png"
         }
       },
       {
@@ -3055,22 +3029,6 @@
           "x": 30,
           "y": 136,
           "zOrder": -6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 988,
-          "layer": "",
-          "name": "DesertBackground",
-          "persistentUuid": "f25045da-61d4-4703-a93b-d0b8369dbfa2",
-          "width": 1028,
-          "x": 2056,
-          "y": -448,
-          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5298,17 +5256,6 @@
           ]
         },
         {
-          "assetStoreId": "5dc9cd2eba13158cf79ad72f0631b9c7a6384f551bb3aaba2cb23616458d0b14",
-          "height": 128,
-          "name": "DesertBackground",
-          "texture": "tiled_Desert Background.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "b34b4be213e9cc1ffec038b9ee1b118316bbd7f4f2584072369b5b4a68ebcc98",
           "name": "Cactus",
@@ -6863,9 +6810,6 @@
             "objectName": "Line"
           },
           {
-            "objectName": "DesertBackground"
-          },
-          {
             "objectName": "Cactus"
           },
           {
@@ -7253,6 +7197,45 @@
                   "parameters": [
                     "RedHatBoy",
                     "Obstacles",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "HighScore",
+                    "=",
+                    "max(HighScore, CurrentScore)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Menu scene\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "RedHatBoy",
+                    "Hands",
                     "",
                     "",
                     ""
