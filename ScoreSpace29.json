@@ -2695,10 +2695,13 @@
           "name": "Obstacles",
           "objects": [
             {
-              "name": "Cactus"
+              "name": "Tree1"
             },
             {
-              "name": "Fence"
+              "name": "Tree2"
+            },
+            {
+              "name": "Bones1"
             }
           ]
         }
@@ -2716,11 +2719,15 @@
           "children": [
             {
               "type": "string",
-              "value": "Cactus"
+              "value": "Tree1"
             },
             {
               "type": "string",
-              "value": "Fence"
+              "value": "Tree2"
+            },
+            {
+              "type": "string",
+              "value": "Bones1"
             }
           ]
         },
@@ -2797,7 +2804,7 @@
           "persistentUuid": "fda728e1-1e64-49cd-8454-fc43fb114b74",
           "width": 120,
           "x": 281,
-          "y": 114,
+          "y": 352,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -2864,7 +2871,7 @@
           "persistentUuid": "d99fa3e4-4f3f-4d67-9f5f-bf68eee7b228",
           "width": 16,
           "x": 980,
-          "y": 136,
+          "y": 144,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -2881,7 +2888,7 @@
           "persistentUuid": "dacfeca9-5c8a-41e1-b0ba-587051e62127",
           "width": 16,
           "x": 980,
-          "y": 244,
+          "y": 248,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -2997,8 +3004,8 @@
           "name": "Spawn",
           "persistentUuid": "a7718ecc-4768-4d53-9dc7-f2b0031ac09b",
           "width": 16,
-          "x": 980,
-          "y": 460,
+          "x": 982,
+          "y": 456,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -3016,7 +3023,7 @@
           "width": 16,
           "x": 30,
           "y": 352,
-          "zOrder": -4,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3032,8 +3039,8 @@
           "persistentUuid": "6c6b4da3-eb01-4592-b7c2-b1c9be081268",
           "width": 16,
           "x": 30,
-          "y": 460,
-          "zOrder": -3,
+          "y": 456,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3049,8 +3056,8 @@
           "persistentUuid": "430363b2-e008-4b33-8630-6e1d9acf407b",
           "width": 16,
           "x": 30,
-          "y": 244,
-          "zOrder": -5,
+          "y": 248,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3066,8 +3073,8 @@
           "persistentUuid": "5a36802d-81c1-4d11-b8b9-85e7764d182d",
           "width": 16,
           "x": 30,
-          "y": 136,
-          "zOrder": -6,
+          "y": 144,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3281,54 +3288,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Tree1",
-          "persistentUuid": "694f474c-082b-46b0-9cdf-81c2c258f756",
-          "width": 0,
-          "x": 590,
-          "y": 158,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Tree2",
-          "persistentUuid": "dc22c1f9-9311-4282-80fe-0637b22d3c46",
-          "width": 0,
-          "x": 353,
-          "y": 240,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Bones1",
-          "persistentUuid": "b6ea262f-7f92-4d5b-8d67-e15847dabe1e",
-          "width": 0,
-          "x": 743,
-          "y": 347,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -3357,8 +3316,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -3393,8 +3352,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -3429,8 +3388,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -3465,8 +3424,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -3501,8 +3460,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -3537,8 +3496,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -3573,8 +3532,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -3609,8 +3568,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -3645,8 +3604,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -3681,8 +3640,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -3730,8 +3689,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -3766,8 +3725,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -3802,8 +3761,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -3838,8 +3797,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -3874,8 +3833,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -3910,8 +3869,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -3946,8 +3905,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -3982,8 +3941,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4031,8 +3990,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4067,8 +4026,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4103,8 +4062,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4139,8 +4098,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4175,8 +4134,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4211,8 +4170,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4247,8 +4206,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4283,8 +4242,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4319,8 +4278,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4355,8 +4314,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4391,8 +4350,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4427,8 +4386,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4476,8 +4435,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4512,8 +4471,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4548,8 +4507,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4584,8 +4543,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4620,8 +4579,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4656,8 +4615,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4692,8 +4651,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4728,8 +4687,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4777,8 +4736,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4813,8 +4772,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4849,8 +4808,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4885,8 +4844,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4921,8 +4880,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4957,8 +4916,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -4993,8 +4952,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -5029,8 +4988,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -5065,8 +5024,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -5101,8 +5060,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -5150,8 +5109,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -5186,8 +5145,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -5222,8 +5181,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -5258,8 +5217,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -5294,8 +5253,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 102.5,
-                        "y": 82
+                        "x": 90,
+                        "y": 125.5
                       },
                       "centerPoint": {
                         "automatic": false,
@@ -6587,13 +6546,13 @@
                       "originPoint": {
                         "name": "origine",
                         "x": 15.5,
-                        "y": 15
+                        "y": 40
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 15.5,
+                        "y": 15
                       },
                       "customCollisionMask": [
                         [
@@ -6874,11 +6833,11 @@
                           },
                           {
                             "x": 302,
-                            "y": 120
+                            "y": 100
                           },
                           {
                             "x": 9,
-                            "y": 120
+                            "y": 100
                           }
                         ]
                       ]
@@ -7156,7 +7115,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Tree1",
           "type": "Sprite",
@@ -7179,8 +7138,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 45,
+                        "y": 95.5
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -7191,20 +7150,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 1
+                            "x": 30,
+                            "y": 28
                           },
                           {
-                            "x": 79,
-                            "y": 1
+                            "x": 58,
+                            "y": 28
                           },
                           {
-                            "x": 79,
-                            "y": 102
+                            "x": 58,
+                            "y": 99.5
                           },
                           {
-                            "x": 6,
-                            "y": 102
+                            "x": 30,
+                            "y": 99.5
                           }
                         ]
                       ]
@@ -7216,7 +7175,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Tree2",
           "type": "Sprite",
@@ -7239,8 +7198,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 50,
+                        "y": 101.5
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -7251,20 +7210,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 13,
-                            "y": 9
+                            "x": 44,
+                            "y": 47
                           },
                           {
-                            "x": 88,
-                            "y": 9
+                            "x": 68,
+                            "y": 47
                           },
                           {
-                            "x": 88,
-                            "y": 115
+                            "x": 68,
+                            "y": 100
                           },
                           {
-                            "x": 13,
-                            "y": 115
+                            "x": 44,
+                            "y": 100
                           }
                         ]
                       ]
@@ -7276,7 +7235,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Bones1",
           "type": "Sprite",
@@ -7327,8 +7286,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 50,
+                        "y": 77.5
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -7339,20 +7298,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 11,
-                            "y": 8
+                            "x": 20,
+                            "y": 18.5
                           },
                           {
-                            "x": 88,
-                            "y": 8
+                            "x": 80,
+                            "y": 18.5
                           },
                           {
-                            "x": 88,
-                            "y": 98
+                            "x": 80,
+                            "y": 97.5
                           },
                           {
-                            "x": 11,
-                            "y": 98
+                            "x": 20,
+                            "y": 97.5
                           }
                         ]
                       ]
@@ -8085,7 +8044,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Background",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8241,7 +8199,7 @@
                   "parameters": [
                     "RedHatBoy",
                     ">",
-                    "145"
+                    "144"
                   ]
                 }
               ],
@@ -8253,7 +8211,7 @@
                   "parameters": [
                     "RedHatBoy",
                     "-",
-                    "108"
+                    "104"
                   ]
                 }
               ]
@@ -8277,7 +8235,7 @@
                   "parameters": [
                     "RedHatBoy",
                     "<",
-                    "469"
+                    "400"
                   ]
                 }
               ],
@@ -8289,7 +8247,7 @@
                   "parameters": [
                     "RedHatBoy",
                     "+",
-                    "108"
+                    "104"
                   ]
                 }
               ]
@@ -8425,7 +8383,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Spawn objects",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
