@@ -9343,26 +9343,7 @@
           "renderingType": "",
           "visibility": true,
           "cameras": [],
-          "effects": [
-            {
-              "effectType": "DropShadow",
-              "name": "Effect",
-              "doubleParameters": {
-                "alpha": 1,
-                "blur": 2,
-                "distance": 1,
-                "padding": 0,
-                "quality": 3,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "color": "255;255;255"
-              },
-              "booleanParameters": {
-                "shadowOnly": false
-              }
-            }
-          ]
+          "effects": []
         },
         {
           "ambientLightColorB": 200,
