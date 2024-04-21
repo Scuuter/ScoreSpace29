@@ -847,126 +847,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Flat Heart Empty.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Flat Heart Empty.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/c0bac0102b6467c3f428f093a162ad8aedc069b2bf3cbe65f344353c3695ecdf_Flat Heart Empty.png",
-          "name": "Flat Heart Empty.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Flat Heart Filled.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Flat Heart Filled.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/4158f811cf0bb821a58f98d8cb78f2257ee590210091ab56b46703e94044ee7a_Flat Heart Filled.png",
-          "name": "Flat Heart Filled.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/assets_EscapeAbility.png3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\EscapeAbility.png3",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/assets_assets_Esc Key.png2.png4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\assets_Esc Key.png2.png4",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/assets_assets_Esc Key.png2.png4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\assets_assets_Esc Key.png2.png4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/EscapeAbilityBackground.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\EscapeAbilityBackground.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/EscapeAbility.png.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\EscapeAbility.png.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/EscapeAbility.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\EscapeAbility.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/assets_EscapeAbility.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\EscapeAbility.png2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/assets_EscapeAbilityBackground.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\EscapeAbilityBackground.png2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/assets_EscapeAbility.png4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\EscapeAbility.png4",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/assets_EscapeAbility.png5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"assets\\\\\\\\EscapeAbility.png4\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":34,\\\"width\\\":60,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAiCAYAAAADILqZAAAAAXNSR0IArs4c6QAABHRJREFUaEPtWEsotG8UP3K/S3JJoShCFij3lRI2jLIwM2ZGg1CjmIWNlGvNJOWWy8RoRiNTxkqzIbeFjZWILNwWCilyyf35Ok//eTN/78z7mv+H7/9xlm/nnOf8zu+c55zndYJvJk7fDC/8AP7bGf9hWCgUEkdYNhgM/4vkvQlSr9eT0NDQd2M2mUwwNDT0x4NmBRwfH/8uwM/Pz6DVan8Avytrn6TMi+GnpyfOcCYmJv4Ohnd2dmB1dZUT8PDwMO/+bW1tJYGBgYCtcHZ2Bp2dnbxtLYHU1taSiIgI8PX1hYeHBzg+Pobu7m5OP5wMI2CRSMTpiCsj1dXVJCsrC6Kjo8HT09NK/fb2Fg4ODmBpaQnGxsZsnlVeXk5SUlIgMTER/Pz8wNnZmfFDCIGrqyvY3NwEhUJh08enAMZRV1paCsiILbm4uACj0QgjIyOswcpkMlJQUAAxMTFcuYX5+Xloampi9fMpgNvb20lhYSETKJbx7u4uuLm5UbYeHx+RWZicnGQNUiwWE4FAAFFRUYwPtEEfp6enEBwcDHFxcZRx/FZWVuY4w5zpBKClqFQqbR5iMplIZGQkdYVgDQYD6HQ6qi+Xy4m/vz/09PTYtG9paSFFRUVMKAhqcXERRkdHGZu6ujqCoNfX1xnfbLFzMvxfAWM5S6VSCAoKoq7wcsHS1ev1vO8Fo9FIsPdRzs/PIS8vj7ftv+P/cMB4oE6nIwkJCczZ+/v7sLKyAn19fZyBYwVUVVWBq6srtV9eXobGxkZOO1tEfQrgyspKIhaL6QixyMvLC1xeXsLh4SFsbGxAb28vK4j6+npaIRaZnp4GtVr9cYBPTk7g/v7ebmXv7e3Z7WE0bmhoINnZ2RAWFgbu7u5W/u7u7mhPNjc3vwGiVCqJUChk9HU6nc3k8Gk/ToZ/1xy2BIPjJTU1FZKSksDb29sqxvHxcRgcHLSKCS8juVzO6M3OzkJHR8fHMfy7Ab8GjnM5Pz+fYZwNDC4bMpkMAgICqOnW1hZIJJI/H7BUKiUuLi5vNimz2UxwjqKYzWbWstZoNCQ5OZnq4FaGfTwwMGAFGmd1bGwsncP2JgCvksY5y0c0Go3NzGu1WhISEgJTU1NMQNifJSUl4OHhQd3bupAUCgVl+bXMzMxAV1cXc15/fz/JzMyE7e1tEIvFji8euODzeS3hxcV2kEgkImlpaZCenk43IbwAced1cnKiZWrZh6+vr3F8se7SOMtxI8vNzQWsEhSMC/3gwwF389cT4OjoCAQCgWOrJR9mUcdWZmtqakhxcTFdPBAkm9zc3MDc3ByoVCq7valSqUhGRsaby+61T0zcwsICtLW1fQ1gSzBqtZoG6+XlZYWZbU20l+SKigr66sK/Mq/HG1Yh+uJ6cbH2cHh4OF9iGT1cGe31DipKJBLi4+MDOTk51A6ZwEvIkR+AeAli8vC5iLK2tmb3aWkJ9A1gHAPvRvuPAd/92HIGX3178bzXl8PzzNGkfLXdD+CvZuCjz/9h+KMz/NX+vx3DvwC4ZDZBLhiaiAAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAiCAYAAAADILqZAAAAAXNSR0IArs4c6QAAAFdJREFUaEPt1AERAEAIhEDtX/oDfANcGwjM7Ry7PfbveLhunGGGYwQkHRP6vcMwwzECko4JNVqSlnSMgKRjQq20pCUdIyDpmFArLWlJxwhIOibUSp9L+gFQQwAjL4Aj1wAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAiCAYAAAADILqZAAAAAXNSR0IArs4c6QAAAFdJREFUaEPt1AERAEAIhEDtX/oDfANcGwjM7Ry7PfbveLhunGGGYwQkHRP6vcMwwzECko4JNVqSlnSMgKRjQq20pCUdIyDpmFArLWlJxwhIOibUSp9L+gFQQwAjL4Aj1wAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[null],\"name\":\"assets\\\\EscapeAbility.png4\"}}",
-        "name": "assets\\EscapeAbility.png5",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/assets_EscapeAbilityBackground.png3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\EscapeAbilityBackground.png3",
         "smoothed": true,
         "userAdded": true
       },
@@ -1003,6 +887,15 @@
         "kind": "image",
         "metadata": "",
         "name": "IMG_2342.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2296_copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2296_copy.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -2141,7 +2034,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "IMG_2296 копия.png",
+                      "image": "IMG_2296_copy.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
