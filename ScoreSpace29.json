@@ -1179,6 +1179,15 @@
         "name": "IMG_2296 копия.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Letter Key_X.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Letter Key_X.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3228,6 +3237,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "Controls",
+          "name": "LetterKey_ability",
+          "persistentUuid": "e952cd42-00f0-41e8-be31-8657c4d7283e",
+          "width": 80,
+          "x": -1,
+          "y": 387,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -5041,7 +5067,7 @@
                 {
                   "looping": false,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.2,
+                  "timeBetweenFrames": 0.4,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -6235,7 +6261,44 @@
                 {
                   "looping": false,
                   "timeBetweenFrames": 0.08,
-                  "sprites": []
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Letter Key_X.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 86
+                          },
+                          {
+                            "x": 12,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -7118,6 +7181,17 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
+                "LetterKey_ability",
+                "Animation",
+                "=",
+                "\"Escape\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
                 "RedHatBoy",
                 "Animation",
                 "=",
@@ -7334,7 +7408,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Collide with player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7493,6 +7566,17 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "RedHatBoy",
+                    "Animation",
+                    "!=",
+                    "\"Slide\""
+                  ]
+                },
                 {
                   "type": {
                     "value": "CollisionNP"
@@ -7920,8 +8004,54 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "AbilityCharges",
+                    ">=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "LetterKey_ability",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "AbilityCharges",
+                    "<",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "LetterKey_ability"
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -7932,17 +8062,15 @@
                   },
                   "parameters": [
                     "",
-                    "\"Escape\""
+                    "LetterKey_ability.Animation::Name()"
                   ]
                 },
                 {
                   "type": {
-                    "value": "VarScene"
+                    "value": "Visible"
                   },
                   "parameters": [
-                    "AbilityCharges",
-                    ">=",
-                    "1"
+                    "LetterKey_ability"
                   ]
                 }
               ],
