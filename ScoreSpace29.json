@@ -7973,7 +7973,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"Menu scene\"",
+                    "\"Score scene\"",
                     ""
                   ]
                 }
@@ -9457,7 +9457,7 @@
           "name": "DistanceName",
           "persistentUuid": "8554cb26-91ca-4cba-9350-1605ff008acf",
           "width": 0,
-          "x": 356,
+          "x": 340,
           "y": 153,
           "zOrder": 2,
           "numberProperties": [],
@@ -9473,7 +9473,7 @@
           "name": "DistanceValue",
           "persistentUuid": "9c73bc13-1a16-4195-b6ee-3bbb993e23bb",
           "width": 0,
-          "x": 578,
+          "x": 550,
           "y": 153,
           "zOrder": 3,
           "numberProperties": [],
@@ -9489,7 +9489,7 @@
           "name": "StarsName",
           "persistentUuid": "9cba1996-1d2e-4645-9705-d94aeff4876e",
           "width": 0,
-          "x": 356,
+          "x": 340,
           "y": 214,
           "zOrder": 4,
           "numberProperties": [],
@@ -9505,8 +9505,8 @@
           "name": "StarsValue",
           "persistentUuid": "84feeab2-36c6-4795-8295-74893e722c08",
           "width": 0,
-          "x": 578,
-          "y": 216,
+          "x": 550,
+          "y": 214,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -9521,7 +9521,7 @@
           "name": "ScoreName",
           "persistentUuid": "94bfdcb9-08b5-4268-95e5-aae7e4f8c874",
           "width": 0,
-          "x": 353,
+          "x": 340,
           "y": 341,
           "zOrder": 6,
           "numberProperties": [],
@@ -9537,8 +9537,8 @@
           "name": "ScoreValue",
           "persistentUuid": "cd313610-90a5-45d3-96fb-744794756289",
           "width": 0,
-          "x": 574,
-          "y": 340,
+          "x": 550,
+          "y": 341,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -9829,7 +9829,66 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DistanceValue",
+                "Text",
+                "=",
+                "ToString(round(LastDistance))"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "StarsValue",
+                "Text",
+                "=",
+                "ToString(LastStarCount)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "ScoreValue",
+                "Text",
+                "=",
+                "ToString(roundTo(LastDistance*LastMultiplier*100, 2))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnyKeyReleased"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu scene\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
