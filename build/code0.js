@@ -31,7 +31,7 @@ gdjs.Menu_32sceneCode.GDBack_9595soil_9595menuObjects1= [];
 gdjs.Menu_32sceneCode.GDBack_9595soil_9595menuObjects2= [];
 
 
-gdjs.Menu_32sceneCode.asyncCallback11976092 = function (runtimeScene, asyncObjectsList) {
+gdjs.Menu_32sceneCode.asyncCallback13205172 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("Etitle"), gdjs.Menu_32sceneCode.GDEtitleObjects2);
 {for(var i = 0, len = gdjs.Menu_32sceneCode.GDEtitleObjects2.length ;i < len;++i) {
     gdjs.Menu_32sceneCode.GDEtitleObjects2[i].getBehavior("Tween").addObjectAngleTween2("Eangle", 45, "linear", 1, false);
@@ -45,7 +45,7 @@ gdjs.Menu_32sceneCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Menu_32sceneCode.asyncCallback11976092(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Menu_32sceneCode.asyncCallback13205172(runtimeScene, asyncObjectsList)));
 }
 }
 
