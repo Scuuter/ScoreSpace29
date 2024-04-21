@@ -2231,7 +2231,7 @@
                 "Score",
                 "Text",
                 "=",
-                "ToString(roundTo(GlobalVariable(HighScore), 4))"
+                "ToString(roundTo(GlobalVariable(HighScore), 2))"
               ]
             },
             {
@@ -2726,6 +2726,12 @@
           "name": "TimeFromChangeInput",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "Distance",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -3217,8 +3223,8 @@
           "name": "Star",
           "persistentUuid": "4836dc8c-d823-45b7-a2bc-fb5059a0d92a",
           "width": 0,
-          "x": 58,
-          "y": 94,
+          "x": 101,
+          "y": 88,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -7145,6 +7151,7 @@
           "comment": "Count and show scores"
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -7157,6 +7164,32 @@
                 "+",
                 "TimeDelta()*Speed*ScoreMultiplier"
               ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "TimeFromChangeInput",
+                "+",
+                "TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Distance",
+                "+",
+                "TimeDelta()*Speed/10"
+              ]
             },
             {
               "type": {
@@ -7166,7 +7199,7 @@
                 "Score",
                 "Text",
                 "=",
-                "ToString(round(CurrentScore))"
+                "ToString(round(Distance))"
               ]
             },
             {
@@ -7177,17 +7210,7 @@
                 "Stars",
                 "Text",
                 "=",
-                "StarCount"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "TimeFromChangeInput",
-                "+",
-                "TimeDelta()"
+                "ToString(roundTo(ScoreMultiplier*100, 1))"
               ]
             }
           ]
@@ -7274,6 +7297,16 @@
                       "actions": [
                         {
                           "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "TimeFromChangeInput",
+                            "-",
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "AnimatableCapability::AnimatableBehavior::SetName"
                           },
                           "parameters": [
@@ -7288,7 +7321,7 @@
                             "value": "Wait"
                           },
                           "parameters": [
-                            "0.4"
+                            "1"
                           ]
                         },
                         {
@@ -7311,16 +7344,6 @@
                             "Animation",
                             "=",
                             "Random(4)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarScene"
-                          },
-                          "parameters": [
-                            "TimeFromChangeInput",
-                            "-",
-                            "2"
                           ]
                         },
                         {
@@ -7365,7 +7388,7 @@
                   "parameters": [
                     "HighScore",
                     "=",
-                    "max(HighScore, CurrentScore)"
+                    "max(HighScore, Distance*ScoreMultiplier*100)"
                   ]
                 },
                 {
@@ -7404,7 +7427,7 @@
                   "parameters": [
                     "HighScore",
                     "=",
-                    "max(HighScore, CurrentScore)"
+                    "max(HighScore, Distance*ScoreMultiplier*100)"
                   ]
                 },
                 {
@@ -7448,6 +7471,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "TimeFromChangeInput",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -7462,7 +7495,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "0.4"
+                    "1"
                   ]
                 },
                 {
@@ -7485,16 +7518,6 @@
                     "Animation",
                     "=",
                     "Random(4)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "TimeFromChangeInput",
-                    "=",
-                    "0"
                   ]
                 },
                 {
