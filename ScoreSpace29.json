@@ -3167,7 +3167,7 @@
           "name": "BackBushlow",
           "persistentUuid": "61775742-1509-4da7-aa5d-81602af301a3",
           "width": 0,
-          "x": 152,
+          "x": 132,
           "y": 460,
           "zOrder": 4,
           "numberProperties": [],
@@ -3183,7 +3183,7 @@
           "name": "BackBushlow",
           "persistentUuid": "15bedba7-b020-4011-8394-caf8e18af75e",
           "width": 0,
-          "x": 1032,
+          "x": 1012,
           "y": 460,
           "zOrder": 4,
           "numberProperties": [],
@@ -3247,7 +3247,7 @@
           "layer": "",
           "name": "BackBushtop",
           "persistentUuid": "06aa0b54-d8c9-4574-b22e-224f944d4d4f",
-          "width": 900,
+          "width": 891,
           "x": 150,
           "y": -52,
           "zOrder": 4,
@@ -3263,8 +3263,8 @@
           "layer": "",
           "name": "BackBushtop",
           "persistentUuid": "09a90291-92d4-4acc-9b08-3cbe6bfc8386",
-          "width": 900,
-          "x": 1050,
+          "width": 891,
+          "x": 1041,
           "y": -52,
           "zOrder": 4,
           "numberProperties": [],
@@ -7762,7 +7762,7 @@
                   "parameters": [
                     "BackBushlow",
                     "-",
-                    "2.5"
+                    "2.2"
                   ]
                 },
                 {
@@ -7772,7 +7772,7 @@
                   "parameters": [
                     "BackBushtop",
                     "-",
-                    "1.5"
+                    "1.9"
                   ]
                 }
               ]
@@ -7816,7 +7816,7 @@
                   "parameters": [
                     "BackBushlow",
                     "<=",
-                    "-BackBushlow.Width() + 152"
+                    "-BackBushlow.Width() + 132"
                   ]
                 }
               ],
@@ -7828,7 +7828,7 @@
                   "parameters": [
                     "BackBushlow",
                     "=",
-                    "BackBushlow.Width()+152"
+                    "BackBushlow.Width()+132"
                   ]
                 }
               ]
@@ -7844,7 +7844,7 @@
                   "parameters": [
                     "BackBushtop",
                     "<=",
-                    "-BackBushlow.Width() + 150"
+                    "-BackBushtop.Width() + 150"
                   ]
                 }
               ],
@@ -7856,7 +7856,7 @@
                   "parameters": [
                     "BackBushtop",
                     "=",
-                    "BackBushlow.Width()+150"
+                    "BackBushtop.Width()+150"
                   ]
                 }
               ]
