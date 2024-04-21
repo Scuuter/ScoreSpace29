@@ -1151,6 +1151,33 @@
         "name": "NewSprite2",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2310.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2310.PNG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2319.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2319.PNG",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3096,6 +3123,71 @@
           "x": 145,
           "y": 281,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hands",
+          "persistentUuid": "48caf61d-b3df-4c83-be3f-76e524697545",
+          "width": 0,
+          "x": 139,
+          "y": 282,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackBushlow",
+          "persistentUuid": "61775742-1509-4da7-aa5d-81602af301a3",
+          "width": 0,
+          "x": 152,
+          "y": 460,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackBushlow",
+          "persistentUuid": "15bedba7-b020-4011-8394-caf8e18af75e",
+          "width": 0,
+          "x": 1032,
+          "y": 460,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 560,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Controls",
+          "persistentUuid": "8ac2c9d7-dae0-46b0-a15f-11ba8afa4bf1",
+          "width": 152,
+          "x": -1,
+          "y": -3,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6466,6 +6558,206 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BackBushlow",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2310.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 33
+                          },
+                          {
+                            "x": 880,
+                            "y": 33
+                          },
+                          {
+                            "x": 880,
+                            "y": 132
+                          },
+                          {
+                            "x": 0,
+                            "y": 132
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Hands",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 30,
+                "padding": 25,
+                "quality": 10,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "31;15;15"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2319.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 23
+                          },
+                          {
+                            "x": 302,
+                            "y": 23
+                          },
+                          {
+                            "x": 302,
+                            "y": 138
+                          },
+                          {
+                            "x": 9,
+                            "y": 138
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Controls",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 150,
+                            "y": 0
+                          },
+                          {
+                            "x": 150,
+                            "y": 560
+                          },
+                          {
+                            "x": 0,
+                            "y": 560
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6512,6 +6804,15 @@
           },
           {
             "objectName": "Background_soil"
+          },
+          {
+            "objectName": "BackBushlow"
+          },
+          {
+            "objectName": "Hands"
+          },
+          {
+            "objectName": "Controls"
           }
         ]
       },
@@ -6580,6 +6881,14 @@
               "parameters": [
                 "",
                 "\"Obstacle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Line"
               ]
             }
           ],
@@ -6912,6 +7221,16 @@
                     "-",
                     "2"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "BackBushlow",
+                    "-",
+                    "2.2"
+                  ]
                 }
               ]
             },
@@ -6928,6 +7247,16 @@
                     "<=",
                     "-Background_soil.Width() + 150"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "BackBushlow",
+                    "<=",
+                    "-BackBushlow.Width() + 150"
+                  ]
                 }
               ],
               "actions": [
@@ -6939,6 +7268,16 @@
                     "Background_soil",
                     "=",
                     "Background_soil.Width()+150"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "BackBushlow",
+                    "=",
+                    "BackBushlow.Width()+150"
                   ]
                 }
               ]
@@ -12015,1974 +12354,21 @@
                     }
                   ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "HandofFate",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [
-            {
-              "effectType": "DropShadow",
-              "name": "Effect",
-              "doubleParameters": {
-                "alpha": 1,
-                "blur": 2,
-                "distance": 20,
-                "padding": 30,
-                "quality": 15,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "color": "32;31;31"
-              },
-              "booleanParameters": {
-                "shadowOnly": false
-              }
-            }
-          ],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "IMG_2318",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "IMG_2318",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 23
-                          },
-                          {
-                            "x": 302,
-                            "y": 23
-                          },
-                          {
-                            "x": 302,
-                            "y": 138
-                          },
-                          {
-                            "x": 9,
-                            "y": 138
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "RedHatBoy"
-          },
-          {
-            "objectName": "NewSprite"
-          },
-          {
-            "objectName": "Line"
-          },
-          {
-            "objectName": "DesertBackground"
-          },
-          {
-            "objectName": "Cactus"
-          },
-          {
-            "objectName": "LetterKey_up"
-          },
-          {
-            "objectName": "LetterKey_down"
-          },
-          {
-            "objectName": "LetterKey_ability"
-          },
-          {
-            "objectName": "Score"
-          },
-          {
-            "objectName": "Spawn"
-          },
-          {
-            "objectName": "Destroyer"
-          },
-          {
-            "objectName": "Fence"
-          },
-          {
-            "objectName": "Star"
-          },
-          {
-            "objectName": "Background_soil"
-          },
-          {
-            "objectName": "HandofFate"
-          }
-        ]
-      },
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonScaleTween",
-                  "type": "behavior"
-                }
               ],
-              "objectGroups": []
-            },
-            {
-              "description": "the focused state size scale of the object. The state is Focused when the button is hovered or held outside.",
-              "fullName": "Focused state size scale",
-              "functionType": "ExpressionAndCondition",
-              "group": "Button scale tween configuration",
-              "name": "FocusedScale",
-              "sentence": "the focused state size scale",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyFocusedScale()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonScaleTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "FocusedScale",
-              "name": "SetFocusedScale",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonScaleTween::SetPropertyFocusedScale"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsNumber(\"Value\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonScaleTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the pressed state size scale of the object.",
-              "fullName": "Pressed state size scale",
-              "functionType": "ExpressionAndCondition",
-              "group": "Button scale tween configuration",
-              "name": "PressedScale",
-              "sentence": "the pressed state size scale",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyPressedScale()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonScaleTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "PressedScale",
-              "name": "SetPressedScale",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonScaleTween::SetPropertyPressedScale"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsNumber(\"Value\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonScaleTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the fade-in duration of the object.",
-              "fullName": "Fade-in duration",
-              "functionType": "ExpressionAndCondition",
-              "group": "Button scale tween configuration",
-              "name": "FadeInDuration",
-              "sentence": "the fade-in duration",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyFadeInDuration()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonScaleTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "FadeInDuration",
-              "name": "SetFadeInDuration",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonScaleTween::SetPropertyFadeInDuration"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsNumber(\"Value\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonScaleTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the fade-out duration of the object.",
-              "fullName": "Fade-out duration",
-              "functionType": "ExpressionAndCondition",
-              "group": "Button scale tween configuration",
-              "name": "FadeOutDuration",
-              "sentence": "the fade-out duration",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyFadeOutDuration()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonScaleTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "FadeOutDuration",
-              "name": "SetFadeOutDuration",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonScaleTween::SetPropertyFadeOutDuration"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsNumber(\"Value\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonScaleTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the fade-in easing of the object.",
-              "fullName": "Fade-in easing",
-              "functionType": "ExpressionAndCondition",
-              "group": "Button scale tween configuration",
-              "name": "FadeInEasing",
-              "sentence": "the fade-in easing",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnString"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyFadeInEasing()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "supplementaryInformation": "[\"linear\",\"easeInQuad\",\"easeOutQuad\",\"easeInOutQuad\",\"easeInCubic\",\"easeOutCubic\",\"easeInOutCubic\",\"easeInQuart\",\"easeOutQuart\",\"easeInOutQuart\",\"easeInQuint\",\"easeOutQuint\",\"easeInOutQuint\",\"easeInOutSine\",\"easeInExpo\",\"easeOutExpo\",\"easeInOutExpo\",\"easeInCirc\",\"easeOutCirc\",\"easeInOutCirc\",\"easeOutBounce\",\"easeInBack\",\"easeOutBack\",\"easeInOutBack\",\"elastic\",\"swingFromTo\",\"swingFrom\",\"swingTo\",\"bounce\",\"bouncePast\",\"easeFromTo\",\"easeFrom\",\"easeTo\"]",
-                "type": "stringWithSelector"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonScaleTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "FadeInEasing",
-              "name": "SetFadeInEasing",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonScaleTween::SetPropertyFadeInEasing"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsString(\"Value\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonScaleTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the fade-out easing of the object.",
-              "fullName": "Fade-out easing",
-              "functionType": "ExpressionAndCondition",
-              "group": "Button scale tween configuration",
-              "name": "FadeOutEasing",
-              "sentence": "the fade-out easing",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnString"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyFadeOutEasing()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "supplementaryInformation": "[\"linear\",\"easeInQuad\",\"easeOutQuad\",\"easeInOutQuad\",\"easeInCubic\",\"easeOutCubic\",\"easeInOutCubic\",\"easeInQuart\",\"easeOutQuart\",\"easeInOutQuart\",\"easeInQuint\",\"easeOutQuint\",\"easeInOutQuint\",\"easeInOutSine\",\"easeInExpo\",\"easeOutExpo\",\"easeInOutExpo\",\"easeInCirc\",\"easeOutCirc\",\"easeInOutCirc\",\"easeOutBounce\",\"easeInBack\",\"easeOutBack\",\"easeInOutBack\",\"elastic\",\"swingFromTo\",\"swingFrom\",\"swingTo\",\"bounce\",\"bouncePast\",\"easeFromTo\",\"easeFrom\",\"easeTo\"]",
-                "type": "stringWithSelector"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonScaleTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "FadeOutEasing",
-              "name": "SetFadeOutEasing",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonScaleTween::SetPropertyFadeOutEasing"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsString(\"Value\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonScaleTween",
-                  "type": "behavior"
-                }
-              ],
+              "parameters": [],
               "objectGroups": []
             }
           ],
-          "propertyDescriptors": [
-            {
-              "value": "",
-              "type": "Behavior",
-              "label": "Button states behavior (required)",
-              "description": "",
-              "group": "",
-              "extraInformation": [
-                "ButtonStates::ButtonFSM"
-              ],
-              "name": "ButtonFSM"
-            },
-            {
-              "value": "",
-              "type": "Behavior",
-              "label": "Tween behavior (required)",
-              "description": "",
-              "group": "",
-              "extraInformation": [
-                "Tween::TweenBehavior"
-              ],
-              "name": "Tween"
-            },
-            {
-              "value": "1",
-              "type": "Number",
-              "unit": "Dimensionless",
-              "label": "Idle state size scale",
-              "description": "",
-              "group": "Size",
-              "extraInformation": [],
-              "name": "IdleScale"
-            },
-            {
-              "value": "1",
-              "type": "Number",
-              "unit": "Dimensionless",
-              "label": "Focused state size scale",
-              "description": "The state is Focused when the button is hovered or held outside.",
-              "group": "Size",
-              "extraInformation": [],
-              "name": "FocusedScale"
-            },
-            {
-              "value": "0.1",
-              "type": "Number",
-              "unit": "Second",
-              "label": "Fade-in duration",
-              "description": "",
-              "group": "Speed",
-              "extraInformation": [],
-              "name": "FadeInDuration"
-            },
-            {
-              "value": "0.2",
-              "type": "Number",
-              "unit": "Second",
-              "label": "Fade-out duration",
-              "description": "",
-              "group": "Speed",
-              "extraInformation": [],
-              "name": "FadeOutDuration"
-            },
-            {
-              "value": "0.95",
-              "type": "Number",
-              "unit": "Dimensionless",
-              "label": "Pressed state size scale",
-              "description": "",
-              "group": "Size",
-              "extraInformation": [],
-              "name": "PressedScale"
-            },
-            {
-              "value": "easeInOutQuad",
-              "type": "Choice",
-              "label": "Fade-in easing",
-              "description": "",
-              "group": "Speed",
-              "extraInformation": [
-                "linear",
-                "easeInQuad",
-                "easeOutQuad",
-                "easeInOutQuad",
-                "easeInCubic",
-                "easeOutCubic",
-                "easeInOutCubic",
-                "easeInQuart",
-                "easeOutQuart",
-                "easeInOutQuart",
-                "easeInQuint",
-                "easeOutQuint",
-                "easeInOutQuint",
-                "easeInOutSine",
-                "easeInExpo",
-                "easeOutExpo",
-                "easeInOutExpo",
-                "easeInCirc",
-                "easeOutCirc",
-                "easeInOutCirc",
-                "easeOutBounce",
-                "easeInBack",
-                "easeOutBack",
-                "easeInOutBack",
-                "elastic",
-                "swingFromTo",
-                "swingFrom",
-                "swingTo",
-                "bounce",
-                "bouncePast",
-                "easeFromTo",
-                "easeFrom",
-                "easeTo"
-              ],
-              "name": "FadeInEasing"
-            },
-            {
-              "value": "easeInOutQuad",
-              "type": "Choice",
-              "label": "Fade-out easing",
-              "description": "",
-              "group": "Speed",
-              "extraInformation": [
-                "linear",
-                "easeInQuad",
-                "easeOutQuad",
-                "easeInOutQuad",
-                "easeInCubic",
-                "easeOutCubic",
-                "easeInOutCubic",
-                "easeInQuart",
-                "easeOutQuart",
-                "easeInOutQuart",
-                "easeInQuint",
-                "easeOutQuint",
-                "easeInOutQuint",
-                "easeInOutSine",
-                "easeInExpo",
-                "easeOutExpo",
-                "easeInOutExpo",
-                "easeInCirc",
-                "easeOutCirc",
-                "easeInOutCirc",
-                "easeOutBounce",
-                "easeInBack",
-                "easeOutBack",
-                "easeInOutBack",
-                "elastic",
-                "swingFromTo",
-                "swingFrom",
-                "swingTo",
-                "bounce",
-                "bouncePast",
-                "easeFromTo",
-                "easeFrom",
-                "easeTo"
-              ],
-              "name": "FadeOutEasing"
-            },
-            {
-              "value": "Idle",
-              "type": "Choice",
-              "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [
-                "Idle",
-                "Focused",
-                "Pressed"
-              ],
-              "hidden": true,
-              "name": "PreviousState"
-            }
-          ],
+          "propertyDescriptors": [],
           "sharedPropertyDescriptors": []
         },
         {
-          "description": "Smoothly change the color tint of buttons according to their state.",
-          "fullName": "Button color tint tween",
-          "name": "ButtonColorTintTween",
-          "objectType": "Sprite",
-          "eventsFunctions": [
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "onCreated",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ChangeColor"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Object.Behavior::PropertyIdleColorTint()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "doStepPreEvents",
-              "sentence": "",
-              "events": [
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "States",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "ButtonStates::ButtonFSM::IsIdle"
-                          },
-                          "parameters": [
-                            "Object",
-                            "ButtonFSM",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ButtonStates::ButtonColorTintTween::PropertyPreviousState"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "!=",
-                            "\"Idle\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ButtonStates::ButtonColorTintTween::SetPropertyPreviousState"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "=",
-                            "\"Idle\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ButtonStates::ButtonColorTintTween::FadeOut"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "Object.Behavior::PropertyIdleColorTint()",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "ButtonStates::ButtonFSM::IsFocused"
-                          },
-                          "parameters": [
-                            "Object",
-                            "ButtonFSM",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "ButtonStates::ButtonColorTintTween::PropertyPreviousState"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "=",
-                                "\"Idle\""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ButtonStates::ButtonColorTintTween::SetPropertyPreviousState"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "=",
-                                "\"Focused\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ButtonStates::ButtonColorTintTween::FadeIn"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "Object.Behavior::PropertyFocusedColorTint()",
-                                ""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "ButtonStates::ButtonColorTintTween::PropertyPreviousState"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "=",
-                                "\"Pressed\""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ButtonStates::ButtonColorTintTween::SetPropertyPreviousState"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "=",
-                                "\"Focused\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ButtonStates::ButtonColorTintTween::FadeOut"
-                              },
-                              "parameters": [
-                                "Object",
-                                "Behavior",
-                                "Object.Behavior::PropertyFocusedColorTint()",
-                                ""
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "ButtonStates::ButtonFSM::IsPressed"
-                          },
-                          "parameters": [
-                            "Object",
-                            "ButtonFSM",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ButtonStates::ButtonColorTintTween::PropertyPreviousState"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "!=",
-                            "\"Pressed\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ButtonStates::ButtonColorTintTween::SetPropertyPreviousState"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "=",
-                            "\"Pressed\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ButtonStates::ButtonColorTintTween::FadeIn"
-                          },
-                          "parameters": [
-                            "Object",
-                            "Behavior",
-                            "Object.Behavior::PropertyPressedColorTint()",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "Fade in",
-              "functionType": "Action",
-              "name": "FadeIn",
-              "private": true,
-              "sentence": "_PARAM0_ fade in to _PARAM2_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Tween::AddObjectColorTween"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Tween",
-                        "\"__ButtonColorTintTween.Fade\"",
-                        "GetArgumentAsString(\"Value\")",
-                        "Object.Behavior::PropertyFadeInEasing()",
-                        "1000 * Object.Behavior::PropertyFadeInDuration()",
-                        "no",
-                        "yes"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                },
-                {
-                  "description": "Value",
-                  "name": "Value",
-                  "type": "color"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "Fade out",
-              "functionType": "Action",
-              "name": "FadeOut",
-              "private": true,
-              "sentence": "_PARAM0_ fade out to _PARAM2_",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Tween::AddObjectColorTween"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Tween",
-                        "\"__ButtonColorTintTween.Fade\"",
-                        "GetArgumentAsString(\"Value\")",
-                        "Object.Behavior::PropertyFadeOutEasing()",
-                        "1000 * Object.Behavior::PropertyFadeOutDuration()",
-                        "no",
-                        "yes"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                },
-                {
-                  "description": "Value",
-                  "name": "Value",
-                  "type": "color"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the idle state color tint of the object.",
-              "fullName": "Idle state color tint",
-              "functionType": "ExpressionAndCondition",
-              "group": "Button color tint tween",
-              "name": "IdleColorTint",
-              "sentence": "the idle state color tint",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnString"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyIdleColorTint()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "color"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "IdleColorTint",
-              "name": "SetIdleColorTint",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonColorTintTween::SetPropertyIdleColorTint"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsString(\"Value\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the focused state color tint of the object. The state is Focused when the button is hovered or held outside.",
-              "fullName": "Focused state color tint",
-              "functionType": "ExpressionAndCondition",
-              "group": "Button color tint tween",
-              "name": "FocusedColorTint",
-              "sentence": "the focused state color tint",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnString"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyFocusedColorTint()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "color"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "FocusedColorTint",
-              "name": "SetFocusedColorTint",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonColorTintTween::SetPropertyFocusedColorTint"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsString(\"Value\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the pressed state color tint of the object.",
-              "fullName": "Pressed state color tint",
-              "functionType": "ExpressionAndCondition",
-              "group": "Button color tint tween",
-              "name": "PressedColorTint",
-              "sentence": "the pressed state color tint",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnString"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyPressedColorTint()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "color"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "PressedColorTint",
-              "name": "SetPressedColorTint",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonColorTintTween::SetPropertyPressedColorTint"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsString(\"Value\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the fade-in duration of the object.",
-              "fullName": "Fade-in duration",
-              "functionType": "ExpressionAndCondition",
-              "group": "Button color tint tween",
-              "name": "FadeInDuration",
-              "sentence": "the fade-in duration",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyFadeInDuration()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "FadeInDuration",
-              "name": "SetFadeInDuration",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonColorTintTween::SetPropertyFadeInDuration"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsNumber(\"Value\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the fade-out duration of the object.",
-              "fullName": "Fade-out duration",
-              "functionType": "ExpressionAndCondition",
-              "group": "Button color tint tween",
-              "name": "FadeOutDuration",
-              "sentence": "the fade-out duration",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyFadeOutDuration()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "FadeOutDuration",
-              "name": "SetFadeOutDuration",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonColorTintTween::SetPropertyFadeOutDuration"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsNumber(\"Value\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the fade-in easing of the object.",
-              "fullName": "Fade-in easing",
-              "functionType": "ExpressionAndCondition",
-              "group": "Button color tint tween",
-              "name": "FadeInEasing",
-              "sentence": "the fade-in easing",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnString"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyFadeInEasing()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "supplementaryInformation": "[\"linear\",\"easeInQuad\",\"easeOutQuad\",\"easeInOutQuad\",\"easeInCubic\",\"easeOutCubic\",\"easeInOutCubic\",\"easeInQuart\",\"easeOutQuart\",\"easeInOutQuart\",\"easeInQuint\",\"easeOutQuint\",\"easeInOutQuint\",\"easeInOutSine\",\"easeInExpo\",\"easeOutExpo\",\"easeInOutExpo\",\"easeInCirc\",\"easeOutCirc\",\"easeInOutCirc\",\"easeOutBounce\",\"easeInBack\",\"easeOutBack\",\"easeInOutBack\",\"elastic\",\"swingFromTo\",\"swingFrom\",\"swingTo\",\"bounce\",\"bouncePast\",\"easeFromTo\",\"easeFrom\",\"easeTo\"]",
-                "type": "stringWithSelector"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "FadeInEasing",
-              "name": "SetFadeInEasing",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonColorTintTween::SetPropertyFadeInEasing"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsString(\"Value\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the fade-out easing of the object.",
-              "fullName": "Fade-out easing",
-              "functionType": "ExpressionAndCondition",
-              "group": "Button color tint tween",
-              "name": "FadeOutEasing",
-              "sentence": "the fade-out easing",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnString"
-                      },
-                      "parameters": [
-                        "Object.Behavior::PropertyFadeOutEasing()"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "supplementaryInformation": "[\"linear\",\"easeInQuad\",\"easeOutQuad\",\"easeInOutQuad\",\"easeInCubic\",\"easeOutCubic\",\"easeInOutCubic\",\"easeInQuart\",\"easeOutQuart\",\"easeInOutQuart\",\"easeInQuint\",\"easeOutQuint\",\"easeInOutQuint\",\"easeInOutSine\",\"easeInExpo\",\"easeOutExpo\",\"easeInOutExpo\",\"easeInCirc\",\"easeOutCirc\",\"easeInOutCirc\",\"easeOutBounce\",\"easeInBack\",\"easeOutBack\",\"easeInOutBack\",\"elastic\",\"swingFromTo\",\"swingFrom\",\"swingTo\",\"bounce\",\"bouncePast\",\"easeFromTo\",\"easeFrom\",\"easeTo\"]",
-                "type": "stringWithSelector"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "FadeOutEasing",
-              "name": "SetFadeOutEasing",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ButtonStates::ButtonColorTintTween::SetPropertyFadeOutEasing"
-                      },
-                      "parameters": [
-                        "Object",
-                        "Behavior",
-                        "=",
-                        "GetArgumentAsString(\"Value\")"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "supplementaryInformation": "Sprite",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "ButtonStates::ButtonColorTintTween",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            }
-          ],
-          "propertyDescriptors": [
-            {
-              "value": "",
-              "type": "Behavior",
-              "label": "Button states",
-              "description": "",
-              "group": "",
-              "extraInformation": [
-                "ButtonStates::ButtonFSM"
-              ],
-              "name": "ButtonFSM"
-            },
-            {
-              "value": "",
-              "type": "Behavior",
-              "label": "Tween",
-              "description": "",
-              "group": "",
-              "extraInformation": [
-                "Tween::TweenBehavior"
-              ],
-              "name": "Tween"
-            },
-            {
-              "value": "255;255;255",
-              "type": "Color",
-              "label": "Idle state color tint",
-              "description": "",
-              "group": "Color",
-              "extraInformation": [],
-              "name": "IdleColorTint"
-            },
-            {
-              "value": "192;192;192",
-              "type": "Color",
-              "label": "Focused state color tint",
-              "description": "The state is Focused when the button is hovered or held outside.",
-              "group": "Color",
-              "extraInformation": [],
-              "name": "FocusedColorTint"
-            },
-            {
-              "value": "64;64;64",
-              "type": "Color",
-              "label": "Pressed state color tint",
-              "description": "",
-              "group": "Color",
-              "extraInformation": [],
-              "name": "PressedColorTint"
-            },
-            {
-              "value": "0.1",
-              "type": "Number",
-              "unit": "Second",
-              "label": "Fade-in duration",
-              "description": "",
-              "group": "Speed",
-              "extraInformation": [],
-              "name": "FadeInDuration"
-            },
-            {
-              "value": "0.2",
-              "type": "Number",
-              "unit": "Second",
-              "label": "Fade-out duration",
-              "description": "",
-              "group": "Speed",
-              "extraInformation": [],
-              "name": "FadeOutDuration"
-            },
-            {
-              "value": "easeInOutQuad",
-              "type": "Choice",
-              "label": "Fade-in easing",
-              "description": "",
-              "group": "Speed",
-              "extraInformation": [
-                "linear",
-                "easeInQuad",
-                "easeOutQuad",
-                "easeInOutQuad",
-                "easeInCubic",
-                "easeOutCubic",
-                "easeInOutCubic",
-                "easeInQuart",
-                "easeOutQuart",
-                "easeInOutQuart",
-                "easeInQuint",
-                "easeOutQuint",
-                "easeInOutQuint",
-                "easeInOutSine",
-                "easeInExpo",
-                "easeOutExpo",
-                "easeInOutExpo",
-                "easeInCirc",
-                "easeOutCirc",
-                "easeInOutCirc",
-                "easeOutBounce",
-                "easeInBack",
-                "easeOutBack",
-                "easeInOutBack",
-                "elastic",
-                "swingFromTo",
-                "swingFrom",
-                "swingTo",
-                "bounce",
-                "bouncePast",
-                "easeFromTo",
-                "easeFrom",
-                "easeTo"
-              ],
-              "name": "FadeInEasing"
-            },
-            {
-              "value": "easeInOutQuad",
-              "type": "Choice",
-              "label": "Fade-out easing",
-              "description": "",
-              "group": "Speed",
-              "extraInformation": [
-                "linear",
-                "easeInQuad",
-                "easeOutQuad",
-                "easeInOutQuad",
-                "easeInCubic",
-                "easeOutCubic",
-                "easeInOutCubic",
-                "easeInQuart",
-                "easeOutQuart",
-                "easeInOutQuart",
-                "easeInQuint",
-                "easeOutQuint",
-                "easeInOutQuint",
-                "easeInOutSine",
-                "easeInExpo",
-                "easeOutExpo",
-                "easeInOutExpo",
-                "easeInCirc",
-                "easeOutCirc",
-                "easeInOutCirc",
-                "easeOutBounce",
-                "easeInBack",
-                "easeOutBack",
-                "easeInOutBack",
-                "elastic",
-                "swingFromTo",
-                "swingFrom",
-                "swingTo",
-                "bounce",
-                "bouncePast",
-                "easeFromTo",
-                "easeFrom",
-                "easeTo"
-              ],
-              "name": "FadeOutEasing"
-            },
-            {
-              "value": "Idle",
-              "type": "Choice",
-              "label": "",
-              "description": "",
-              "group": "",
-              "extraInformation": [
-                "Idle",
-                "Focused",
-                "Pressed"
-              ],
-              "hidden": true,
-              "name": "PreviousState"
-            }
-          ],
+          "description": "",
+          "fullName": "",
+          "name": "HandofFate",
+          "objectType": "",
+          "eventsFunctions": [],
+          "propertyDescriptors": [],
           "sharedPropertyDescriptors": []
         }
       ],
