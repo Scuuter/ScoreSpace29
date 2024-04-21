@@ -3185,7 +3185,7 @@
           "name": "BackBushlow",
           "persistentUuid": "61775742-1509-4da7-aa5d-81602af301a3",
           "width": 0,
-          "x": 1012,
+          "x": 1026,
           "y": 437,
           "zOrder": 11,
           "numberProperties": [],
@@ -3201,7 +3201,7 @@
           "name": "BackBushlow",
           "persistentUuid": "15bedba7-b020-4011-8394-caf8e18af75e",
           "width": 0,
-          "x": 132,
+          "x": 150,
           "y": 437,
           "zOrder": 11,
           "numberProperties": [],
@@ -8214,7 +8214,7 @@
                   "parameters": [
                     "BackBushlow",
                     "<=",
-                    "-BackBushlow.Width() + 152"
+                    "-BackBushlow.Width() + 150"
                   ]
                 }
               ],
@@ -8226,7 +8226,7 @@
                   "parameters": [
                     "BackBushlow",
                     "+",
-                    "BackBushlow.Width()*2"
+                    "BackBushlow.Width()*2-8"
                   ]
                 }
               ]
