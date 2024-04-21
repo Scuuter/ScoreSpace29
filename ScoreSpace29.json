@@ -12158,7 +12158,6 @@
               "type": {
                 "value": "DepartScene"
               },
-              ],
               "parameters": [
                 {
                   "description": "Object",
