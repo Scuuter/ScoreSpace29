@@ -1246,6 +1246,15 @@
         "name": "assets\\Esc Key.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2343.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2343.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3238,15 +3247,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 560,
-          "keepRatio": true,
+          "depth": 2,
+          "height": 909,
           "layer": "Controls",
           "name": "Controls",
           "persistentUuid": "8ac2c9d7-dae0-46b0-a15f-11ba8afa4bf1",
-          "width": 152,
-          "x": 0,
-          "y": -3,
+          "width": 234,
+          "x": -45,
+          "y": -154,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -6906,7 +6914,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite3",
+                      "image": "IMG_2343.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6922,20 +6930,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 20,
+                            "y": 1
                           },
                           {
-                            "x": 150,
-                            "y": 0
+                            "x": 280,
+                            "y": 1
                           },
                           {
-                            "x": 150,
-                            "y": 560
+                            "x": 280,
+                            "y": 877
                           },
                           {
-                            "x": 0,
-                            "y": 560
+                            "x": 20,
+                            "y": 877
                           }
                         ]
                       ]
@@ -6971,20 +6979,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 20,
+                            "y": 1
                           },
                           {
-                            "x": 150,
-                            "y": 0
+                            "x": 280,
+                            "y": 1
                           },
                           {
-                            "x": 150,
-                            "y": 560
+                            "x": 280,
+                            "y": 877
                           },
                           {
-                            "x": 0,
-                            "y": 560
+                            "x": 20,
+                            "y": 877
                           }
                         ]
                       ]
@@ -7007,20 +7015,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 20,
+                            "y": 1
                           },
                           {
-                            "x": 150,
-                            "y": 0
+                            "x": 280,
+                            "y": 1
                           },
                           {
-                            "x": 150,
-                            "y": 560
+                            "x": 280,
+                            "y": 877
                           },
                           {
-                            "x": 0,
-                            "y": 560
+                            "x": 20,
+                            "y": 877
                           }
                         ]
                       ]
@@ -7268,24 +7276,6 @@
               },
               "stringParameters": {},
               "booleanParameters": {}
-            },
-            {
-              "effectType": "DropShadow",
-              "name": "Effect2",
-              "doubleParameters": {
-                "alpha": 1,
-                "blur": 1,
-                "distance": 5,
-                "padding": 10,
-                "quality": 7,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "color": "54;53;53"
-              },
-              "booleanParameters": {
-                "shadowOnly": false
-              }
             }
           ],
           "behaviors": [],
@@ -9343,7 +9333,26 @@
           "renderingType": "",
           "visibility": true,
           "cameras": [],
-          "effects": []
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 1,
+                "distance": 5,
+                "padding": 10,
+                "quality": 7,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "40;40;40"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ]
         },
         {
           "ambientLightColorB": 200,
