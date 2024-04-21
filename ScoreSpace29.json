@@ -6981,43 +6981,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Controls",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 20,
-                            "y": 1
-                          },
-                          {
-                            "x": 280,
-                            "y": 1
-                          },
-                          {
-                            "x": 280,
-                            "y": 877
-                          },
-                          {
-                            "x": 20,
-                            "y": 877
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\NewSprite3.png",
+                      "image": "IMG_2343.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
