@@ -1215,6 +1215,15 @@
         "name": "IMG_2332.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Stone.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Stone.PNG",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2702,6 +2711,9 @@
             },
             {
               "name": "Bones1"
+            },
+            {
+              "name": "Stone1"
             }
           ]
         }
@@ -2728,6 +2740,11 @@
             {
               "type": "string",
               "value": "Bones1"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "Stone1"
             }
           ]
         },
@@ -3170,7 +3187,7 @@
           "width": 0,
           "x": 132,
           "y": 440,
-          "zOrder": 4,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3186,7 +3203,7 @@
           "width": 0,
           "x": 1010,
           "y": 440,
-          "zOrder": 4,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3201,9 +3218,9 @@
           "name": "Controls",
           "persistentUuid": "8ac2c9d7-dae0-46b0-a15f-11ba8afa4bf1",
           "width": 152,
-          "x": -1,
+          "x": 0,
           "y": -3,
-          "zOrder": 5,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3233,8 +3250,8 @@
           "name": "Star",
           "persistentUuid": "4836dc8c-d823-45b7-a2bc-fb5059a0d92a",
           "width": 0,
-          "x": 101,
-          "y": 88,
+          "x": 109,
+          "y": 115,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -7321,6 +7338,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Stone1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Stone.PNG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 55,
+                        "y": 70
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 17.5
+                          },
+                          {
+                            "x": 83,
+                            "y": 17.5
+                          },
+                          {
+                            "x": 83,
+                            "y": 89
+                          },
+                          {
+                            "x": 31,
+                            "y": 89
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -7388,6 +7465,9 @@
           },
           {
             "objectName": "Bones1"
+          },
+          {
+            "objectName": "Stone1"
           }
         ]
       },
@@ -8706,6 +8786,16 @@
                     },
                     {
                       "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Obstacles",
+                        "=",
+                        "10"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "ResetTimer"
                       },
                       "parameters": [
@@ -8877,6 +8967,16 @@
                         "-(Speed*ObstaclesMultiplier)",
                         "0",
                         "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Star",
+                        "=",
+                        "10"
                       ]
                     },
                     {
