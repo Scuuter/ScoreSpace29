@@ -3185,7 +3185,7 @@
           "name": "BackBushlow",
           "persistentUuid": "61775742-1509-4da7-aa5d-81602af301a3",
           "width": 0,
-          "x": 132,
+          "x": 1012,
           "y": 440,
           "zOrder": 11,
           "numberProperties": [],
@@ -3201,7 +3201,7 @@
           "name": "BackBushlow",
           "persistentUuid": "15bedba7-b020-4011-8394-caf8e18af75e",
           "width": 0,
-          "x": 1010,
+          "x": 132,
           "y": 440,
           "zOrder": 11,
           "numberProperties": [],
@@ -6708,18 +6708,6 @@
           "variables": [],
           "effects": [
             {
-              "effectType": "Blur",
-              "name": "Effect",
-              "doubleParameters": {
-                "blur": 1,
-                "kernelSize": 5,
-                "quality": 1,
-                "resolution": 7
-              },
-              "stringParameters": {},
-              "booleanParameters": {}
-            },
-            {
               "effectType": "LightNight",
               "name": "Effect2",
               "doubleParameters": {
@@ -8130,36 +8118,46 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
-                    "value": "MettreX"
+                    "value": "AddForceXY"
                   },
                   "parameters": [
                     "Background_soil",
-                    "-",
-                    "2"
+                    "-(Speed*ObstaclesMultiplier)",
+                    "0",
+                    "1"
                   ]
                 },
                 {
                   "type": {
-                    "value": "MettreX"
-                  },
-                  "parameters": [
-                    "BackBushlow",
-                    "-",
-                    "2.2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MettreX"
+                    "value": "AddForceXY"
                   },
                   "parameters": [
                     "BackBushtop",
-                    "-",
-                    "1.9"
+                    "-(Speed*ObstaclesMultiplier)",
+                    "0",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "BackBushlow",
+                    "-(Speed*(ObstaclesMultiplier+0.1))",
+                    "0",
+                    "1"
                   ]
                 }
               ]
@@ -8186,8 +8184,8 @@
                   },
                   "parameters": [
                     "Background_soil",
-                    "=",
-                    "Background_soil.Width()+150"
+                    "+",
+                    "Background_soil.Width()*2"
                   ]
                 }
               ]
@@ -8203,7 +8201,7 @@
                   "parameters": [
                     "BackBushlow",
                     "<=",
-                    "-BackBushlow.Width() + 132"
+                    "-BackBushlow.Width() + 152"
                   ]
                 }
               ],
@@ -8214,8 +8212,8 @@
                   },
                   "parameters": [
                     "BackBushlow",
-                    "=",
-                    "BackBushlow.Width()+132"
+                    "+",
+                    "BackBushlow.Width()*2"
                   ]
                 }
               ]
@@ -8242,8 +8240,8 @@
                   },
                   "parameters": [
                     "BackBushtop",
-                    "=",
-                    "BackBushtop.Width()+150"
+                    "+",
+                    "BackBushtop.Width()*2"
                   ]
                 }
               ]
