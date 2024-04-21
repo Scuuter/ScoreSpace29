@@ -2735,15 +2735,15 @@
       ]
     },
     {
-      "b": 209,
+      "b": 46,
       "disableInputWhenNotFocused": true,
       "mangledName": "Game_32scene",
       "name": "Game scene",
-      "r": 209,
+      "r": 25,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 209,
+      "v": 51,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
