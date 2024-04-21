@@ -653,64 +653,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Gold star.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Gold star.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/PNG/Power-ups/d2c87a6e3ac348938548c317e0ef9609d267e8b4ddd1438cccedb4117b5862e0_Gold star.png",
-          "name": "Gold star.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/fence2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "fence",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/On Screen Controls Button_Hovered.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "On Screen Controls Button_Hovered.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/16e804dda11f82902d6b7469420d7b3b81d68ef00af71783070dd284114e8cdc_On Screen Controls Button_Hovered.png",
-          "name": "On Screen Controls Button_Hovered.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/On Screen Controls Button_Idle.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "On Screen Controls Button_Idle.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/174644b98156cc55e10a4eb991aebb06e0a2c9f98915abb1422cababc3124de3_On Screen Controls Button_Idle.png",
-          "name": "On Screen Controls Button_Idle.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/On Screen Controls Button_Pressed.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "On Screen Controls Button_Pressed.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5a44f1cb97ef7da59c97179346b71d3f5b913af0208795784707c062fc20749f_On Screen Controls Button_Pressed.png",
-          "name": "On Screen Controls Button_Pressed.png"
-        }
       },
       {
         "file": "assets/Roboto-Regular.ttf",
@@ -770,15 +718,6 @@
         "kind": "image",
         "metadata": "",
         "name": "IMG_2319.PNG",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "IMG_2296 копия.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "IMG_2296 копия.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -898,6 +837,15 @@
         "name": "IMG_2296_copy.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gold_star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Gold_star.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6557,7 +6505,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Gold star.png",
+                      "image": "assets\\Gold_star.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
