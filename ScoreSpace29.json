@@ -2716,6 +2716,12 @@
           "name": "StarCount",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "StarsToHandsTrigger",
+          "type": "number",
+          "value": 1
         }
       ],
       "instances": [
@@ -3142,8 +3148,8 @@
           "name": "Hands",
           "persistentUuid": "48caf61d-b3df-4c83-be3f-76e524697545",
           "width": 0,
-          "x": 151,
-          "y": 353,
+          "x": 150,
+          "y": 355,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -3207,8 +3213,8 @@
           "name": "Stars",
           "persistentUuid": "7400f954-55b0-4578-bc90-17d82eb1fb27",
           "width": 0,
-          "x": 60,
-          "y": 63,
+          "x": 8,
+          "y": 62,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -3223,7 +3229,7 @@
           "name": "Star",
           "persistentUuid": "4836dc8c-d823-45b7-a2bc-fb5059a0d92a",
           "width": 0,
-          "x": 109,
+          "x": 58,
           "y": 94,
           "zOrder": 16,
           "numberProperties": [],
@@ -6658,7 +6664,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Hands",
           "type": "Sprite",
@@ -6684,7 +6690,12 @@
               }
             }
           ],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -6721,11 +6732,11 @@
                           },
                           {
                             "x": 302,
-                            "y": 138
+                            "y": 120
                           },
                           {
                             "x": 9,
-                            "y": 138
+                            "y": 120
                           }
                         ]
                       ]
@@ -6939,17 +6950,6 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "LetterKey_ability",
-                "Animation",
-                "=",
-                "\"Escape\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
                 "RedHatBoy",
                 "Animation",
                 "=",
@@ -7072,6 +7072,18 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Count and show scores"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -8039,6 +8051,160 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Hands logic",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "StarCount",
+                    "=",
+                    "StarsToHandsTrigger"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AjoutHasard"
+                  },
+                  "parameters": [
+                    "",
+                    "Destroyer"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Hands",
+                    "=",
+                    "Destroyer.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                  },
+                  "parameters": [
+                    "Hands",
+                    "Tween",
+                    "\"HandsIndicator\"",
+                    "190",
+                    "\"linear\"",
+                    "1",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "StarsToHandsTrigger",
+                    "+",
+                    "5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Hands",
+                    "Tween",
+                    "\"HandsIndicator\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                  },
+                  "parameters": [
+                    "Hands",
+                    "Tween",
+                    "\"HandsAttack\"",
+                    "400",
+                    "\"linear\"",
+                    "1",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::RemoveTween"
+                  },
+                  "parameters": [
+                    "Hands",
+                    "Tween",
+                    "\"HandsIndicator\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Hands",
+                    "Tween",
+                    "\"HandsAttack\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                  },
+                  "parameters": [
+                    "Hands",
+                    "Tween",
+                    "\"HandsReturn\"",
+                    "150",
+                    "\"linear\"",
+                    "2",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::RemoveTween"
+                  },
+                  "parameters": [
+                    "Hands",
+                    "Tween",
+                    "\"HandsAttack\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -8148,6 +8314,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     }
