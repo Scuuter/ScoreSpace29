@@ -8237,25 +8237,53 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "RedHatBoy",
-                    "Animation",
-                    "!=",
-                    "\"Slide\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "RedHatBoy",
-                    "Obstacles",
-                    "",
-                    "",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "RedHatBoy",
+                            "Obstacles",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                          },
+                          "parameters": [
+                            "RedHatBoy",
+                            "Animation",
+                            "!=",
+                            "\"Slide\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "RedHatBoy",
+                        "Hands",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ],
@@ -9876,6 +9904,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ExitScene",
+          "persistentUuid": "7f9ec5eb-807c-4416-9151-f18a56da19d4",
+          "width": 0,
+          "x": 227,
+          "y": 438,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -10124,6 +10168,47 @@
             "characterSize": 80,
             "color": "255;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ExitScene",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Press any key to ESCAPE",
+          "font": "Jersey10-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Press any key to ESCAPE",
+            "font": "Jersey10-Regular.ttf",
+            "textAlignment": "left",
+            "characterSize": 60,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -10133,19 +10218,22 @@
             "objectName": "DistanceName"
           },
           {
-            "objectName": "ScoreName"
+            "objectName": "DistanceValue"
           },
           {
             "objectName": "StarsName"
           },
           {
-            "objectName": "DistanceValue"
-          },
-          {
             "objectName": "StarsValue"
           },
           {
+            "objectName": "ScoreName"
+          },
+          {
             "objectName": "ScoreValue"
+          },
+          {
+            "objectName": "ExitScene"
           }
         ]
       },
