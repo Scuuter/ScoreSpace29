@@ -1,6 +1,4 @@
 gdjs.Menu_32sceneCode = {};
-gdjs.Menu_32sceneCode.GDOnScreenControlsButtonObjects1= [];
-gdjs.Menu_32sceneCode.GDOnScreenControlsButtonObjects2= [];
 gdjs.Menu_32sceneCode.GDScoreObjects1= [];
 gdjs.Menu_32sceneCode.GDScoreObjects2= [];
 gdjs.Menu_32sceneCode.GDTitle1Objects1= [];
@@ -29,9 +27,21 @@ gdjs.Menu_32sceneCode.GDBack_9595cloud_9595menuObjects1= [];
 gdjs.Menu_32sceneCode.GDBack_9595cloud_9595menuObjects2= [];
 gdjs.Menu_32sceneCode.GDBack_9595soil_9595menuObjects1= [];
 gdjs.Menu_32sceneCode.GDBack_9595soil_9595menuObjects2= [];
+gdjs.Menu_32sceneCode.GDNewSpriteObjects1= [];
+gdjs.Menu_32sceneCode.GDNewSpriteObjects2= [];
+gdjs.Menu_32sceneCode.GDMenuLightsObjects1= [];
+gdjs.Menu_32sceneCode.GDMenuLightsObjects2= [];
+gdjs.Menu_32sceneCode.GDMusicVObjects1= [];
+gdjs.Menu_32sceneCode.GDMusicVObjects2= [];
+gdjs.Menu_32sceneCode.GDSoundsVObjects1= [];
+gdjs.Menu_32sceneCode.GDSoundsVObjects2= [];
+gdjs.Menu_32sceneCode.GDMusicSliderObjects1= [];
+gdjs.Menu_32sceneCode.GDMusicSliderObjects2= [];
+gdjs.Menu_32sceneCode.GDSoundsSliderObjects1= [];
+gdjs.Menu_32sceneCode.GDSoundsSliderObjects2= [];
 
 
-gdjs.Menu_32sceneCode.asyncCallback13205172 = function (runtimeScene, asyncObjectsList) {
+gdjs.Menu_32sceneCode.asyncCallback12642140 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("Etitle"), gdjs.Menu_32sceneCode.GDEtitleObjects2);
 {for(var i = 0, len = gdjs.Menu_32sceneCode.GDEtitleObjects2.length ;i < len;++i) {
     gdjs.Menu_32sceneCode.GDEtitleObjects2[i].getBehavior("Tween").addObjectAngleTween2("Eangle", 45, "linear", 1, false);
@@ -45,7 +55,7 @@ gdjs.Menu_32sceneCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Menu_32sceneCode.asyncCallback13205172(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Menu_32sceneCode.asyncCallback12642140(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -349,8 +359,6 @@ for(var i = 0, len = gdjs.Menu_32sceneCode.GDBackbuttonObjects1.length ;i < len;
 gdjs.Menu_32sceneCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.Menu_32sceneCode.GDOnScreenControlsButtonObjects1.length = 0;
-gdjs.Menu_32sceneCode.GDOnScreenControlsButtonObjects2.length = 0;
 gdjs.Menu_32sceneCode.GDScoreObjects1.length = 0;
 gdjs.Menu_32sceneCode.GDScoreObjects2.length = 0;
 gdjs.Menu_32sceneCode.GDTitle1Objects1.length = 0;
@@ -379,6 +387,18 @@ gdjs.Menu_32sceneCode.GDBack_9595cloud_9595menuObjects1.length = 0;
 gdjs.Menu_32sceneCode.GDBack_9595cloud_9595menuObjects2.length = 0;
 gdjs.Menu_32sceneCode.GDBack_9595soil_9595menuObjects1.length = 0;
 gdjs.Menu_32sceneCode.GDBack_9595soil_9595menuObjects2.length = 0;
+gdjs.Menu_32sceneCode.GDNewSpriteObjects1.length = 0;
+gdjs.Menu_32sceneCode.GDNewSpriteObjects2.length = 0;
+gdjs.Menu_32sceneCode.GDMenuLightsObjects1.length = 0;
+gdjs.Menu_32sceneCode.GDMenuLightsObjects2.length = 0;
+gdjs.Menu_32sceneCode.GDMusicVObjects1.length = 0;
+gdjs.Menu_32sceneCode.GDMusicVObjects2.length = 0;
+gdjs.Menu_32sceneCode.GDSoundsVObjects1.length = 0;
+gdjs.Menu_32sceneCode.GDSoundsVObjects2.length = 0;
+gdjs.Menu_32sceneCode.GDMusicSliderObjects1.length = 0;
+gdjs.Menu_32sceneCode.GDMusicSliderObjects2.length = 0;
+gdjs.Menu_32sceneCode.GDSoundsSliderObjects1.length = 0;
+gdjs.Menu_32sceneCode.GDSoundsSliderObjects2.length = 0;
 
 gdjs.Menu_32sceneCode.eventsList1(runtimeScene);
 
