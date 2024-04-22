@@ -9229,7 +9229,7 @@
                         "",
                         "\"Obstacle\"",
                         ">=",
-                        "0.5"
+                        "0.7*100/Speed"
                       ]
                     }
                   ],
@@ -9344,7 +9344,7 @@
                             "Spawn",
                             "Cooldown",
                             "=",
-                            "RandomFloatInRange(2, 5)"
+                            "RandomFloatInRange(2, 5) * 100 / Speed"
                           ]
                         }
                       ]
@@ -9385,7 +9385,7 @@
                             "Spawn",
                             "Cooldown",
                             "=",
-                            "RandomFloatInRange(1,2)"
+                            "RandomFloatInRange(1,2) * 100 / Speed"
                           ]
                         }
                       ]
@@ -9472,7 +9472,7 @@
                         "Spawn",
                         "Cooldown",
                         "=",
-                        "RandomFloatInRange(1,2)"
+                        "RandomFloatInRange(1,2) * 100 / Speed"
                       ]
                     }
                   ]
