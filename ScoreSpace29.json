@@ -1126,8 +1126,8 @@
           "name": "Score2",
           "persistentUuid": "377ab845-506d-4d37-a5d0-8cd7aa0a96fd",
           "width": 0,
-          "x": 384,
-          "y": 426,
+          "x": 382,
+          "y": 439,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -1874,10 +1874,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "ore:",
+          "string": "ORE",
           "font": "GloriaHallelujah-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 40,
+          "characterSize": 30,
           "color": {
             "b": 255,
             "g": 255,
@@ -1897,10 +1897,10 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "ore:",
+            "text": "ORE",
             "font": "GloriaHallelujah-Regular.ttf",
             "textAlignment": "left",
-            "characterSize": 40,
+            "characterSize": 30,
             "color": "255;255;255"
           }
         },
@@ -3079,7 +3079,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6710943652414624,
+        "zoomFactor": 0.6492030249510243,
         "windowMask": false
       },
       "objectsGroups": [
@@ -9909,7 +9909,7 @@
                         "",
                         "\"Obstacle\"",
                         ">=",
-                        "0.7*100/Speed"
+                        "0.5"
                       ]
                     }
                   ],
@@ -10024,7 +10024,7 @@
                             "Spawn",
                             "Cooldown",
                             "=",
-                            "RandomFloatInRange(2, 5) * 100 / Speed"
+                            "RandomFloatInRange(2, 5)"
                           ]
                         }
                       ]
@@ -10065,7 +10065,7 @@
                             "Spawn",
                             "Cooldown",
                             "=",
-                            "RandomFloatInRange(1,2) * 100 / Speed"
+                            "RandomFloatInRange(1,2)"
                           ]
                         }
                       ]
@@ -10152,7 +10152,7 @@
                         "Spawn",
                         "Cooldown",
                         "=",
-                        "RandomFloatInRange(1,2) * 100 / Speed"
+                        "RandomFloatInRange(1,2)"
                       ]
                     }
                   ]
@@ -10611,8 +10611,8 @@
           "name": "DistanceName",
           "persistentUuid": "8554cb26-91ca-4cba-9350-1605ff008acf",
           "width": 0,
-          "x": 340,
-          "y": 153,
+          "x": 299,
+          "y": 166,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -10627,8 +10627,8 @@
           "name": "DistanceValue",
           "persistentUuid": "9c73bc13-1a16-4195-b6ee-3bbb993e23bb",
           "width": 0,
-          "x": 550,
-          "y": 153,
+          "x": 571,
+          "y": 160,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -10643,8 +10643,8 @@
           "name": "StarsName",
           "persistentUuid": "9cba1996-1d2e-4645-9705-d94aeff4876e",
           "width": 0,
-          "x": 340,
-          "y": 214,
+          "x": 331,
+          "y": 235,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -10659,8 +10659,8 @@
           "name": "StarsValue",
           "persistentUuid": "84feeab2-36c6-4795-8295-74893e722c08",
           "width": 0,
-          "x": 550,
-          "y": 214,
+          "x": 571,
+          "y": 235,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -10672,11 +10672,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "ScoreName",
+          "name": "ScoreName1",
           "persistentUuid": "94bfdcb9-08b5-4268-95e5-aae7e4f8c874",
           "width": 0,
-          "x": 340,
-          "y": 341,
+          "x": 367,
+          "y": 329,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -10691,8 +10691,8 @@
           "name": "ScoreValue",
           "persistentUuid": "cd313610-90a5-45d3-96fb-744794756289",
           "width": 0,
-          "x": 550,
-          "y": 341,
+          "x": 576,
+          "y": 323,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -10704,12 +10704,44 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "ExitScene",
+          "name": "ExitScene1",
           "persistentUuid": "7f9ec5eb-807c-4416-9151-f18a56da19d4",
           "width": 0,
-          "x": 227,
-          "y": 438,
+          "x": 236,
+          "y": 458,
           "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScoreName2",
+          "persistentUuid": "6960d714-869f-4281-b467-340cc4eb8479",
+          "width": 0,
+          "x": 432,
+          "y": 343,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ExitScene2",
+          "persistentUuid": "36533dfe-874d-439e-a9ec-306c8838295e",
+          "width": 0,
+          "x": 579,
+          "y": 459,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10728,9 +10760,9 @@
           "effects": [],
           "behaviors": [],
           "string": "DISTANCE",
-          "font": "Jersey10-Regular.ttf",
+          "font": "GloriaHallelujah-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 60,
+          "characterSize": 40,
           "color": {
             "b": 0,
             "g": 0,
@@ -10751,9 +10783,9 @@
             "smoothed": true,
             "underlined": false,
             "text": "DISTANCE",
-            "font": "Jersey10-Regular.ttf",
+            "font": "GloriaHallelujah-Regular.ttf",
             "textAlignment": "left",
-            "characterSize": 60,
+            "characterSize": 40,
             "color": "0;0;0"
           }
         },
@@ -10769,9 +10801,9 @@
           "effects": [],
           "behaviors": [],
           "string": "0",
-          "font": "Jersey10-Regular.ttf",
+          "font": "GloriaHallelujah-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 60,
+          "characterSize": 40,
           "color": {
             "b": 0,
             "g": 0,
@@ -10792,9 +10824,9 @@
             "smoothed": true,
             "underlined": false,
             "text": "0",
-            "font": "Jersey10-Regular.ttf",
+            "font": "GloriaHallelujah-Regular.ttf",
             "textAlignment": "left",
-            "characterSize": 60,
+            "characterSize": 40,
             "color": "255;0;0"
           }
         },
@@ -10809,7 +10841,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "STARS",
+          "string": "    STARS",
           "font": "Jersey10-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 60,
@@ -10832,7 +10864,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "STARS",
+            "text": "    STARS",
             "font": "Jersey10-Regular.ttf",
             "textAlignment": "left",
             "characterSize": 60,
@@ -10884,14 +10916,14 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "ScoreName",
+          "name": "ScoreName1",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "SCORE",
+          "string": "SC",
           "font": "Jersey10-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 80,
@@ -10914,7 +10946,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "SCORE",
+            "text": "SC",
             "font": "Jersey10-Regular.ttf",
             "textAlignment": "left",
             "characterSize": 80,
@@ -10933,9 +10965,9 @@
           "effects": [],
           "behaviors": [],
           "string": "0",
-          "font": "Jersey10-Regular.ttf",
+          "font": "GloriaHallelujah-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 80,
+          "characterSize": 60,
           "color": {
             "b": 0,
             "g": 0,
@@ -10956,9 +10988,9 @@
             "smoothed": true,
             "underlined": false,
             "text": "0",
-            "font": "Jersey10-Regular.ttf",
+            "font": "GloriaHallelujah-Regular.ttf",
             "textAlignment": "left",
-            "characterSize": 80,
+            "characterSize": 60,
             "color": "255;0;0"
           }
         },
@@ -10966,14 +10998,114 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "ExitScene",
+          "name": "ExitScene1",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Press any key to ESCAPE",
+          "string": "Press any key to",
+          "font": "GloriaHallelujah-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Press any key to",
+            "font": "GloriaHallelujah-Regular.ttf",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ScoreName2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "ORE",
+          "font": "GloriaHallelujah-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "ORE",
+            "font": "GloriaHallelujah-Regular.ttf",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ExitScene2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "ESCAPE",
           "font": "Jersey10-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 60,
@@ -10996,7 +11128,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Press any key to ESCAPE",
+            "text": "ESCAPE",
             "font": "Jersey10-Regular.ttf",
             "textAlignment": "left",
             "characterSize": 60,
@@ -11020,13 +11152,19 @@
             "objectName": "StarsValue"
           },
           {
-            "objectName": "ScoreName"
+            "objectName": "ScoreName1"
+          },
+          {
+            "objectName": "ScoreName2"
           },
           {
             "objectName": "ScoreValue"
           },
           {
-            "objectName": "ExitScene"
+            "objectName": "ExitScene1"
+          },
+          {
+            "objectName": "ExitScene2"
           }
         ]
       },
@@ -11076,6 +11214,20 @@
                 "=",
                 "ToString(roundTo(LastDistance*LastMultiplier*100, 2))"
               ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"rightEtween\"",
+                "5",
+                "\"linear\"",
+                "0.5",
+                "no"
+              ]
             }
           ]
         },
@@ -11100,6 +11252,88 @@
                 "",
                 "\"Menu scene\"",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"leftEtween\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"leftEtween\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"rightEtween\"",
+                "5",
+                "\"linear\"",
+                "1",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"rightEtween\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"rightEtween\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"leftEtween\"",
+                "-5",
+                "\"linear\"",
+                "1",
+                "no"
               ]
             }
           ]
@@ -11167,6 +11401,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     }
