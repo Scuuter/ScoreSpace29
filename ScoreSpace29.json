@@ -1018,13 +1018,13 @@
           "folded": true,
           "name": "Music_volume",
           "type": "number",
-          "value": 0
+          "value": 50
         },
         {
           "folded": true,
           "name": "Sound_volume",
           "type": "number",
-          "value": 0
+          "value": 50
         }
       ]
     }
@@ -3134,6 +3134,26 @@
             },
             {
               "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Settings.Music_volume",
+                "=",
+                "MusicSlider.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Settings.Sound_volume",
+                "=",
+                "SoundsSlider.Value()"
+              ]
+            },
+            {
+              "type": {
                 "value": "PlayMusicCanal"
               },
               "parameters": [
@@ -3141,7 +3161,7 @@
                 "Midnight Masquerade-timestrech.mp3",
                 "1",
                 "yes",
-                "100",
+                "Settings.Music_volume",
                 ""
               ]
             }
@@ -8800,8 +8820,8 @@
                     "",
                     "Pickup_coin4.wav",
                     "",
-                    "Settings.Sound_volume",
-                    ""
+                    "Settings.Sound_volume*0.8",
+                    "RandomFloatInRange(1,2)"
                   ]
                 },
                 {
