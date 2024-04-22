@@ -1708,7 +1708,7 @@
                 "thickness": 3
               },
               "stringParameters": {
-                "color": "153;145;38"
+                "color": "204;131;11"
               },
               "booleanParameters": {}
             }
@@ -1777,7 +1777,7 @@
                 "thickness": 2
               },
               "stringParameters": {
-                "color": "153;145;38"
+                "color": "204;131;11"
               },
               "booleanParameters": {}
             }
@@ -1846,7 +1846,7 @@
                 "thickness": 2
               },
               "stringParameters": {
-                "color": "153;145;38"
+                "color": "204;131;11"
               },
               "booleanParameters": {}
             }
@@ -2038,7 +2038,7 @@
                 "thickness": 2
               },
               "stringParameters": {
-                "color": "153;145;38"
+                "color": "204;131;11"
               },
               "booleanParameters": {}
             }
