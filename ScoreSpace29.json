@@ -3463,6 +3463,35 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MusicStopped"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Midnight Masquerade-timestrech.mp3",
+                "1",
+                "yes",
+                "Settings.Music_volume",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -10435,6 +10464,35 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MusicStopped"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Midnight Masquerade-timestrech.mp3",
+                "1",
+                "yes",
+                "Settings.Music_volume",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
