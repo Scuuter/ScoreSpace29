@@ -914,6 +914,16 @@
         "name": "Loading.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "WE_Thunder_10-timestrech.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "WE_Thunder_10-timestrech.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8891,6 +8901,18 @@
                         },
                         {
                           "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "WE_Thunder_10-timestrech.mp3",
+                            "no",
+                            "Settings.Sound_volume",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Wait"
                           },
                           "parameters": [
@@ -9152,6 +9174,18 @@
                     "Animation",
                     "=",
                     "\"ChangeInput\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "WE_Thunder_10-timestrech.mp3",
+                    "no",
+                    "Settings.Sound_volume",
+                    ""
                   ]
                 },
                 {
