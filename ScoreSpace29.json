@@ -3648,8 +3648,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 39.29766233766233,
-          "height": 62,
+          "depth": 39,
+          "height": 61,
           "layer": "Controls",
           "name": "AbilityBar",
           "persistentUuid": "03edb65c-aadc-450b-ba90-6fd51249523d",
@@ -9595,6 +9595,17 @@
                     "-",
                     "104"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "LetterKey_up",
+                    "Effect",
+                    "\"Glow\"",
+                    "yes"
+                  ]
                 }
               ]
             },
@@ -9630,6 +9641,71 @@
                     "RedHatBoy",
                     "+",
                     "104"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "LetterKey_down",
+                    "Effect",
+                    "\"Glow\"",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "LetterKey_up.Animation::Name()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "LetterKey_up",
+                    "Effect",
+                    "\"Glow\"",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "LetterKey_down.Animation::Name()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "LetterKey_down",
+                    "Effect",
+                    "\"Glow\"",
+                    "no"
                   ]
                 }
               ]
