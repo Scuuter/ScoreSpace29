@@ -984,7 +984,7 @@
           "folded": true,
           "name": "Music_volume",
           "type": "number",
-          "value": 50
+          "value": 20
         },
         {
           "folded": true,
@@ -3100,26 +3100,6 @@
             },
             {
               "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Settings.Music_volume",
-                "=",
-                "MusicSlider.Value()"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "Settings.Sound_volume",
-                "=",
-                "SoundsSlider.Value()"
-              ]
-            },
-            {
-              "type": {
                 "value": "PlayMusicCanal"
               },
               "parameters": [
@@ -3128,6 +3108,28 @@
                 "1",
                 "yes",
                 "Settings.Music_volume",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "MusicSlider",
+                "=",
+                "Settings.Music_volume",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "SoundsSlider",
+                "=",
+                "Settings.Sound_volume",
                 ""
               ]
             }
@@ -8786,7 +8788,7 @@
                     "",
                     "Pickup_coin4.wav",
                     "",
-                    "Settings.Sound_volume*0.8",
+                    "Settings.Sound_volume*0.6",
                     "RandomFloatInRange(1,2)"
                   ]
                 },
@@ -8908,7 +8910,7 @@
                             "WE_Thunder_10-timestrech.mp3",
                             "no",
                             "Settings.Sound_volume",
-                            ""
+                            "RandomFloatInRange(1, 1.5)"
                           ]
                         },
                         {
@@ -9082,8 +9084,8 @@
                     "",
                     "Hit_hurt1.wav",
                     "no",
-                    "Settings.Sound_volume",
-                    ""
+                    "Settings.Sound_volume*0.15",
+                    "1"
                   ]
                 },
                 {
