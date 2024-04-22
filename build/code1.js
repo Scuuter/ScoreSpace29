@@ -247,7 +247,7 @@ gdjs.copyArray(runtimeScene.getObjects("Stars"), gdjs.Game_32sceneCode.GDStarsOb
 
 };gdjs.Game_32sceneCode.mapOfGDgdjs_9546Game_959532sceneCode_9546GDRedHatBoyObjects2Objects = Hashtable.newFrom({"RedHatBoy": gdjs.Game_32sceneCode.GDRedHatBoyObjects2});
 gdjs.Game_32sceneCode.mapOfGDgdjs_9546Game_959532sceneCode_9546GDStarObjects2Objects = Hashtable.newFrom({"Star": gdjs.Game_32sceneCode.GDStarObjects2});
-gdjs.Game_32sceneCode.asyncCallback13120948 = function (runtimeScene, asyncObjectsList) {
+gdjs.Game_32sceneCode.asyncCallback15744268 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Controls"), gdjs.Game_32sceneCode.GDControlsObjects3);
 
 gdjs.copyArray(runtimeScene.getObjects("LetterKey_down"), gdjs.Game_32sceneCode.GDLetterKey_9595downObjects3);
@@ -271,7 +271,7 @@ gdjs.Game_32sceneCode.eventsList4 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Game_32sceneCode.GDControlsObjects2) asyncObjectsList.addObject("Controls", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Game_32sceneCode.asyncCallback13120948(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Game_32sceneCode.asyncCallback15744268(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -328,7 +328,7 @@ gdjs.Game_32sceneCode.eventsList5(runtimeScene);
 gdjs.Game_32sceneCode.mapOfGDgdjs_9546Game_959532sceneCode_9546GDTree1Objects2ObjectsGDgdjs_9546Game_959532sceneCode_9546GDTree2Objects2ObjectsGDgdjs_9546Game_959532sceneCode_9546GDBones1Objects2ObjectsGDgdjs_9546Game_959532sceneCode_9546GDStone1Objects2Objects = Hashtable.newFrom({"Tree1": gdjs.Game_32sceneCode.GDTree1Objects2, "Tree2": gdjs.Game_32sceneCode.GDTree2Objects2, "Bones1": gdjs.Game_32sceneCode.GDBones1Objects2, "Stone1": gdjs.Game_32sceneCode.GDStone1Objects2});
 gdjs.Game_32sceneCode.mapOfGDgdjs_9546Game_959532sceneCode_9546GDRedHatBoyObjects2Objects = Hashtable.newFrom({"RedHatBoy": gdjs.Game_32sceneCode.GDRedHatBoyObjects2});
 gdjs.Game_32sceneCode.mapOfGDgdjs_9546Game_959532sceneCode_9546GDHandsObjects2Objects = Hashtable.newFrom({"Hands": gdjs.Game_32sceneCode.GDHandsObjects2});
-gdjs.Game_32sceneCode.asyncCallback13128076 = function (runtimeScene, asyncObjectsList) {
+gdjs.Game_32sceneCode.asyncCallback15976028 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Score scene", false);
 }}
 gdjs.Game_32sceneCode.eventsList8 = function(runtimeScene) {
@@ -339,7 +339,7 @@ gdjs.Game_32sceneCode.eventsList8 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.8), (runtimeScene) => (gdjs.Game_32sceneCode.asyncCallback13128076(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.8), (runtimeScene) => (gdjs.Game_32sceneCode.asyncCallback15976028(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -353,7 +353,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.8)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13126836);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15958636);
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.Game_32sceneCode.GDRedHatBoyObjects1 */
@@ -518,7 +518,7 @@ gdjs.Game_32sceneCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Game_32sceneCode.asyncCallback13131772 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Game_32sceneCode.asyncCallback16033436 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(asyncObjectsList.getObjects("Controls"), gdjs.Game_32sceneCode.GDControlsObjects2);
 
 gdjs.copyArray(runtimeScene.getObjects("LetterKey_down"), gdjs.Game_32sceneCode.GDLetterKey_9595downObjects2);
@@ -542,7 +542,7 @@ gdjs.Game_32sceneCode.eventsList11 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 for (const obj of gdjs.Game_32sceneCode.GDControlsObjects1) asyncObjectsList.addObject("Controls", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Game_32sceneCode.asyncCallback13131772(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.Game_32sceneCode.asyncCallback16033436(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -861,7 +861,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(13093660);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15797908);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.Game_32sceneCode.GDAbilityBarObjects2, gdjs.Game_32sceneCode.GDAbilityBarObjects3);

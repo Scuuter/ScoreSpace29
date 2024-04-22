@@ -52,7 +52,7 @@ if (true) {
 }
 
 
-};gdjs.Leaderboard_32sceneCode.userFunc0xa635a0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Leaderboard_32sceneCode.userFunc0xa814e0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 function GetLeaderboard() {
         // Leaderboard key
@@ -135,10 +135,14 @@ gdjs.copyArray(runtimeScene.getObjects("ScoreValue"), gdjs.Leaderboard_32sceneCo
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.object.pickNearestObject(gdjs.Leaderboard_32sceneCode.mapOfGDgdjs_9546Leaderboard_959532sceneCode_9546GDPlayerNameObjects2Objects, 280, 120 + runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() * 40, false);
+isConditionTrue_0 = gdjs.evtTools.object.pickNearestObject(gdjs.Leaderboard_32sceneCode.mapOfGDgdjs_9546Leaderboard_959532sceneCode_9546GDPlayerNameObjects2Objects, 280, 100 + runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() * 40, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.object.pickNearestObject(gdjs.Leaderboard_32sceneCode.mapOfGDgdjs_9546Leaderboard_959532sceneCode_9546GDScoreValueObjects2Objects, 600, 120 + runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() * 40, false);
+isConditionTrue_0 = gdjs.evtTools.object.pickNearestObject(gdjs.Leaderboard_32sceneCode.mapOfGDgdjs_9546Leaderboard_959532sceneCode_9546GDScoreValueObjects2Objects, 600, 80 + runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() * 40, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(2)) < 9;
+}
 }
 if (isConditionTrue_0)
 {
@@ -180,7 +184,7 @@ gdjs.Leaderboard_32sceneCode.eventsList1(runtimeScene);} //End of subevents
 {
 
 
-gdjs.Leaderboard_32sceneCode.userFunc0xa635a0(runtimeScene);
+gdjs.Leaderboard_32sceneCode.userFunc0xa814e0(runtimeScene);
 
 }
 

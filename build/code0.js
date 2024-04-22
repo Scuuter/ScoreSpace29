@@ -47,7 +47,7 @@ gdjs.Menu_32sceneCode.GDSign2Objects1= [];
 gdjs.Menu_32sceneCode.GDSign2Objects2= [];
 
 
-gdjs.Menu_32sceneCode.userFunc0xa61888 = function GDJSInlineCode(runtimeScene) {
+gdjs.Menu_32sceneCode.userFunc0x9c9fd8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 function Authentication() {
     // Game API key
@@ -128,7 +128,7 @@ if (runtimeScene.getTimeManager().isFirstFrame()) {
     Authentication();
 }
 };
-gdjs.Menu_32sceneCode.asyncCallback13018356 = function (runtimeScene, asyncObjectsList) {
+gdjs.Menu_32sceneCode.asyncCallback16192932 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("Etitle"), gdjs.Menu_32sceneCode.GDEtitleObjects2);
 gdjs.copyArray(runtimeScene.getObjects("MusicSlider"), gdjs.Menu_32sceneCode.GDMusicSliderObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Sign1"), gdjs.Menu_32sceneCode.GDSign1Objects2);
@@ -154,7 +154,7 @@ gdjs.Menu_32sceneCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Menu_32sceneCode.asyncCallback13018356(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Menu_32sceneCode.asyncCallback16192932(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -166,7 +166,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 {
 
 
-gdjs.Menu_32sceneCode.userFunc0xa61888(runtimeScene);
+gdjs.Menu_32sceneCode.userFunc0x9c9fd8(runtimeScene);
 
 }
 
