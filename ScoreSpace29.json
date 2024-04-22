@@ -8168,7 +8168,7 @@
           "effects": [
             {
               "effectType": "DropShadow",
-              "name": "Effect",
+              "name": "Glow",
               "doubleParameters": {
                 "alpha": 1,
                 "blur": 1,
@@ -8617,6 +8617,17 @@
               },
               "parameters": [
                 "Line"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "AbilityBar",
+                "Effect",
+                "\"Glow\"",
+                "no"
               ]
             }
           ],
@@ -9734,38 +9745,81 @@
                     "AbilityBar",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Escape"
-                  ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-                  },
-                  "parameters": [
-                    "AbilityBar",
-                    "=",
-                    "0",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "AbilityBar",
+                        "Effect",
+                        "\"Glow\"",
+                        "yes"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "RedHatBoy",
-                    "Animation",
-                    "=",
-                    "\"Slide\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Escape"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                      },
+                      "parameters": [
+                        "AbilityBar",
+                        "=",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "AbilityBar",
+                        "Effect",
+                        "\"Glow\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "RedHatBoy",
+                        "Animation",
+                        "=",
+                        "\"Slide\""
+                      ]
+                    }
                   ]
                 }
               ]
