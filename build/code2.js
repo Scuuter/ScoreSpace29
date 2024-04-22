@@ -45,7 +45,7 @@ gdjs.copyArray(runtimeScene.getObjects("InputPlayerName"), gdjs.Score_32sceneCod
 }
 
 
-};gdjs.Score_32sceneCode.userFunc0xa4cae0 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Score_32sceneCode.userFunc0xea4808 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 function UploadScore() {
     // Leaderboard-key
@@ -186,7 +186,7 @@ gdjs.copyArray(runtimeScene.getObjects("InputPlayerName"), gdjs.Score_32sceneCod
 
 var objects = [];
 objects.push.apply(objects,gdjs.Score_32sceneCode.GDInputPlayerNameObjects1);
-gdjs.Score_32sceneCode.userFunc0xa4cae0(runtimeScene, objects);
+gdjs.Score_32sceneCode.userFunc0xea4808(runtimeScene, objects);
 
 }
 

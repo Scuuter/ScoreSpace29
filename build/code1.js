@@ -1543,6 +1543,19 @@ gdjs.Game_32sceneCode.eventsList26(runtimeScene);
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.sound.isMusicOnChannelStopped(runtimeScene, 1);
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Midnight Masquerade-timestrech.mp3", 1, true, runtimeScene.getGame().getVariables().getFromIndex(7).getChild("Music_volume").getAsNumber(), 1);
+}}
+
+}
+
+
 };
 
 gdjs.Game_32sceneCode.func = function(runtimeScene) {

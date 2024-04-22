@@ -52,7 +52,7 @@ if (true) {
 }
 
 
-};gdjs.Leaderboard_32sceneCode.userFunc0xbea2f8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.Leaderboard_32sceneCode.userFunc0xea5f88 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 function GetLeaderboard() {
         // Leaderboard key
@@ -180,7 +180,7 @@ gdjs.Leaderboard_32sceneCode.eventsList1(runtimeScene);} //End of subevents
 {
 
 
-gdjs.Leaderboard_32sceneCode.userFunc0xbea2f8(runtimeScene);
+gdjs.Leaderboard_32sceneCode.userFunc0xea5f88(runtimeScene);
 
 }
 

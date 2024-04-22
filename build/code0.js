@@ -47,7 +47,7 @@ gdjs.Menu_32sceneCode.GDSign2Objects1= [];
 gdjs.Menu_32sceneCode.GDSign2Objects2= [];
 
 
-gdjs.Menu_32sceneCode.userFunc0x8105c0 = function GDJSInlineCode(runtimeScene) {
+gdjs.Menu_32sceneCode.userFunc0xe8e008 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 function Authentication() {
     // Game API key
@@ -167,7 +167,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 {
 
 
-gdjs.Menu_32sceneCode.userFunc0x8105c0(runtimeScene);
+gdjs.Menu_32sceneCode.userFunc0xe8e008(runtimeScene);
 
 }
 
@@ -523,6 +523,19 @@ if (isConditionTrue_0) {
 /* Reuse gdjs.Menu_32sceneCode.GDMusicSliderObjects1 */
 {runtimeScene.getGame().getVariables().getFromIndex(7).getChild("Music_volume").setNumber((( gdjs.Menu_32sceneCode.GDMusicSliderObjects1.length === 0 ) ? 0 :gdjs.Menu_32sceneCode.GDMusicSliderObjects1[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
 }{gdjs.evtTools.sound.setMusicOnChannelVolume(runtimeScene, 1, runtimeScene.getGame().getVariables().getFromIndex(7).getChild("Music_volume").getAsNumber());
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.sound.isMusicOnChannelStopped(runtimeScene, 1);
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Midnight Masquerade-timestrech.mp3", 1, true, runtimeScene.getGame().getVariables().getFromIndex(7).getChild("Music_volume").getAsNumber(), 1);
 }}
 
 }
