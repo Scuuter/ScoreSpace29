@@ -2815,6 +2815,12 @@
           "name": "CurrentAbilityCharges",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "SpeedChange",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -8433,6 +8439,16 @@
                     "1",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "SpeedChange",
+                    "+",
+                    "1"
+                  ]
                 }
               ],
               "events": [
@@ -8806,6 +8822,47 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "SpeedChange",
+                "!=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Speed",
+                "+",
+                "SpeedChange"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Star",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Obstacles",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -8816,14 +8873,7 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
+              "conditions": [],
               "actions": [
                 {
                   "type": {
@@ -8833,7 +8883,7 @@
                     "Background_soil",
                     "-(Speed*ObstaclesMultiplier)",
                     "0",
-                    "1"
+                    "0"
                   ]
                 },
                 {
@@ -8844,7 +8894,7 @@
                     "BackBushtop",
                     "-(Speed*(ObstaclesMultiplier-0.02))",
                     "0",
-                    "1"
+                    "0"
                   ]
                 },
                 {
@@ -8855,7 +8905,7 @@
                     "BackBushlow",
                     "-(Speed*(ObstaclesMultiplier+0.1))",
                     "0",
-                    "1"
+                    "0"
                   ]
                 }
               ]
