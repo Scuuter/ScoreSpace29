@@ -31,9 +31,9 @@
     "verticalSync": false,
     "platformSpecificAssets": {},
     "loadingScreen": {
-      "backgroundColor": 0,
+      "backgroundColor": 5002044,
       "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "",
+      "backgroundImageResourceName": "Loading.png",
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0.2,
@@ -43,7 +43,7 @@
       "progressBarMaxWidth": 200,
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
-      "showGDevelopSplash": true,
+      "showGDevelopSplash": false,
       "showProgressBar": true
     },
     "watermark": {
@@ -905,6 +905,15 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Loading.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Loading.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
