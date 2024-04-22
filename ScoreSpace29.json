@@ -894,6 +894,15 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/848f861767e7ce4581dba9e122ee7bafeaca57987655cebe1f78ab31d1300f0f_Square White Slider Thumb.png",
           "name": "Square White Slider Thumb.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_EscapeAbilityBackground.png5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_EscapeAbilityBackground.png5.png\"}",
+        "name": "assets\\EscapeAbilityBackground.png5",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8202,7 +8211,7 @@
               "height": 60,
               "leftMargin": 0,
               "rightMargin": 0,
-              "texture": "assets\\EscapeAbilityBackground.png4",
+              "texture": "assets\\EscapeAbilityBackground.png5",
               "tiled": true,
               "topMargin": 0,
               "width": 120
@@ -8212,7 +8221,7 @@
               "height": 60,
               "leftMargin": 0,
               "rightMargin": 0,
-              "texture": "assets\\assets_EscapeAbilityBackground.png4.png",
+              "texture": "",
               "tiled": true,
               "topMargin": 0,
               "width": 120
