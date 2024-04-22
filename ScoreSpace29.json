@@ -661,17 +661,6 @@
         "userAdded": true
       },
       {
-        "file": "assets/Roboto-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "Roboto-Regular.ttf",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
-          "name": "Roboto-Regular.ttf"
-        }
-      },
-      {
         "alwaysLoaded": false,
         "file": "assets/Bonus.png",
         "kind": "image",
@@ -795,24 +784,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_EscapeAbilityBackground.png4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\EscapeAbilityBackground.png4",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/assets_EscapeAbilityBackground.png4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\assets_EscapeAbilityBackground.png4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "IMG_2346.PNG",
         "kind": "image",
         "metadata": "",
@@ -903,6 +874,15 @@
         "name": "assets\\EscapeAbilityBackground.png5",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/EscapeAbilityBackground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\EscapeAbilityBackground.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5860,67 +5840,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "b34b4be213e9cc1ffec038b9ee1b118316bbd7f4f2584072369b5b4a68ebcc98",
-          "name": "Cactus",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "cactus 1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "cactus3",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 27.5,
-                        "y": 30
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12.5,
-                            "y": 0
-                          },
-                          {
-                            "x": 43,
-                            "y": 0
-                          },
-                          {
-                            "x": 43,
-                            "y": 80
-                          },
-                          {
-                            "x": 12.5,
-                            "y": 80
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "6e15bfe9c47f69b8d9caa5098c128b1943da60700e2084524f93a0263b8e9424",
           "name": "LetterKey_up",
@@ -6997,67 +6916,6 @@
                           {
                             "x": 0,
                             "y": 16
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "b0fa8e7f548bb1f4edef1ed8d765f3d39219f7b7cfb3fa65c95b6e4479e9fd52",
-          "name": "Fence",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "fence",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "fence",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 20,
-                        "y": 14
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 0
-                          },
-                          {
-                            "x": 81,
-                            "y": 0
-                          },
-                          {
-                            "x": 81,
-                            "y": 67
-                          },
-                          {
-                            "x": 9,
-                            "y": 67
                           }
                         ]
                       ]
@@ -8211,7 +8069,7 @@
               "height": 60,
               "leftMargin": 0,
               "rightMargin": 0,
-              "texture": "assets\\EscapeAbilityBackground.png5",
+              "texture": "assets\\EscapeAbilityBackground.png",
               "tiled": true,
               "topMargin": 0,
               "width": 120
@@ -8476,9 +8334,6 @@
             "objectName": "Line"
           },
           {
-            "objectName": "Cactus"
-          },
-          {
             "objectName": "LetterKey_up"
           },
           {
@@ -8501,9 +8356,6 @@
           },
           {
             "objectName": "Destroyer"
-          },
-          {
-            "objectName": "Fence"
           },
           {
             "objectName": "Star"
