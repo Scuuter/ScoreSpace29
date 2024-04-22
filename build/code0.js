@@ -47,7 +47,7 @@ gdjs.Menu_32sceneCode.GDSign2Objects1= [];
 gdjs.Menu_32sceneCode.GDSign2Objects2= [];
 
 
-gdjs.Menu_32sceneCode.userFunc0xae0020 = function GDJSInlineCode(runtimeScene) {
+gdjs.Menu_32sceneCode.userFunc0x8105c0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 function Authentication() {
     // Game API key
@@ -128,7 +128,7 @@ if (runtimeScene.getTimeManager().isFirstFrame()) {
     Authentication();
 }
 };
-gdjs.Menu_32sceneCode.asyncCallback13016196 = function (runtimeScene, asyncObjectsList) {
+gdjs.Menu_32sceneCode.asyncCallback13018356 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("Etitle"), gdjs.Menu_32sceneCode.GDEtitleObjects2);
 gdjs.copyArray(runtimeScene.getObjects("MusicSlider"), gdjs.Menu_32sceneCode.GDMusicSliderObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Sign1"), gdjs.Menu_32sceneCode.GDSign1Objects2);
@@ -139,9 +139,13 @@ gdjs.copyArray(runtimeScene.getObjects("SoundsSlider"), gdjs.Menu_32sceneCode.GD
 }{for(var i = 0, len = gdjs.Menu_32sceneCode.GDSign1Objects2.length ;i < len;++i) {
     gdjs.Menu_32sceneCode.GDSign1Objects2[i].getBehavior("Animation").setAnimationName("thick_line");
 }
-}{runtimeScene.getGame().getVariables().getFromIndex(7).getChild("Music_volume").setNumber((( gdjs.Menu_32sceneCode.GDMusicSliderObjects2.length === 0 ) ? 0 :gdjs.Menu_32sceneCode.GDMusicSliderObjects2[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
-}{runtimeScene.getGame().getVariables().getFromIndex(7).getChild("Sound_volume").setNumber((( gdjs.Menu_32sceneCode.GDSoundsSliderObjects2.length === 0 ) ? 0 :gdjs.Menu_32sceneCode.GDSoundsSliderObjects2[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))));
 }{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Midnight Masquerade-timestrech.mp3", 1, true, runtimeScene.getGame().getVariables().getFromIndex(7).getChild("Music_volume").getAsNumber(), 1);
+}{for(var i = 0, len = gdjs.Menu_32sceneCode.GDMusicSliderObjects2.length ;i < len;++i) {
+    gdjs.Menu_32sceneCode.GDMusicSliderObjects2[i].SetValue(runtimeScene.getGame().getVariables().getFromIndex(7).getChild("Music_volume").getAsNumber(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}{for(var i = 0, len = gdjs.Menu_32sceneCode.GDSoundsSliderObjects2.length ;i < len;++i) {
+    gdjs.Menu_32sceneCode.GDSoundsSliderObjects2[i].SetValue(runtimeScene.getGame().getVariables().getFromIndex(7).getChild("Sound_volume").getAsNumber(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
 }}
 gdjs.Menu_32sceneCode.eventsList0 = function(runtimeScene) {
 
@@ -151,7 +155,7 @@ gdjs.Menu_32sceneCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Menu_32sceneCode.asyncCallback13016196(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Menu_32sceneCode.asyncCallback13018356(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -163,7 +167,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 {
 
 
-gdjs.Menu_32sceneCode.userFunc0xae0020(runtimeScene);
+gdjs.Menu_32sceneCode.userFunc0x8105c0(runtimeScene);
 
 }
 
