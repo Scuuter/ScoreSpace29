@@ -3697,6 +3697,12 @@
           "name": "TimeFromSpeedChange",
           "type": "number",
           "value": -10
+        },
+        {
+          "folded": true,
+          "name": "StopMovement",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -5650,7 +5656,7 @@
                 {
                   "looping": false,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.1,
+                  "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -8973,6 +8979,34 @@
                 },
                 {
                   "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "StopMovement",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "RedHatBoy",
+                    "Animation",
+                    "=",
+                    "\"Dead\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.8"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Scene"
                   },
                   "parameters": [
@@ -9140,8 +9174,29 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "StopMovement",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "SpeedChange",
+                    "=",
+                    "-Speed"
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -9154,6 +9209,15 @@
                     "TimeFromSpeedChange",
                     ">=",
                     "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "StopMovement",
+                    "False"
                   ]
                 }
               ],
@@ -9208,7 +9272,7 @@
                       },
                       "parameters": [
                         "Star",
-                        "-SpeedChange",
+                        "-SpeedChange*ObstaclesMultiplier",
                         "0",
                         "1"
                       ]
@@ -9226,7 +9290,7 @@
                       },
                       "parameters": [
                         "Obstacles",
-                        "-SpeedChange",
+                        "-SpeedChange*ObstaclesMultiplier",
                         "0",
                         "1"
                       ]
