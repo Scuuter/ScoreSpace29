@@ -10587,9 +10587,25 @@
           "name": "InputPlayerName",
           "persistentUuid": "72341228-8486-4599-8dce-ff6b9b0acfa3",
           "width": 314,
-          "x": 278,
-          "y": 70,
-          "zOrder": 11,
+          "x": 330,
+          "y": 83,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "e16c9679-ccc7-43a3-a7b5-a9226ad07eec",
+          "width": 0,
+          "x": 262,
+          "y": -1,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11116,15 +11132,75 @@
             "fontResourceName": "GloriaHallelujah-Regular.ttf",
             "fontSize": 40,
             "inputType": "text",
-            "textColor": "0;0;0",
+            "textColor": "228;146;9",
             "fillColor": "255;255;255",
-            "fillOpacity": 255,
+            "fillOpacity": 0,
             "borderColor": "0;0;0",
-            "borderOpacity": 255,
+            "borderOpacity": 0,
             "borderWidth": 1,
             "readOnly": false,
             "disabled": false
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2359.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 442,
+                            "y": 0
+                          },
+                          {
+                            "x": 442,
+                            "y": 161
+                          },
+                          {
+                            "x": 0,
+                            "y": 161
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -11165,6 +11241,9 @@
           },
           {
             "objectName": "InputPlayerName"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
