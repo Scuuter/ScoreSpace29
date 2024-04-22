@@ -3187,6 +3187,12 @@
           "name": "SpeedChange",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "TimeFromSpeedChange",
+          "type": "number",
+          "value": -10
         }
       ],
       "instances": [
@@ -3341,23 +3347,6 @@
           "x": 150,
           "y": 0,
           "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 80,
-          "keepRatio": true,
-          "layer": "",
-          "name": "LetterKey_ability",
-          "persistentUuid": "2baeee7d-881d-4eee-ae86-7ddd01ddd03d",
-          "width": 80,
-          "x": 0,
-          "y": 342,
-          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3659,30 +3648,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 80,
-          "keepRatio": true,
-          "layer": "Controls",
-          "name": "LetterKey_ability",
-          "persistentUuid": "e952cd42-00f0-41e8-be31-8657c4d7283e",
-          "width": 80,
-          "x": -1,
-          "y": 387,
-          "zOrder": 3,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 5
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 39.29766233766233,
-          "height": 62,
+          "depth": 39,
+          "height": 61,
           "layer": "Controls",
           "name": "AbilityBar",
           "persistentUuid": "03edb65c-aadc-450b-ba90-6fd51249523d",
@@ -5951,7 +5918,26 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Glow",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 1,
+                "distance": 2,
+                "padding": 0,
+                "quality": 10,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "230;166;59"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
           "behaviors": [],
           "animations": [
             {
@@ -6203,7 +6189,26 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Glow",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 1,
+                "distance": 2,
+                "padding": 0,
+                "quality": 10,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "230;166;59"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
           "behaviors": [],
           "animations": [
             {
@@ -8162,7 +8167,7 @@
           "effects": [
             {
               "effectType": "DropShadow",
-              "name": "Effect",
+              "name": "Glow",
               "doubleParameters": {
                 "alpha": 1,
                 "blur": 1,
@@ -8612,6 +8617,17 @@
               "parameters": [
                 "Line"
               ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "AbilityBar",
+                "Effect",
+                "\"Glow\"",
+                "no"
+              ]
             }
           ],
           "events": [
@@ -8718,7 +8734,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Count and show TimeDelta variables",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8760,6 +8775,16 @@
                   },
                   "parameters": [
                     "TimeFromHandsTrigger",
+                    "+",
+                    "TimeDelta()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "TimeFromSpeedChange",
                     "+",
                     "TimeDelta()"
                   ]
@@ -9269,6 +9294,38 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "TimeFromSpeedChange",
+                    ">=",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "SpeedChange",
+                    "+",
+                    "10"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -9340,6 +9397,16 @@
                       },
                       "parameters": [
                         "SpeedChange",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "TimeFromSpeedChange",
                         "=",
                         "0"
                       ]
@@ -9528,6 +9595,17 @@
                     "-",
                     "104"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "LetterKey_up",
+                    "Effect",
+                    "\"Glow\"",
+                    "yes"
+                  ]
                 }
               ]
             },
@@ -9564,104 +9642,70 @@
                     "+",
                     "104"
                   ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+                },
                 {
                   "type": {
-                    "value": "VarScene"
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
                   },
                   "parameters": [
-                    "CurrentAbilityCharges",
-                    ">=",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "LetterKey_ability",
-                    ""
+                    "LetterKey_down",
+                    "Effect",
+                    "\"Glow\"",
+                    "yes"
                   ]
                 }
               ]
             },
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "VarScene"
-                  },
-                  "parameters": [
-                    "CurrentAbilityCharges",
-                    "<",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "LetterKey_ability"
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyFromTextReleased"
+                    "value": "KeyFromTextPressed"
                   },
                   "parameters": [
                     "",
-                    "LetterKey_ability.Animation::Name()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Visible"
-                  },
-                  "parameters": [
-                    "LetterKey_ability"
+                    "LetterKey_up.Animation::Name()"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "ModVarScene"
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
                   },
                   "parameters": [
-                    "CurrentAbilityCharges",
-                    "=",
-                    "0"
+                    "LetterKey_up",
+                    "Effect",
+                    "\"Glow\"",
+                    "no"
                   ]
-                },
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                    "value": "KeyFromTextPressed"
                   },
                   "parameters": [
-                    "RedHatBoy",
-                    "Animation",
-                    "=",
-                    "\"Slide\""
+                    "",
+                    "LetterKey_down.Animation::Name()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "LetterKey_down",
+                    "Effect",
+                    "\"Glow\"",
+                    "no"
                   ]
                 }
               ]
@@ -9677,38 +9721,81 @@
                     "AbilityBar",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "Escape"
-                  ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-                  },
-                  "parameters": [
-                    "AbilityBar",
-                    "=",
-                    "0",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "AbilityBar",
+                        "Effect",
+                        "\"Glow\"",
+                        "yes"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "RedHatBoy",
-                    "Animation",
-                    "=",
-                    "\"Slide\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Escape"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                      },
+                      "parameters": [
+                        "AbilityBar",
+                        "=",
+                        "0",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "AbilityBar",
+                        "Effect",
+                        "\"Glow\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "RedHatBoy",
+                        "Animation",
+                        "=",
+                        "\"Slide\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -9752,233 +9839,6 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
-            {
-              "disabled": true,
-              "folded": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"ChangeBonus\"",
-                    ">=",
-                    "RandomFloatInRange(1.5,3)"
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AjoutObjConcern"
-                      },
-                      "parameters": [
-                        "",
-                        "Spawn"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Spawn",
-                        "Animation",
-                        "=",
-                        "\"Obstacle\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AjoutHasard"
-                      },
-                      "parameters": [
-                        "",
-                        "Spawn"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Spawn",
-                        "Animation",
-                        "=",
-                        "\"Bonus\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Star",
-                        "Spawn.X()",
-                        "Spawn.Y()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Star",
-                        "-150",
-                        "0",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"ChangeBonus\""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Obstacle\"",
-                    ">=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AjoutHasard"
-                  },
-                  "parameters": [
-                    "",
-                    "Spawn"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "Spawn",
-                    "Animation",
-                    "=",
-                    "\"Obstacle\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "CreateByName"
-                  },
-                  "parameters": [
-                    "",
-                    "Obstacles",
-                    "ObstaclesArray[Random(VariableChildCount(ObstaclesArray) - 1)]",
-                    "Spawn.X()",
-                    "Spawn.Y()",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AddForceXY"
-                  },
-                  "parameters": [
-                    "Obstacles",
-                    "-150",
-                    "0",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Obstacle\""
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CompareTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"CurrentBonus\"",
-                    ">=",
-                    "0.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AjoutHasard"
-                  },
-                  "parameters": [
-                    "",
-                    "Spawn"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "Spawn",
-                    "Animation",
-                    "=",
-                    "\"Bonus\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"CurrentBonus\""
-                  ]
-                }
-              ]
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
