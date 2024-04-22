@@ -883,6 +883,16 @@
         "name": "assets\\EscapeAbilityBackground.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Pickup_coin4.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Pickup_coin4.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -8187,6 +8197,18 @@
                   },
                   "parameters": [
                     "Star",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Pickup_coin4.wav",
+                    "",
+                    "",
                     ""
                   ]
                 },
