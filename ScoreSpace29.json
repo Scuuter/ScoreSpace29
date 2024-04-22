@@ -3110,19 +3110,6 @@
             },
             {
               "type": {
-                "value": "PlayMusicCanal"
-              },
-              "parameters": [
-                "",
-                "Midnight Masquerade-timestrech.mp3",
-                "1",
-                "yes",
-                "Settings.Music_volume",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
               },
               "parameters": [

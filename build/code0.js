@@ -47,7 +47,7 @@ gdjs.Menu_32sceneCode.GDSign2Objects1= [];
 gdjs.Menu_32sceneCode.GDSign2Objects2= [];
 
 
-gdjs.Menu_32sceneCode.userFunc0xe8e008 = function GDJSInlineCode(runtimeScene) {
+gdjs.Menu_32sceneCode.userFunc0xa61888 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 function Authentication() {
     // Game API key
@@ -139,7 +139,6 @@ gdjs.copyArray(runtimeScene.getObjects("SoundsSlider"), gdjs.Menu_32sceneCode.GD
 }{for(var i = 0, len = gdjs.Menu_32sceneCode.GDSign1Objects2.length ;i < len;++i) {
     gdjs.Menu_32sceneCode.GDSign1Objects2[i].getBehavior("Animation").setAnimationName("thick_line");
 }
-}{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Midnight Masquerade-timestrech.mp3", 1, true, runtimeScene.getGame().getVariables().getFromIndex(7).getChild("Music_volume").getAsNumber(), 1);
 }{for(var i = 0, len = gdjs.Menu_32sceneCode.GDMusicSliderObjects2.length ;i < len;++i) {
     gdjs.Menu_32sceneCode.GDMusicSliderObjects2[i].SetValue(runtimeScene.getGame().getVariables().getFromIndex(7).getChild("Music_volume").getAsNumber(), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
@@ -167,7 +166,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 {
 
 
-gdjs.Menu_32sceneCode.userFunc0xe8e008(runtimeScene);
+gdjs.Menu_32sceneCode.userFunc0xa61888(runtimeScene);
 
 }
 
