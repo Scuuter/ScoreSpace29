@@ -984,7 +984,7 @@
           "persistentUuid": "56cb706e-509c-44ef-bedf-65d768f50312",
           "width": 0,
           "x": 512,
-          "y": 426,
+          "y": 423,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -1414,9 +1414,9 @@
           "effects": [],
           "behaviors": [],
           "string": "0",
-          "font": "Jersey10-Regular.ttf",
+          "font": "GloriaHallelujah-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 60,
+          "characterSize": 50,
           "color": {
             "b": 0,
             "g": 0,
@@ -1437,9 +1437,9 @@
             "smoothed": true,
             "underlined": false,
             "text": "0",
-            "font": "Jersey10-Regular.ttf",
+            "font": "GloriaHallelujah-Regular.ttf",
             "textAlignment": "left",
-            "characterSize": 60,
+            "characterSize": 50,
             "color": "255;0;0"
           }
         },
@@ -8165,7 +8165,26 @@
           "name": "AbilityBar",
           "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 1,
+                "distance": 2,
+                "padding": 0,
+                "quality": 10,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "230;166;59"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
           "behaviors": [],
           "content": {
             "BarTopPadding": 15,
