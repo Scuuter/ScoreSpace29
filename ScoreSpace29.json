@@ -10464,8 +10464,8 @@
           "persistentUuid": "8554cb26-91ca-4cba-9350-1605ff008acf",
           "width": 0,
           "x": 299,
-          "y": 166,
-          "zOrder": 2,
+          "y": 181,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10480,7 +10480,7 @@
           "persistentUuid": "9c73bc13-1a16-4195-b6ee-3bbb993e23bb",
           "width": 0,
           "x": 571,
-          "y": 160,
+          "y": 175,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -10496,7 +10496,7 @@
           "persistentUuid": "9cba1996-1d2e-4645-9705-d94aeff4876e",
           "width": 0,
           "x": 331,
-          "y": 235,
+          "y": 250,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -10512,7 +10512,7 @@
           "persistentUuid": "84feeab2-36c6-4795-8295-74893e722c08",
           "width": 0,
           "x": 571,
-          "y": 235,
+          "y": 250,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -10597,6 +10597,40 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 973,
+          "keepRatio": true,
+          "layer": "",
+          "name": "back_sloud_score",
+          "persistentUuid": "4f32782c-64d7-4917-95e0-5fbada31b421",
+          "width": 487,
+          "x": 237,
+          "y": -148,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 490,
+          "keepRatio": true,
+          "layer": "",
+          "name": "back_soil_score",
+          "persistentUuid": "a9096977-7c73-405f-bfc5-d3f7ee22ada2",
+          "width": 973,
+          "x": -8,
+          "y": -75,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -10616,9 +10650,9 @@
           "textAlignment": "left",
           "characterSize": 40,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           },
           "content": {
             "bold": false,
@@ -10638,7 +10672,7 @@
             "font": "GloriaHallelujah-Regular.ttf",
             "textAlignment": "left",
             "characterSize": 40,
-            "color": "0;0;0"
+            "color": "255;255;255"
           }
         },
         {
@@ -10698,9 +10732,9 @@
           "textAlignment": "left",
           "characterSize": 60,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           },
           "content": {
             "bold": false,
@@ -10720,7 +10754,7 @@
             "font": "Jersey10-Regular.ttf",
             "textAlignment": "left",
             "characterSize": 60,
-            "color": "0;0;0"
+            "color": "255;255;255"
           }
         },
         {
@@ -10780,9 +10814,9 @@
           "textAlignment": "left",
           "characterSize": 80,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           },
           "content": {
             "bold": false,
@@ -10802,7 +10836,7 @@
             "font": "Jersey10-Regular.ttf",
             "textAlignment": "left",
             "characterSize": 80,
-            "color": "0;0;0"
+            "color": "255;255;255"
           }
         },
         {
@@ -10862,9 +10896,9 @@
           "textAlignment": "left",
           "characterSize": 40,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 35,
+            "g": 166,
+            "r": 245
           },
           "content": {
             "bold": false,
@@ -10884,7 +10918,7 @@
             "font": "GloriaHallelujah-Regular.ttf",
             "textAlignment": "left",
             "characterSize": 40,
-            "color": "0;0;0"
+            "color": "245;166;35"
           }
         },
         {
@@ -10903,9 +10937,9 @@
           "textAlignment": "left",
           "characterSize": 40,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           },
           "content": {
             "bold": false,
@@ -10925,7 +10959,7 @@
             "font": "GloriaHallelujah-Regular.ttf",
             "textAlignment": "left",
             "characterSize": 40,
-            "color": "0;0;0"
+            "color": "255;255;255"
           }
         },
         {
@@ -10962,9 +10996,9 @@
           "textAlignment": "left",
           "characterSize": 60,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 7,
+            "g": 124,
+            "r": 204
           },
           "content": {
             "bold": false,
@@ -10984,8 +11018,128 @@
             "font": "Jersey10-Regular.ttf",
             "textAlignment": "left",
             "characterSize": 60,
-            "color": "0;0;0"
+            "color": "204;124;7"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "back_sloud_score",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2342.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21,
+                            "y": 1
+                          },
+                          {
+                            "x": 280,
+                            "y": 1
+                          },
+                          {
+                            "x": 280,
+                            "y": 877
+                          },
+                          {
+                            "x": 21,
+                            "y": 877
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "back_soil_score",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2296_copy.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 880,
+                            "y": 0
+                          },
+                          {
+                            "x": 880,
+                            "y": 490
+                          },
+                          {
+                            "x": 0,
+                            "y": 490
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -11017,6 +11171,12 @@
           },
           {
             "objectName": "ExitScene2"
+          },
+          {
+            "objectName": "back_sloud_score"
+          },
+          {
+            "objectName": "back_soil_score"
           }
         ]
       },
@@ -11239,12 +11399,24 @@
       ],
       "behaviorsSharedData": [
         {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
         {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
         },
         {
           "name": "Scale",
