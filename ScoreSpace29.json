@@ -2598,7 +2598,7 @@
                 "Score",
                 "Text",
                 "=",
-                "ToString(roundTo(GlobalVariable(HighScore), 2))"
+                "ToString(round(GlobalVariable(HighScore)))"
               ]
             },
             {
@@ -10692,7 +10692,7 @@
                 "ScoreValue",
                 "Text",
                 "=",
-                "ToString(roundTo(LastDistance*LastMultiplier*100, 2))"
+                "ToString(round(LastDistance*LastMultiplier*100))"
               ]
             },
             {
