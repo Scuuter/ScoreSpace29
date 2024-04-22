@@ -958,6 +958,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "Hit_hurt1.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Hit_hurt1.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5737,7 +5747,7 @@
                 {
                   "looping": false,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.2,
+                  "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -9069,6 +9079,27 @@
                 },
                 {
                   "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Hit_hurt1.wav",
+                    "no",
+                    "Settings.Sound_volume",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -9083,7 +9114,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "1.8"
+                    "0.9"
                   ]
                 },
                 {
