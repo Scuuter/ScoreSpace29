@@ -893,6 +893,51 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2354.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2354.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2356.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2356.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2357.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2357.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2359.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2359.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2360.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2360.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1143,7 +1188,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 2,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -1151,7 +1196,7 @@
           "name": "Title2",
           "persistentUuid": "e75b7071-df13-498d-96d4-ae7ca92b367f",
           "width": 0,
-          "x": 320,
+          "x": 317,
           "y": 106,
           "zOrder": 12,
           "numberProperties": [],
@@ -1185,7 +1230,7 @@
           "width": 0,
           "x": 613,
           "y": 33,
-          "zOrder": 14,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1220,40 +1265,6 @@
           "x": -3,
           "y": -7,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 76,
-          "keepRatio": true,
-          "layer": "Title",
-          "name": "NewSprite",
-          "persistentUuid": "cc0e2988-7f28-4788-90d1-7373a36688ec",
-          "width": 431,
-          "x": 242,
-          "y": 46,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 3,
-          "customSize": true,
-          "depth": 1,
-          "height": 60,
-          "keepRatio": true,
-          "layer": "Title",
-          "name": "NewSprite",
-          "persistentUuid": "6981c88d-e8d1-4104-af5a-0c6091fe2d0f",
-          "width": 324,
-          "x": 318,
-          "y": 112,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1414,6 +1425,55 @@
           "x": 1632,
           "y": 352,
           "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Title",
+          "name": "Sign1",
+          "persistentUuid": "7af48b64-d7e6-4d58-ba55-361db7d28d22",
+          "width": 0,
+          "x": 239,
+          "y": -37,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 51,
+          "keepRatio": true,
+          "layer": "Title",
+          "name": "SignE",
+          "persistentUuid": "7151812c-98dd-4b61-8089-56a96efadb72",
+          "width": 29,
+          "x": 634,
+          "y": 56,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 3,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Title",
+          "name": "Sign2",
+          "persistentUuid": "e76cd43b-92a5-4c0d-b85f-0d35bd4428bb",
+          "width": 0,
+          "x": 300,
+          "y": 100,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1929,14 +1989,14 @@
           "textAlignment": "left",
           "characterSize": 40,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 11,
+            "g": 131,
+            "r": 204
           },
           "content": {
             "bold": false,
             "isOutlineEnabled": false,
-            "isShadowEnabled": false,
+            "isShadowEnabled": true,
             "italic": false,
             "outlineColor": "255;255;255",
             "outlineThickness": 2,
@@ -1951,7 +2011,7 @@
             "font": "GloriaHallelujah-Regular.ttf",
             "textAlignment": "left",
             "characterSize": 40,
-            "color": "0;0;0"
+            "color": "204;131;11"
           }
         },
         {
@@ -2538,6 +2598,267 @@
               "width": 22
             }
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Sign1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 3,
+                "padding": 5,
+                "quality": 10,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "46;45;45"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "thick_line",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2354.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 441,
+                            "y": 0
+                          },
+                          {
+                            "x": 441,
+                            "y": 160
+                          },
+                          {
+                            "x": 1,
+                            "y": 160
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "normal_line",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2359.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 441,
+                            "y": 0
+                          },
+                          {
+                            "x": 441,
+                            "y": 160
+                          },
+                          {
+                            "x": 1,
+                            "y": 160
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SignE",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "KawaseBlur",
+              "name": "Effect",
+              "doubleParameters": {
+                "blur": 0.2,
+                "padding": 0.5,
+                "pixelizeX": 0,
+                "pixelizeY": 0,
+                "quality": 10
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2356.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 23,
+                            "y": 1
+                          },
+                          {
+                            "x": 23,
+                            "y": 35
+                          },
+                          {
+                            "x": 1,
+                            "y": 35
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Sign2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2360.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 2
+                          },
+                          {
+                            "x": 342,
+                            "y": 2
+                          },
+                          {
+                            "x": 342,
+                            "y": 75
+                          },
+                          {
+                            "x": 2,
+                            "y": 75
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2551,6 +2872,9 @@
           },
           {
             "objectName": "Etitle"
+          },
+          {
+            "objectName": "SignE"
           },
           {
             "objectName": "Title2"
@@ -2595,6 +2919,9 @@
             "objectName": "NewSprite"
           },
           {
+            "objectName": "Sign1"
+          },
+          {
             "objectName": "MenuLights"
           },
           {
@@ -2602,6 +2929,9 @@
           },
           {
             "objectName": "SoundsSlider"
+          },
+          {
+            "objectName": "Sign2"
           }
         ]
       },
@@ -2667,13 +2997,23 @@
                 "1",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Sign1",
+                "Animation",
+                "=",
+                "\"thick_line\""
+              ]
             }
           ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::JsCode",
               "inlineCode": [
-                "",
                 "function Authentication() {",
                 "    // Game API key",
                 "    const gameAPIKey = 'dev_5c1ec450962049d98a8620bb13826e45'",
