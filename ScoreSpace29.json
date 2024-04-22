@@ -11622,6 +11622,16 @@
                 "",
                 "Escape"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "InputPlayerName.Text::Value()",
+                "!=",
+                "\"\""
+              ]
             }
           ],
           "actions": [
