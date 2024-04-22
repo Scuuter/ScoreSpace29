@@ -3354,23 +3354,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 80,
-          "keepRatio": true,
-          "layer": "",
-          "name": "LetterKey_ability",
-          "persistentUuid": "2baeee7d-881d-4eee-ae86-7ddd01ddd03d",
-          "width": 80,
-          "x": 0,
-          "y": 342,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 106,
           "keepRatio": true,
@@ -3659,28 +3642,6 @@
           "y": -32,
           "zOrder": 4,
           "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 80,
-          "keepRatio": true,
-          "layer": "Controls",
-          "name": "LetterKey_ability",
-          "persistentUuid": "e952cd42-00f0-41e8-be31-8657c4d7283e",
-          "width": 80,
-          "x": -1,
-          "y": 387,
-          "zOrder": 3,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 5
-            }
-          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -5957,7 +5918,26 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Glow",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 1,
+                "distance": 2,
+                "padding": 0,
+                "quality": 10,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "230;166;59"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
           "behaviors": [],
           "animations": [
             {
@@ -6209,7 +6189,26 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Glow",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 1,
+                "distance": 2,
+                "padding": 0,
+                "quality": 10,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "230;166;59"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
           "behaviors": [],
           "animations": [
             {
