@@ -3187,6 +3187,12 @@
           "name": "SpeedChange",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "TimeFromSpeedChange",
+          "type": "number",
+          "value": -10
         }
       ],
       "instances": [
@@ -8699,7 +8705,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Count and show TimeDelta variables",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8741,6 +8746,16 @@
                   },
                   "parameters": [
                     "TimeFromHandsTrigger",
+                    "+",
+                    "TimeDelta()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "TimeFromSpeedChange",
                     "+",
                     "TimeDelta()"
                   ]
@@ -9250,6 +9265,11 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -9259,6 +9279,16 @@
                     "SpeedChange",
                     "!=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "TimeFromSpeedChange",
+                    ">=",
+                    "10"
                   ]
                 }
               ],
@@ -9321,6 +9351,16 @@
                       },
                       "parameters": [
                         "SpeedChange",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "TimeFromSpeedChange",
                         "=",
                         "0"
                       ]
