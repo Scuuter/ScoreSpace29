@@ -924,6 +924,36 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "horror_01_stinger_impact_01.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "horror_01_stinger_impact_01.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "horror_01_stinger_synth_1_01-timestrech.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "horror_01_stinger_synth_1_01-timestrech.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "horror_01_stinger_impact_01-timestrech.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "horror_01_stinger_impact_01-timestrech.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -9028,6 +9058,18 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "horror_01_stinger_impact_01-timestrech.mp3",
+                    "no",
+                    "Settings.Sound_volume",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
@@ -9067,27 +9109,6 @@
                 },
                 {
                   "type": {
-                    "value": "StopMusicCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "Hit_hurt1.wav",
-                    "no",
-                    "Settings.Sound_volume",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
@@ -9095,6 +9116,15 @@
                     "Animation",
                     "=",
                     "\"Dead\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
                   ]
                 },
                 {
@@ -10328,6 +10358,18 @@
                     "\"linear\"",
                     "0.5",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "horror_01_stinger_synth_1_01-timestrech.mp3",
+                    "no",
+                    "Settings.Sound_volume",
+                    ""
                   ]
                 },
                 {
