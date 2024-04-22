@@ -3144,7 +3144,7 @@
           "folded": true,
           "name": "ObstaclesMultiplier",
           "type": "number",
-          "value": 1.5
+          "value": 1.2
         },
         {
           "folded": true,
@@ -3434,14 +3434,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 16,
-          "keepRatio": true,
+          "height": 40,
           "layer": "",
           "name": "Destroyer",
           "persistentUuid": "6c6b4da3-eb01-4592-b7c2-b1c9be081268",
           "width": 16,
           "x": 30,
-          "y": 456,
+          "y": 440,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -3626,22 +3625,6 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Controls",
-          "name": "Star",
-          "persistentUuid": "4836dc8c-d823-45b7-a2bc-fb5059a0d92a",
-          "width": 0,
-          "x": 112,
-          "y": 126,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 180,
           "customSize": true,
           "depth": 0,
@@ -3819,6 +3802,22 @@
           "x": 637,
           "y": 312,
           "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Controls",
+          "name": "StarSymbol",
+          "persistentUuid": "24970a47-e3ab-4470-ad11-000bc182ba00",
+          "width": 0,
+          "x": 144,
+          "y": 127,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8369,6 +8368,66 @@
             "debugMode": false,
             "texture": ""
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "89e62a4f9681acbdcd1d65929c730c9b83cd30353c3625d082965a246d73c14f",
+          "name": "StarSymbol",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Gold_star.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 15.5,
+                        "y": 40
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 15.5,
+                        "y": 15
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 31,
+                            "y": 0
+                          },
+                          {
+                            "x": 31,
+                            "y": 30
+                          },
+                          {
+                            "x": 0,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -8415,6 +8474,9 @@
           },
           {
             "objectName": "Star"
+          },
+          {
+            "objectName": "StarSymbol"
           },
           {
             "objectName": "Background_soil"
@@ -8780,16 +8842,6 @@
                     "value": "ModVarScene"
                   },
                   "parameters": [
-                    "CurrentScore",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
                     "CurrentAbilityCharges",
                     "+",
                     "1"
@@ -8813,7 +8865,7 @@
                   "parameters": [
                     "SpeedChange",
                     "+",
-                    "1"
+                    "10"
                   ]
                 }
               ],
@@ -9188,45 +9240,97 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "SpeedChange",
-                "!=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "Speed",
-                "+",
-                "SpeedChange"
-              ]
-            }
-          ],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Speed Change",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Star",
-              "conditions": [],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Obstacles",
-              "conditions": [],
-              "actions": []
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "SpeedChange",
+                    "!=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "Speed",
+                    "+",
+                    "SpeedChange"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Star",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Star",
+                        "-SpeedChange",
+                        "0",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Obstacles",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Obstacles",
+                        "-SpeedChange",
+                        "0",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "SpeedChange",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
           "colorB": 228,
