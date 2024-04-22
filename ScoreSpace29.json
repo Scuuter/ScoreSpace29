@@ -9295,19 +9295,36 @@
                     "value": "VarScene"
                   },
                   "parameters": [
-                    "SpeedChange",
-                    "!=",
-                    "0"
+                    "TimeFromSpeedChange",
+                    ">=",
+                    "10"
                   ]
-                },
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "SpeedChange",
+                    "+",
+                    "10"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
                     "value": "VarScene"
                   },
                   "parameters": [
-                    "TimeFromSpeedChange",
-                    ">=",
-                    "10"
+                    "SpeedChange",
+                    "!=",
+                    "0"
                   ]
                 }
               ],
