@@ -1009,6 +1009,24 @@
       "name": "PlayerName",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "Settings",
+      "type": "structure",
+      "children": [
+        {
+          "folded": true,
+          "name": "Music_volume",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "Sound_volume",
+          "type": "number",
+          "value": 0
+        }
+      ]
     }
   ],
   "layouts": [
@@ -1215,8 +1233,8 @@
           "name": "Title2",
           "persistentUuid": "e75b7071-df13-498d-96d4-ae7ca92b367f",
           "width": 0,
-          "x": 317,
-          "y": 106,
+          "x": 325,
+          "y": 107,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -2006,7 +2024,7 @@
           "string": "the wrong game",
           "font": "GloriaHallelujah-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 40,
+          "characterSize": 37,
           "color": {
             "b": 11,
             "g": 131,
@@ -2029,7 +2047,7 @@
             "text": "the wrong game",
             "font": "GloriaHallelujah-Regular.ttf",
             "textAlignment": "left",
-            "characterSize": 40,
+            "characterSize": 37,
             "color": "204;131;11"
           }
         },
@@ -3381,6 +3399,69 @@
                 "0.2",
                 "",
                 "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "SoundsSlider",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Settings.Sound_volume",
+                "=",
+                "SoundsSlider.Value()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "MusicSlider",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Settings.Music_volume",
+                "=",
+                "MusicSlider.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "Settings.Music_volume"
               ]
             }
           ]
@@ -8719,7 +8800,7 @@
                     "",
                     "Pickup_coin4.wav",
                     "",
-                    "",
+                    "Settings.Sound_volume",
                     ""
                   ]
                 },
@@ -11452,7 +11533,7 @@
               "parameters": [
                 "",
                 "Crimson Nightmares.mp3",
-                "2",
+                "1",
                 "yes",
                 "",
                 ""
@@ -11634,7 +11715,7 @@
               },
               "parameters": [
                 "",
-                "\"Menu scene\"",
+                "\"Leaderboard scene\"",
                 ""
               ]
             }
@@ -12925,8 +13006,6 @@
         {
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
-            "",
-            "",
             "function GetLeaderboard() {",
             "        // Leaderboard key",
             "        const leaderboardKey = 'escap_leaderboard_key'",
