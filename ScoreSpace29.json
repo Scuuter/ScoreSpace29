@@ -983,6 +983,12 @@
       "name": "session_token",
       "type": "string",
       "value": ""
+    },
+    {
+      "folded": true,
+      "name": "PlayerName",
+      "type": "string",
+      "value": ""
     }
   ],
   "layouts": [
@@ -10581,8 +10587,8 @@
           "name": "ExitScene1",
           "persistentUuid": "7f9ec5eb-807c-4416-9151-f18a56da19d4",
           "width": 0,
-          "x": 236,
-          "y": 458,
+          "x": 450,
+          "y": 459,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -10613,7 +10619,7 @@
           "name": "ExitScene2",
           "persistentUuid": "36533dfe-874d-439e-a9ec-306c8838295e",
           "width": 0,
-          "x": 579,
+          "x": 279,
           "y": 459,
           "zOrder": 10,
           "numberProperties": [],
@@ -10650,6 +10656,23 @@
           "x": -8,
           "y": -75,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 65,
+          "keepRatio": true,
+          "layer": "",
+          "name": "InputPlayerName",
+          "persistentUuid": "72341228-8486-4599-8dce-ff6b9b0acfa3",
+          "width": 314,
+          "x": 278,
+          "y": 70,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10913,7 +10936,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Press any key to",
+          "string": "when ready",
           "font": "GloriaHallelujah-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 40,
@@ -10936,7 +10959,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Press any key to",
+            "text": "when ready",
             "font": "GloriaHallelujah-Regular.ttf",
             "textAlignment": "left",
             "characterSize": 40,
@@ -11162,6 +11185,29 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "InputPlayerName",
+          "type": "TextInput::TextInputObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "initialValue": "",
+            "placeholder": "Enter name",
+            "fontResourceName": "GloriaHallelujah-Regular.ttf",
+            "fontSize": 40,
+            "inputType": "text",
+            "textColor": "0;0;0",
+            "fillColor": "255;255;255",
+            "fillOpacity": 255,
+            "borderColor": "0;0;0",
+            "borderOpacity": 255,
+            "borderWidth": 1,
+            "readOnly": false,
+            "disabled": false
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -11199,10 +11245,29 @@
           },
           {
             "objectName": "back_soil_score"
+          },
+          {
+            "objectName": "InputPlayerName"
           }
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "objects[0].focus();",
+            "",
+            "document.body.addEventListener('keyup', function(e) {",
+            "        if (e.key === \"Escape\") {",
+            "            document.activeElement.blur();",
+            "        }",
+            "    }",
+            ")"
+          ],
+          "parameterObjects": "InputPlayerName",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -11263,6 +11328,36 @@
                 "no"
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "PlayerName",
+                    "!=",
+                    "\"0\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "InputPlayerName",
+                    "Text",
+                    "=",
+                    "PlayerName"
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
@@ -11270,14 +11365,25 @@
           "conditions": [
             {
               "type": {
-                "value": "AnyKeyReleased"
+                "value": "KeyReleased"
               },
               "parameters": [
-                ""
+                "",
+                "Escape"
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "PlayerName",
+                "=",
+                "InputPlayerName.Text::Value()"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
