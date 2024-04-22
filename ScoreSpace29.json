@@ -1054,14 +1054,7 @@
           ]
         }
       ],
-      "variables": [
-        {
-          "folded": true,
-          "name": "leaderboardData",
-          "type": "string",
-          "value": ""
-        }
-      ],
+      "variables": [],
       "instances": [
         {
           "angle": 0,
@@ -2969,9 +2962,6 @@
             "    // Game API key",
             "    const gameAPIKey = 'dev_5c1ec450962049d98a8620bb13826e45'",
             "",
-            "    // Leaderboard key",
-            "    const leaderboardKey = 'escap_leaderboard_key'",
-            "",
             "    // Development mode true/false",
             "    const developmentMode = 'true'",
             "",
@@ -3016,35 +3006,8 @@
             "        // Save player ID",
             "        runtimeScene.getGame().getVariables().get('player_id').setString(text.player_id)",
             "",
-            "        // Get leaderboard data",
-            "        const leaderboardHTTP = new XMLHttpRequest()",
-            "        const amountOfEntries = 10",
-            "        const leaderboardUrl =",
-            "            'https://api.lootlocker.io/game/leaderboards/' + leaderboardKey + '/list?count=' + amountOfEntries",
-            "        leaderboardHTTP.open('GET', leaderboardUrl)",
-            "        leaderboardHTTP.setRequestHeader('Content-Type', 'application/json')",
+            "        getName();",
             "",
-            "        // Add session token",
-            "        leaderboardHTTP.setRequestHeader(",
-            "            'x-session-token',",
-            "            runtimeScene.getGame().getVariables().get('session_token').getValue()",
-            "        )",
-            "        // Send leaderboard request",
-            "        leaderboardHTTP.send('')",
-            "        leaderboardHTTP.onreadystatechange = e => {",
-            "            let leaderboardData = ''",
-            "            const leaderboardResponseText = JSON.parse(leaderboardHTTP.responseText)",
-            "            for (let i = 0; i < leaderboardResponseText.items.length; i++) {",
-            "                leaderboardData += leaderboardResponseText.items[i].rank + '. '",
-            "                leaderboardData += leaderboardResponseText.items[i].player.id",
-            "                leaderboardData += '        '",
-            "                leaderboardData += leaderboardResponseText.items[i].score",
-            "                leaderboardData += '\\n'",
-            "            }",
-            "            // Save leaderboard data to sceneVariable",
-            "            runtimeScene.getVariables().get('leaderboardData').setValue(leaderboardData);",
-            "            getName();",
-            "        }",
             "    }",
             "}",
             "",
@@ -3241,6 +3204,33 @@
               "parameters": [
                 "",
                 "\"Game scene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Leadbutton",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Leaderboard scene\"",
                 ""
               ]
             }
@@ -10453,6 +10443,12 @@
           "name": "LastScore",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "leaderboardData",
+          "type": "string",
+          "value": ""
         }
       ],
       "instances": [
@@ -10644,8 +10640,8 @@
           "name": "InputPlayerName",
           "persistentUuid": "72341228-8486-4599-8dce-ff6b9b0acfa3",
           "width": 314,
-          "x": 330,
-          "y": 83,
+          "x": 338,
+          "y": 47,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -10660,8 +10656,8 @@
           "name": "NewSprite",
           "persistentUuid": "e16c9679-ccc7-43a3-a7b5-a9226ad07eec",
           "width": 0,
-          "x": 262,
-          "y": -1,
+          "x": 239,
+          "y": -37,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -11558,6 +11554,1470 @@
                 "InputPlayerName.Text::Value()"
               ]
             },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu scene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"leftEtween\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"leftEtween\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"rightEtween\"",
+                "5",
+                "\"linear\"",
+                "1",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"rightEtween\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"rightEtween\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"leftEtween\"",
+                "-5",
+                "\"linear\"",
+                "1",
+                "no"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Leaderboard_32scene",
+      "name": "Leaderboard scene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": false,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 1.085584160494657,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "leaderboardString",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "leaderboardData",
+          "type": "structure",
+          "children": []
+        },
+        {
+          "folded": true,
+          "name": "index",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeaderboardTitle",
+          "persistentUuid": "8554cb26-91ca-4cba-9350-1605ff008acf",
+          "width": 0,
+          "x": 319,
+          "y": 49,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScoreValue",
+          "persistentUuid": "9c73bc13-1a16-4195-b6ee-3bbb993e23bb",
+          "width": 0,
+          "x": 600,
+          "y": 120,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlayerName",
+          "persistentUuid": "9cba1996-1d2e-4645-9705-d94aeff4876e",
+          "width": 0,
+          "x": 280,
+          "y": 120,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlaceValue",
+          "persistentUuid": "84feeab2-36c6-4795-8295-74893e722c08",
+          "width": 0,
+          "x": 242,
+          "y": 120,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ExitScene1",
+          "persistentUuid": "7f9ec5eb-807c-4416-9151-f18a56da19d4",
+          "width": 0,
+          "x": 450,
+          "y": 459,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ExitScene2",
+          "persistentUuid": "36533dfe-874d-439e-a9ec-306c8838295e",
+          "width": 0,
+          "x": 279,
+          "y": 459,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 973,
+          "keepRatio": true,
+          "layer": "",
+          "name": "back_sloud_score",
+          "persistentUuid": "4f32782c-64d7-4917-95e0-5fbada31b421",
+          "width": 487,
+          "x": 239,
+          "y": -149,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 490,
+          "keepRatio": true,
+          "layer": "",
+          "name": "back_soil_score",
+          "persistentUuid": "a9096977-7c73-405f-bfc5-d3f7ee22ada2",
+          "width": 973,
+          "x": -8,
+          "y": -75,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "e16c9679-ccc7-43a3-a7b5-a9226ad07eec",
+          "width": 0,
+          "x": 239,
+          "y": -37,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlaceValue",
+          "persistentUuid": "de9ca89e-6be1-43de-ae03-7595e28d672b",
+          "width": 0,
+          "x": 242,
+          "y": 160,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlaceValue",
+          "persistentUuid": "3061f364-0d69-42d9-9d7d-2ccbe2e24076",
+          "width": 0,
+          "x": 242,
+          "y": 200,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlaceValue",
+          "persistentUuid": "8f712b58-c145-4ba8-b769-cbc0be1218d8",
+          "width": 0,
+          "x": 242,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": "8"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlaceValue",
+          "persistentUuid": "e3569bd6-df85-4a9a-acec-ddfdf712218b",
+          "width": 0,
+          "x": 242,
+          "y": 240,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlaceValue",
+          "persistentUuid": "e647d456-4a5c-4b4f-b8f4-2b254673c1f9",
+          "width": 0,
+          "x": 242,
+          "y": 280,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": "5"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlaceValue",
+          "persistentUuid": "3f83710a-a666-4556-a073-b5463c394d6d",
+          "width": 0,
+          "x": 242,
+          "y": 320,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": "6"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlaceValue",
+          "persistentUuid": "8ffd3f2f-15d7-4c91-a4f5-77f0dc1dae16",
+          "width": 0,
+          "x": 242,
+          "y": 360,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": "7"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScoreValue",
+          "persistentUuid": "01e75602-9bb5-4964-b66e-265be7434b49",
+          "width": 0,
+          "x": 600,
+          "y": 160,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScoreValue",
+          "persistentUuid": "c27d4c48-7fc6-43ae-ad63-2ac5bb5c5141",
+          "width": 0,
+          "x": 600,
+          "y": 200,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScoreValue",
+          "persistentUuid": "bee0416d-c193-4a55-9b98-cc7d4dc747e1",
+          "width": 0,
+          "x": 600,
+          "y": 240,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScoreValue",
+          "persistentUuid": "166c8eb4-13a7-4edd-b6dc-c7e34ab210c3",
+          "width": 0,
+          "x": 600,
+          "y": 280,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScoreValue",
+          "persistentUuid": "35b2e96d-a6a5-4da2-bdc1-de123745b6b1",
+          "width": 0,
+          "x": 600,
+          "y": 320,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScoreValue",
+          "persistentUuid": "428c2707-36ac-42db-9e01-4049e1cfc8be",
+          "width": 0,
+          "x": 600,
+          "y": 360,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScoreValue",
+          "persistentUuid": "528ad4f4-b95f-4171-a8e1-6f2457a0ebb0",
+          "width": 0,
+          "x": 600,
+          "y": 400,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlayerName",
+          "persistentUuid": "7c0e06bc-f6a6-4405-89ea-76f1efa3814d",
+          "width": 0,
+          "x": 280,
+          "y": 160,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlayerName",
+          "persistentUuid": "d254be34-b196-467e-a3a0-05257c77a84a",
+          "width": 0,
+          "x": 280,
+          "y": 200,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlayerName",
+          "persistentUuid": "be1a4ca6-ac10-4b7d-8349-0c2e36e178a7",
+          "width": 0,
+          "x": 280,
+          "y": 240,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlayerName",
+          "persistentUuid": "0159ed05-9fb0-4fd8-b3cf-9d869b77e0c7",
+          "width": 0,
+          "x": 280,
+          "y": 280,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlayerName",
+          "persistentUuid": "fbf8b946-f2ce-48f2-bd60-ce340c950303",
+          "width": 0,
+          "x": 280,
+          "y": 320,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlayerName",
+          "persistentUuid": "29bcc90a-9fef-4952-bfc4-0d2d608a1b3e",
+          "width": 0,
+          "x": 280,
+          "y": 360,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlayerName",
+          "persistentUuid": "afdb453e-b5b2-401f-a4d9-d5eb86a32b8e",
+          "width": 0,
+          "x": 280,
+          "y": 400,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "LeaderboardTitle",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Leaderboard",
+          "font": "Jersey10-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Leaderboard",
+            "font": "Jersey10-Regular.ttf",
+            "textAlignment": "left",
+            "characterSize": 60,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ScoreValue",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "GloriaHallelujah-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "GloriaHallelujah-Regular.ttf",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "255;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "PlayerName",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "player",
+          "font": "Jersey10-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "player",
+            "font": "Jersey10-Regular.ttf",
+            "textAlignment": "left",
+            "characterSize": 60,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "PlaceValue",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "Jersey10-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "Jersey10-Regular.ttf",
+            "textAlignment": "left",
+            "characterSize": 60,
+            "color": "255;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ExitScene1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "when ready",
+          "font": "GloriaHallelujah-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 35,
+            "g": 166,
+            "r": 245
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "when ready",
+            "font": "GloriaHallelujah-Regular.ttf",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "245;166;35"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ExitScene2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "ESCAPE",
+          "font": "Jersey10-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 7,
+            "g": 124,
+            "r": 204
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "ESCAPE",
+            "font": "Jersey10-Regular.ttf",
+            "textAlignment": "left",
+            "characterSize": 60,
+            "color": "204;124;7"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "back_sloud_score",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2342.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21,
+                            "y": 1
+                          },
+                          {
+                            "x": 280,
+                            "y": 1
+                          },
+                          {
+                            "x": 280,
+                            "y": 877
+                          },
+                          {
+                            "x": 21,
+                            "y": 877
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "back_soil_score",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2296_copy.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 880,
+                            "y": 0
+                          },
+                          {
+                            "x": 880,
+                            "y": 490
+                          },
+                          {
+                            "x": 0,
+                            "y": 490
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2359.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 442,
+                            "y": 0
+                          },
+                          {
+                            "x": 442,
+                            "y": 161
+                          },
+                          {
+                            "x": 0,
+                            "y": 161
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "LeaderboardTitle"
+          },
+          {
+            "objectName": "ScoreValue"
+          },
+          {
+            "objectName": "PlayerName"
+          },
+          {
+            "objectName": "PlaceValue"
+          },
+          {
+            "objectName": "ExitScene1"
+          },
+          {
+            "objectName": "ExitScene2"
+          },
+          {
+            "objectName": "back_sloud_score"
+          },
+          {
+            "objectName": "back_soil_score"
+          },
+          {
+            "objectName": "NewSprite"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"rightEtween\"",
+                "5",
+                "\"linear\"",
+                "0.5",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "PlaceValue",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "PlaceValue",
+                    "Text",
+                    "=",
+                    "PlaceValue.Number"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "",
+            "",
+            "function GetLeaderboard() {",
+            "        // Leaderboard key",
+            "        const leaderboardKey = 'escap_leaderboard_key'",
+            "",
+            "        // Get leaderboard data",
+            "        const leaderboardHTTP = new XMLHttpRequest()",
+            "        const amountOfEntries = 10",
+            "        const leaderboardUrl =",
+            "            'https://api.lootlocker.io/game/leaderboards/' + leaderboardKey + '/list?count=' + amountOfEntries",
+            "        leaderboardHTTP.open('GET', leaderboardUrl)",
+            "        leaderboardHTTP.setRequestHeader('Content-Type', 'application/json')",
+            "",
+            "        // Add session token",
+            "        leaderboardHTTP.setRequestHeader(",
+            "            'x-session-token',",
+            "            runtimeScene.getGame().getVariables().get('session_token').getValue()",
+            "        )",
+            "        // Send leaderboard request",
+            "        leaderboardHTTP.send('')",
+            "        leaderboardHTTP.onreadystatechange = e => {",
+            "            runtimeScene.getVariables().get('leaderboardString').setString(leaderboardHTTP.responseText);",
+            "            // var leaderboardData = runtimeScene.getVariables().get('leaderboardData');",
+            "",
+            "            // let placeData = {",
+            "            //     rank: 0,",
+            "            //     playerName: '',",
+            "            //     score: 0,",
+            "            // }",
+            "            // const leaderboardResponseText = JSON.parse(leaderboardHTTP.responseText)",
+            "            // for (let i = 0; i < leaderboardResponseText.items.length; i++) {",
+            "            //     // placeData[rank] = leaderboardResponseText.items[i].rank;",
+            "            //     placeData[playerName] = leaderboardResponseText.items[i].player.playerName",
+            "            //     // placeData[score] = leaderboardResponseText.items[i].score;",
+            "            //     console.log(placeData[playerName]);",
+            "            //     leaderboardData.pushVariableCopy(fromJSObject(placeData));",
+            "            // }",
+            "            // Save leaderboard data to sceneVariable",
+            "        }",
+            "}",
+            "",
+            "if (runtimeScene.getTimeManager().isFirstFrame()) {",
+            "    GetLeaderboard();",
+            "",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "leaderboardString",
+                "!=",
+                "\"0\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "JSONToVariableStructure"
+              },
+              "parameters": [
+                "leaderboardString",
+                "leaderboardData"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "leaderboardString",
+                "=",
+                "\"0\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEachChildVariable",
+              "iterableVariableName": "leaderboardData[\"items\"]",
+              "valueIteratorVariableName": "child",
+              "keyIteratorVariableName": "",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "PlayerName",
+                    "280",
+                    "120+index*40",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "ScoreValue",
+                    "600",
+                    "120+index*40",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "index",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "PlayerName",
+                    "Text",
+                    "=",
+                    "VariableString(child[\"player\"][\"name\"])"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ScoreValue",
+                    "Text",
+                    "=",
+                    "VariableString(child[\"score\"])"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Escape"
+              ]
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "Scene"
