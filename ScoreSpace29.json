@@ -543,15 +543,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Line.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Line",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_A.png",
         "kind": "image",
         "metadata": "",
@@ -617,24 +608,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/cactus4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "cactus3",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Destroyer.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -648,15 +621,6 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Destroyer.png\",\"extension\":\".png\"}",
         "name": "assets\\Destroyer.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/fence2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "fence",
         "smoothed": true,
         "userAdded": true
       },
@@ -747,16 +711,7 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/Esc Key.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Esc Key.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
+        "alwaysLoaded": true,
         "file": "IMG_2343.png",
         "kind": "image",
         "metadata": "",
@@ -801,7 +756,7 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
+        "alwaysLoaded": true,
         "file": "IMG_2296_copy.png",
         "kind": "image",
         "metadata": "",
@@ -815,7 +770,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Gold_star.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -868,15 +823,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_EscapeAbilityBackground.png5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_EscapeAbilityBackground.png5.png\"}",
-        "name": "assets\\EscapeAbilityBackground.png5",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/EscapeAbilityBackground.png",
         "kind": "image",
         "metadata": "",
@@ -914,15 +860,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "IMG_2357.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "IMG_2357.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "IMG_2359.png",
         "kind": "image",
         "metadata": "",
@@ -944,7 +881,7 @@
         "kind": "audio",
         "metadata": "",
         "name": "Midnight Masquerade-timestrech.mp3",
-        "preloadAsMusic": false,
+        "preloadAsMusic": true,
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
