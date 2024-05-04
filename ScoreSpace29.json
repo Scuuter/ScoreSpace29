@@ -31,9 +31,9 @@
     "verticalSync": false,
     "platformSpecificAssets": {},
     "loadingScreen": {
-      "backgroundColor": 0,
+      "backgroundColor": 5002044,
       "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "",
+      "backgroundImageResourceName": "Loading.png",
       "gdevelopLogoStyle": "light",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0.2,
@@ -43,7 +43,7 @@
       "progressBarMaxWidth": 200,
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
-      "showGDevelopSplash": true,
+      "showGDevelopSplash": false,
       "showProgressBar": true
     },
     "watermark": {
@@ -543,15 +543,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Line.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Line",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Letter Key_A.png",
         "kind": "image",
         "metadata": "",
@@ -617,24 +608,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/cactus4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "cactus3",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Destroyer.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -648,15 +621,6 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Destroyer.png\",\"extension\":\".png\"}",
         "name": "assets\\Destroyer.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/fence2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "fence",
         "smoothed": true,
         "userAdded": true
       },
@@ -747,16 +711,7 @@
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/Esc Key.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Esc Key.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
+        "alwaysLoaded": true,
         "file": "IMG_2343.png",
         "kind": "image",
         "metadata": "",
@@ -801,7 +756,7 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
+        "alwaysLoaded": true,
         "file": "IMG_2296_copy.png",
         "kind": "image",
         "metadata": "",
@@ -815,7 +770,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Gold_star.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -868,21 +823,117 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_EscapeAbilityBackground.png5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/assets_EscapeAbilityBackground.png5.png\"}",
-        "name": "assets\\EscapeAbilityBackground.png5",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/EscapeAbilityBackground.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\EscapeAbilityBackground.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Pickup_coin4.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Pickup_coin4.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2354.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2354.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2356.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2356.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2359.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2359.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IMG_2360.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "IMG_2360.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Midnight Masquerade-timestrech.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Midnight Masquerade-timestrech.mp3",
+        "preloadAsMusic": true,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Crimson Nightmares.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Crimson Nightmares.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Loading.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Loading.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "WE_Thunder_10-timestrech.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "WE_Thunder_10-timestrech.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "horror_01_stinger_synth_1_01-timestrech.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "horror_01_stinger_synth_1_01-timestrech.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "horror_01_stinger_impact_01-timestrech.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "horror_01_stinger_impact_01-timestrech.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -916,6 +967,42 @@
       "name": "LastDistance",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "player_id",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "folded": true,
+      "name": "session_token",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "folded": true,
+      "name": "PlayerName",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "Settings",
+      "type": "structure",
+      "children": [
+        {
+          "folded": true,
+          "name": "Music_volume",
+          "type": "number",
+          "value": 20
+        },
+        {
+          "folded": true,
+          "name": "Sound_volume",
+          "type": "number",
+          "value": 30
+        }
+      ]
     }
   ],
   "layouts": [
@@ -1114,7 +1201,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 2,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -1122,8 +1209,8 @@
           "name": "Title2",
           "persistentUuid": "e75b7071-df13-498d-96d4-ae7ca92b367f",
           "width": 0,
-          "x": 320,
-          "y": 106,
+          "x": 325,
+          "y": 107,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1156,7 +1243,7 @@
           "width": 0,
           "x": 613,
           "y": 33,
-          "zOrder": 14,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1191,40 +1278,6 @@
           "x": -3,
           "y": -7,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 76,
-          "keepRatio": true,
-          "layer": "Title",
-          "name": "NewSprite",
-          "persistentUuid": "cc0e2988-7f28-4788-90d1-7373a36688ec",
-          "width": 431,
-          "x": 242,
-          "y": 46,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 3,
-          "customSize": true,
-          "depth": 1,
-          "height": 60,
-          "keepRatio": true,
-          "layer": "Title",
-          "name": "NewSprite",
-          "persistentUuid": "6981c88d-e8d1-4104-af5a-0c6091fe2d0f",
-          "width": 324,
-          "x": 318,
-          "y": 112,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1385,6 +1438,55 @@
           "x": 1632,
           "y": 352,
           "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Title",
+          "name": "Sign1",
+          "persistentUuid": "7af48b64-d7e6-4d58-ba55-361db7d28d22",
+          "width": 0,
+          "x": 239,
+          "y": -37,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 51,
+          "keepRatio": true,
+          "layer": "Title",
+          "name": "SignE",
+          "persistentUuid": "7151812c-98dd-4b61-8089-56a96efadb72",
+          "width": 29,
+          "x": 634,
+          "y": 56,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 3,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Title",
+          "name": "Sign2",
+          "persistentUuid": "e76cd43b-92a5-4c0d-b85f-0d35bd4428bb",
+          "width": 0,
+          "x": 300,
+          "y": 100,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1613,7 +1715,7 @@
                 "thickness": 3
               },
               "stringParameters": {
-                "color": "153;145;38"
+                "color": "204;131;11"
               },
               "booleanParameters": {}
             }
@@ -1682,7 +1784,7 @@
                 "thickness": 2
               },
               "stringParameters": {
-                "color": "153;145;38"
+                "color": "204;131;11"
               },
               "booleanParameters": {}
             }
@@ -1751,7 +1853,7 @@
                 "thickness": 2
               },
               "stringParameters": {
-                "color": "153;145;38"
+                "color": "204;131;11"
               },
               "booleanParameters": {}
             }
@@ -1898,16 +2000,16 @@
           "string": "the wrong game",
           "font": "GloriaHallelujah-Regular.ttf",
           "textAlignment": "left",
-          "characterSize": 40,
+          "characterSize": 37,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 11,
+            "g": 131,
+            "r": 204
           },
           "content": {
             "bold": false,
             "isOutlineEnabled": false,
-            "isShadowEnabled": false,
+            "isShadowEnabled": true,
             "italic": false,
             "outlineColor": "255;255;255",
             "outlineThickness": 2,
@@ -1921,8 +2023,8 @@
             "text": "the wrong game",
             "font": "GloriaHallelujah-Regular.ttf",
             "textAlignment": "left",
-            "characterSize": 40,
-            "color": "0;0;0"
+            "characterSize": 37,
+            "color": "204;131;11"
           }
         },
         {
@@ -1943,7 +2045,7 @@
                 "thickness": 2
               },
               "stringParameters": {
-                "color": "153;145;38"
+                "color": "204;131;11"
               },
               "booleanParameters": {}
             }
@@ -2509,6 +2611,267 @@
               "width": 22
             }
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Sign1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 3,
+                "padding": 5,
+                "quality": 10,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "46;45;45"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "thick_line",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2354.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 441,
+                            "y": 0
+                          },
+                          {
+                            "x": 441,
+                            "y": 160
+                          },
+                          {
+                            "x": 1,
+                            "y": 160
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "normal_line",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2359.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 441,
+                            "y": 0
+                          },
+                          {
+                            "x": 441,
+                            "y": 160
+                          },
+                          {
+                            "x": 1,
+                            "y": 160
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SignE",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "KawaseBlur",
+              "name": "Effect",
+              "doubleParameters": {
+                "blur": 0.2,
+                "padding": 0.5,
+                "pixelizeX": 0,
+                "pixelizeY": 0,
+                "quality": 10
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2356.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 23,
+                            "y": 1
+                          },
+                          {
+                            "x": 23,
+                            "y": 35
+                          },
+                          {
+                            "x": 1,
+                            "y": 35
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Sign2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2360.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 2
+                          },
+                          {
+                            "x": 342,
+                            "y": 2
+                          },
+                          {
+                            "x": 342,
+                            "y": 75
+                          },
+                          {
+                            "x": 2,
+                            "y": 75
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2522,6 +2885,9 @@
           },
           {
             "objectName": "Etitle"
+          },
+          {
+            "objectName": "SignE"
           },
           {
             "objectName": "Title2"
@@ -2566,6 +2932,9 @@
             "objectName": "NewSprite"
           },
           {
+            "objectName": "Sign1"
+          },
+          {
             "objectName": "MenuLights"
           },
           {
@@ -2573,10 +2942,99 @@
           },
           {
             "objectName": "SoundsSlider"
+          },
+          {
+            "objectName": "Sign2"
           }
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "function Authentication() {",
+            "    // Game API key",
+            "    const gameAPIKey = 'dev_5c1ec450962049d98a8620bb13826e45'",
+            "",
+            "    // Development mode true/false",
+            "    const developmentMode = 'true'",
+            "",
+            "    // Authentication request",
+            "    const AuthHttp = new XMLHttpRequest()",
+            "    const auth_url = 'https://api.lootlocker.io/game/v2/session/guest'",
+            "    AuthHttp.open('POST', auth_url)",
+            "    AuthHttp.setRequestHeader('Content-Type', 'application/json')",
+            "",
+            "    //This is used to ensure that a new player is not created if one already exists when starting a session",
+            "    const playerIdentifier = localStorage.getItem('player_identifier')",
+            "",
+            "    if (playerIdentifier == null) {",
+            "        // No player identifier was found, start new session",
+            "        AuthHttp.send(",
+            "            JSON.stringify({ game_key: gameAPIKey, game_version: '0.1.0.0', development_mode: developmentMode })",
+            "        )",
+            "    } else {",
+            "        // Player identifier was found, continue with this player",
+            "        AuthHttp.send(",
+            "            JSON.stringify({",
+            "                game_key: gameAPIKey,",
+            "                player_identifier: playerIdentifier,",
+            "                game_version: '0.1.0.0',",
+            "                development_mode: developmentMode,",
+            "            })",
+            "        )",
+            "    }",
+            "",
+            "    AuthHttp.onreadystatechange = e => {",
+            "        // Log server response",
+            "        console.log(AuthHttp.responseText)",
+            "",
+            "        // Parse json",
+            "        const text = JSON.parse(AuthHttp.responseText)",
+            "",
+            "        // Save player identifier to storage",
+            "        localStorage.setItem('player_identifier', text.player_identifier)",
+            "",
+            "        // Save session_token to a global variable",
+            "        runtimeScene.getGame().getVariables().get('session_token').setString(text.session_token)",
+            "        // Save player ID",
+            "        runtimeScene.getGame().getVariables().get('player_id').setString(text.player_id)",
+            "",
+            "        getName();",
+            "",
+            "    }",
+            "}",
+            "",
+            "function getName() {",
+            "    // Upload score",
+            "    const Http = new XMLHttpRequest()",
+            "    const url = 'https://api.lootlocker.io/game/player/name'",
+            "    Http.open('GET', url)",
+            "    Http.setRequestHeader('Content-Type', 'application/json')",
+            "    // Add session token",
+            "    Http.setRequestHeader('x-session-token', runtimeScene.getGame().getVariables().get('session_token').getValue())",
+            "",
+            "    // Send score and player identifier",
+            "    Http.send()",
+            "    Http.onreadystatechange = e => {",
+            "        // Log server response",
+            "        console.log(Http.responseText);",
+            "        const text = JSON.parse(Http.responseText);",
+            "        const name = text.name;",
+            "        if (name !== undefined) {",
+            "            runtimeScene.getGame().getVariables().get('PlayerName').setString(name);",
+            "        }",
+            "    }",
+            "}",
+            "",
+            "if (runtimeScene.getTimeManager().isFirstFrame()) {",
+            "    Authentication();",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -2598,7 +3056,7 @@
                 "Score",
                 "Text",
                 "=",
-                "ToString(roundTo(GlobalVariable(HighScore), 2))"
+                "ToString(round(GlobalVariable(HighScore)))"
               ]
             },
             {
@@ -2636,6 +3094,39 @@
                 "45",
                 "\"linear\"",
                 "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Sign1",
+                "Animation",
+                "=",
+                "\"thick_line\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "MusicSlider",
+                "=",
+                "Settings.Music_volume",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+              },
+              "parameters": [
+                "SoundsSlider",
+                "=",
+                "Settings.Sound_volume",
                 ""
               ]
             }
@@ -2716,6 +3207,33 @@
               "parameters": [
                 "",
                 "\"Game scene\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "Leadbutton",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Leaderboard scene\"",
                 ""
               ]
             }
@@ -2866,6 +3384,98 @@
                 "0.2",
                 "",
                 "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "SoundsSlider",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Settings.Sound_volume",
+                "=",
+                "SoundsSlider.Value()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteSlider::PanelSpriteSlider::IsBeingDragged"
+              },
+              "parameters": [
+                "MusicSlider",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Settings.Music_volume",
+                "=",
+                "MusicSlider.Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVolumeMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "Settings.Music_volume"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MusicStopped"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Midnight Masquerade-timestrech.mp3",
+                "1",
+                "yes",
+                "Settings.Music_volume",
+                ""
               ]
             }
           ]
@@ -3046,7 +3656,7 @@
       "name": "Game scene",
       "r": 25,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 51,
       "uiSettings": {
@@ -3059,7 +3669,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6492030249510243,
+        "zoomFactor": 0.9991260522560176,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3182,6 +3792,12 @@
           "name": "TimeFromSpeedChange",
           "type": "number",
           "value": -10
+        },
+        {
+          "folded": true,
+          "name": "StopMovement",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -8192,6 +8808,18 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Pickup_coin4.wav",
+                    "",
+                    "Settings.Sound_volume*0.6",
+                    "RandomFloatInRange(1,2)"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ModVarScene"
                   },
                   "parameters": [
@@ -8297,6 +8925,18 @@
                             "Animation",
                             "=",
                             "\"ChangeInput\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "WE_Thunder_10-timestrech.mp3",
+                            "no",
+                            "Settings.Sound_volume",
+                            "RandomFloatInRange(1, 1.5)"
                           ]
                         },
                         {
@@ -8419,16 +9059,6 @@
                     "value": "ModVarGlobal"
                   },
                   "parameters": [
-                    "HighScore",
-                    "=",
-                    "max(HighScore, Distance*ScoreMultiplier*100)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
                     "LastDistance",
                     "=",
                     "Distance"
@@ -8456,12 +9086,76 @@
                 },
                 {
                   "type": {
-                    "value": "Scene"
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "StopMovement",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopMusicCanal"
                   },
                   "parameters": [
                     "",
-                    "\"Score scene\"",
-                    ""
+                    "1"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "RedHatBoy",
+                        "Animation",
+                        "=",
+                        "\"Dead\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "horror_01_stinger_impact_01-timestrech.mp3",
+                        "no",
+                        "Settings.Sound_volume*0.2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1.8"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Score scene\"",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -8523,6 +9217,18 @@
                     "Animation",
                     "=",
                     "\"ChangeInput\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "WE_Thunder_10-timestrech.mp3",
+                    "no",
+                    "Settings.Sound_volume",
+                    ""
                   ]
                 },
                 {
@@ -8623,8 +9329,29 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "StopMovement",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "SpeedChange",
+                    "=",
+                    "-Speed"
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -8637,6 +9364,15 @@
                     "TimeFromSpeedChange",
                     ">=",
                     "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "StopMovement",
+                    "False"
                   ]
                 }
               ],
@@ -8691,7 +9427,7 @@
                       },
                       "parameters": [
                         "Star",
-                        "-SpeedChange",
+                        "-SpeedChange*ObstaclesMultiplier",
                         "0",
                         "1"
                       ]
@@ -8709,7 +9445,7 @@
                       },
                       "parameters": [
                         "Obstacles",
-                        "-SpeedChange",
+                        "-SpeedChange*ObstaclesMultiplier",
                         "0",
                         "1"
                       ]
@@ -9139,6 +9875,17 @@
                   "parameters": [
                     "RedHatBoy",
                     "Animation"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "RedHatBoy",
+                    "Animation",
+                    "!=",
+                    "\"Dead\""
                   ]
                 }
               ],
@@ -9639,6 +10386,18 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "horror_01_stinger_synth_1_01-timestrech.mp3",
+                    "no",
+                    "Settings.Sound_volume",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::RemoveTween"
                   },
                   "parameters": [
@@ -9692,6 +10451,35 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MusicStopped"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Midnight Masquerade-timestrech.mp3",
+                "1",
+                "yes",
+                "Settings.Music_volume",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -9920,7 +10708,20 @@
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "LastScore",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "leaderboardData",
+          "type": "string",
+          "value": ""
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -10027,8 +10828,8 @@
           "name": "ExitScene1",
           "persistentUuid": "7f9ec5eb-807c-4416-9151-f18a56da19d4",
           "width": 0,
-          "x": 236,
-          "y": 458,
+          "x": 450,
+          "y": 459,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -10059,7 +10860,7 @@
           "name": "ExitScene2",
           "persistentUuid": "36533dfe-874d-439e-a9ec-306c8838295e",
           "width": 0,
-          "x": 579,
+          "x": 279,
           "y": 459,
           "zOrder": 10,
           "numberProperties": [],
@@ -10096,6 +10897,39 @@
           "x": -8,
           "y": -75,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 65,
+          "keepRatio": true,
+          "layer": "",
+          "name": "InputPlayerName",
+          "persistentUuid": "72341228-8486-4599-8dce-ff6b9b0acfa3",
+          "width": 314,
+          "x": 338,
+          "y": 47,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "e16c9679-ccc7-43a3-a7b5-a9226ad07eec",
+          "width": 0,
+          "x": 239,
+          "y": -37,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10359,7 +11193,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Press any key to",
+          "string": "when ready",
           "font": "GloriaHallelujah-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 40,
@@ -10382,7 +11216,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Press any key to",
+            "text": "when ready",
             "font": "GloriaHallelujah-Regular.ttf",
             "textAlignment": "left",
             "characterSize": 40,
@@ -10608,6 +11442,89 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "InputPlayerName",
+          "type": "TextInput::TextInputObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "initialValue": "",
+            "placeholder": "Enter name",
+            "fontResourceName": "GloriaHallelujah-Regular.ttf",
+            "fontSize": 40,
+            "inputType": "text",
+            "textColor": "228;146;9",
+            "fillColor": "255;255;255",
+            "fillOpacity": 0,
+            "borderColor": "0;0;0",
+            "borderOpacity": 0,
+            "borderWidth": 1,
+            "readOnly": false,
+            "disabled": false
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2359.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 442,
+                            "y": 0
+                          },
+                          {
+                            "x": 442,
+                            "y": 161
+                          },
+                          {
+                            "x": 0,
+                            "y": 161
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10645,6 +11562,12 @@
           },
           {
             "objectName": "back_soil_score"
+          },
+          {
+            "objectName": "InputPlayerName"
+          },
+          {
+            "objectName": "NewSprite"
           }
         ]
       },
@@ -10662,6 +11585,26 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "LastScore",
+                "=",
+                "LastDistance*LastMultiplier*100"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "HighScore",
+                "=",
+                "max(HighScore, LastScore)"
+              ]
+            },
             {
               "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
@@ -10692,7 +11635,7 @@
                 "ScoreValue",
                 "Text",
                 "=",
-                "ToString(roundTo(LastDistance*LastMultiplier*100, 2))"
+                "ToString(round(LastScore))"
               ]
             },
             {
@@ -10708,6 +11651,199 @@
                 "0.5",
                 "no"
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Crimson Nightmares.mp3",
+                "1",
+                "yes",
+                "",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "PlayerName",
+                    "!=",
+                    "\"0\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "InputPlayerName",
+                    "Text",
+                    "=",
+                    "PlayerName"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "function UploadScore() {",
+            "    // Leaderboard-key",
+            "    const leaderboardKey = 'escap_leaderboard_key'",
+            "",
+            "    // Score from scene-variable",
+            "    const score = runtimeScene.getGame().getVariables().get('HighScore').getValue()",
+            "",
+            "    // Upload score",
+            "    const Http = new XMLHttpRequest()",
+            "    const url = 'https://api.lootlocker.io/game/leaderboards/' + leaderboardKey + '/submit'",
+            "    Http.open('POST', url)",
+            "    Http.setRequestHeader('Content-Type', 'application/json')",
+            "    // Add session token",
+            "    Http.setRequestHeader('x-session-token', runtimeScene.getGame().getVariables().get('session_token').getValue())",
+            "",
+            "    // Send score and player identifier",
+            "    Http.send(",
+            "        JSON.stringify({ score: score, member_id: runtimeScene.getGame().getVariables().get('player_id').getValue() })",
+            "    )",
+            "    Http.onreadystatechange = e => {",
+            "        // Log server response",
+            "        console.log(Http.responseText)",
+            "",
+            "        // Get the leaderboard after the new score was added to keep it fresh",
+            "        // Get leaderboard data",
+            "        const leaderboardHTTP = new XMLHttpRequest()",
+            "        const amountOfEntries = 10",
+            "        const leaderboardUrl =",
+            "            'https://api.lootlocker.io/game/leaderboards/' + leaderboardKey + '/list?count=' + amountOfEntries",
+            "        leaderboardHTTP.open('GET', leaderboardUrl)",
+            "        leaderboardHTTP.setRequestHeader('Content-Type', 'application/json')",
+            "",
+            "        // Add session token",
+            "        leaderboardHTTP.setRequestHeader(",
+            "            'x-session-token',",
+            "            runtimeScene.getGame().getVariables().get('session_token').getValue()",
+            "        )",
+            "        leaderboardHTTP.send('')",
+            "",
+            "        leaderboardHTTP.onreadystatechange = e => {",
+            "            const leaderboardData = ''",
+            "            const leaderboardResponseText = JSON.parse(leaderboardHTTP.responseText)",
+            "            for (let i = 0; i < leaderboardResponseText.items.length; i++) {",
+            "                leaderboardData += leaderboardResponseText.items[i].rank + '. '",
+            "                leaderboardData += leaderboardResponseText.items[i].player.id",
+            "                leaderboardData += '        '",
+            "                leaderboardData += leaderboardResponseText.items[i].score",
+            "                leaderboardData += '\\n'",
+            "            }",
+            "            runtimeScene.getVariables().get('leaderboardData').setValue(leaderboardData)",
+            "        }",
+            "    }",
+            "}",
+            "",
+            "function SetName(name) {",
+            "    const Http = new XMLHttpRequest()",
+            "    const url = 'https://api.lootlocker.io/game/player/name'",
+            "    Http.open('PATCH', url)",
+            "    Http.setRequestHeader('Content-Type', 'application/json')",
+            "    // Add session token",
+            "    Http.setRequestHeader('x-session-token', runtimeScene.getGame().getVariables().get('session_token').getValue())",
+            "",
+            "    // Send score and player identifier",
+            "    Http.send(",
+            "        JSON.stringify({ name: name })",
+            "    )",
+            "    Http.onreadystatechange = e => {",
+            "        // Log server response",
+            "        console.log(Http.responseText)",
+            "",
+            "        ",
+            "    }",
+            "}",
+            "",
+            "function changePlaceholderColor(toColor) {",
+            "  var addCSS = document.createElement('style');",
+            "  addCSS.innerHTML = \"::placeholder { color: \" + toColor + \"; }\";",
+            "  document.body.append(addCSS);",
+            "}",
+            "",
+            "objects[0].focus();",
+            "",
+            "",
+            "if (runtimeScene.getTimeManager().isFirstFrame()) {",
+            "    changePlaceholderColor('brown');",
+            "",
+            "    document.body.addEventListener('keyup', function(e) {",
+            "            if (e.key === \"Escape\") {",
+            "                SetName(objects[0].getText());",
+            "                document.activeElement.blur();",
+            "            }",
+            "        }",
+            "    );",
+            "    UploadScore();",
+            "",
+            "}"
+          ],
+          "parameterObjects": "InputPlayerName",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Escape"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "InputPlayerName.Text::Value()",
+                "!=",
+                "\"\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "PlayerName",
+                "=",
+                "InputPlayerName.Text::Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Leaderboard scene\"",
+                ""
+              ]
             }
           ]
         },
@@ -10716,10 +11852,1457 @@
           "conditions": [
             {
               "type": {
-                "value": "AnyKeyReleased"
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"leftEtween\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"leftEtween\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"rightEtween\"",
+                "5",
+                "\"linear\"",
+                "1",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"rightEtween\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveTween"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"rightEtween\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"leftEtween\"",
+                "-5",
+                "\"linear\"",
+                "1",
+                "no"
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Leaderboard_32scene",
+      "name": "Leaderboard scene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": false,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 1.085584160494657,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "leaderboardString",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "leaderboardData",
+          "type": "structure",
+          "children": []
+        },
+        {
+          "folded": true,
+          "name": "index",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LeaderboardTitle",
+          "persistentUuid": "8554cb26-91ca-4cba-9350-1605ff008acf",
+          "width": 0,
+          "x": 319,
+          "y": 49,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScoreValue",
+          "persistentUuid": "9c73bc13-1a16-4195-b6ee-3bbb993e23bb",
+          "width": 0,
+          "x": 600,
+          "y": 120,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 40,
+          "layer": "",
+          "name": "PlayerName",
+          "persistentUuid": "9cba1996-1d2e-4645-9705-d94aeff4876e",
+          "width": 300,
+          "x": 280,
+          "y": 125,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlaceValue",
+          "persistentUuid": "84feeab2-36c6-4795-8295-74893e722c08",
+          "width": 0,
+          "x": 242,
+          "y": 120,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ExitScene1",
+          "persistentUuid": "7f9ec5eb-807c-4416-9151-f18a56da19d4",
+          "width": 0,
+          "x": 450,
+          "y": 459,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ExitScene2",
+          "persistentUuid": "36533dfe-874d-439e-a9ec-306c8838295e",
+          "width": 0,
+          "x": 279,
+          "y": 459,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 973,
+          "keepRatio": true,
+          "layer": "",
+          "name": "back_sloud_score",
+          "persistentUuid": "4f32782c-64d7-4917-95e0-5fbada31b421",
+          "width": 487,
+          "x": 239,
+          "y": -149,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 490,
+          "keepRatio": true,
+          "layer": "",
+          "name": "back_soil_score",
+          "persistentUuid": "a9096977-7c73-405f-bfc5-d3f7ee22ada2",
+          "width": 973,
+          "x": -8,
+          "y": -75,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "e16c9679-ccc7-43a3-a7b5-a9226ad07eec",
+          "width": 0,
+          "x": 239,
+          "y": -37,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlaceValue",
+          "persistentUuid": "de9ca89e-6be1-43de-ae03-7595e28d672b",
+          "width": 0,
+          "x": 242,
+          "y": 160,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlaceValue",
+          "persistentUuid": "3061f364-0d69-42d9-9d7d-2ccbe2e24076",
+          "width": 0,
+          "x": 242,
+          "y": 200,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": "3"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlaceValue",
+          "persistentUuid": "8f712b58-c145-4ba8-b769-cbc0be1218d8",
+          "width": 0,
+          "x": 242,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": "8"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlaceValue",
+          "persistentUuid": "e3569bd6-df85-4a9a-acec-ddfdf712218b",
+          "width": 0,
+          "x": 242,
+          "y": 240,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlaceValue",
+          "persistentUuid": "e647d456-4a5c-4b4f-b8f4-2b254673c1f9",
+          "width": 0,
+          "x": 242,
+          "y": 280,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": "5"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlaceValue",
+          "persistentUuid": "3f83710a-a666-4556-a073-b5463c394d6d",
+          "width": 0,
+          "x": 242,
+          "y": 320,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": "6"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlaceValue",
+          "persistentUuid": "8ffd3f2f-15d7-4c91-a4f5-77f0dc1dae16",
+          "width": 0,
+          "x": 242,
+          "y": 360,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": "7"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScoreValue",
+          "persistentUuid": "01e75602-9bb5-4964-b66e-265be7434b49",
+          "width": 0,
+          "x": 600,
+          "y": 160,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScoreValue",
+          "persistentUuid": "c27d4c48-7fc6-43ae-ad63-2ac5bb5c5141",
+          "width": 0,
+          "x": 600,
+          "y": 200,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScoreValue",
+          "persistentUuid": "bee0416d-c193-4a55-9b98-cc7d4dc747e1",
+          "width": 0,
+          "x": 600,
+          "y": 240,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScoreValue",
+          "persistentUuid": "166c8eb4-13a7-4edd-b6dc-c7e34ab210c3",
+          "width": 0,
+          "x": 600,
+          "y": 280,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScoreValue",
+          "persistentUuid": "35b2e96d-a6a5-4da2-bdc1-de123745b6b1",
+          "width": 0,
+          "x": 600,
+          "y": 320,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScoreValue",
+          "persistentUuid": "428c2707-36ac-42db-9e01-4049e1cfc8be",
+          "width": 0,
+          "x": 600,
+          "y": 360,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScoreValue",
+          "persistentUuid": "528ad4f4-b95f-4171-a8e1-6f2457a0ebb0",
+          "width": 0,
+          "x": 600,
+          "y": 400,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 40,
+          "layer": "",
+          "name": "PlayerName",
+          "persistentUuid": "7c0e06bc-f6a6-4405-89ea-76f1efa3814d",
+          "width": 300,
+          "x": 280,
+          "y": 165,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 40,
+          "layer": "",
+          "name": "PlayerName",
+          "persistentUuid": "d254be34-b196-467e-a3a0-05257c77a84a",
+          "width": 300,
+          "x": 280,
+          "y": 205,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 40,
+          "layer": "",
+          "name": "PlayerName",
+          "persistentUuid": "be1a4ca6-ac10-4b7d-8349-0c2e36e178a7",
+          "width": 300,
+          "x": 280,
+          "y": 245,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 40,
+          "layer": "",
+          "name": "PlayerName",
+          "persistentUuid": "0159ed05-9fb0-4fd8-b3cf-9d869b77e0c7",
+          "width": 300,
+          "x": 280,
+          "y": 285,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 40,
+          "layer": "",
+          "name": "PlayerName",
+          "persistentUuid": "fbf8b946-f2ce-48f2-bd60-ce340c950303",
+          "width": 300,
+          "x": 280,
+          "y": 325,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 40,
+          "layer": "",
+          "name": "PlayerName",
+          "persistentUuid": "29bcc90a-9fef-4952-bfc4-0d2d608a1b3e",
+          "width": 300,
+          "x": 280,
+          "y": 365,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 40,
+          "layer": "",
+          "name": "PlayerName",
+          "persistentUuid": "afdb453e-b5b2-401f-a4d9-d5eb86a32b8e",
+          "width": 300,
+          "x": 280,
+          "y": 405,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "LeaderboardTitle",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Leaderboard",
+          "font": "Jersey10-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Leaderboard",
+            "font": "Jersey10-Regular.ttf",
+            "textAlignment": "left",
+            "characterSize": 60,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ScoreValue",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "GloriaHallelujah-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "GloriaHallelujah-Regular.ttf",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "255;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "PlayerName",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "player",
+          "font": "Jersey10-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "player",
+            "font": "Jersey10-Regular.ttf",
+            "textAlignment": "left",
+            "characterSize": 50,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "PlaceValue",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Number",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "Jersey10-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "Jersey10-Regular.ttf",
+            "textAlignment": "left",
+            "characterSize": 60,
+            "color": "255;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ExitScene1",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "when ready",
+          "font": "GloriaHallelujah-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 35,
+            "g": 166,
+            "r": 245
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "when ready",
+            "font": "GloriaHallelujah-Regular.ttf",
+            "textAlignment": "left",
+            "characterSize": 40,
+            "color": "245;166;35"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ExitScene2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "ESCAPE",
+          "font": "Jersey10-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 7,
+            "g": 124,
+            "r": 204
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "ESCAPE",
+            "font": "Jersey10-Regular.ttf",
+            "textAlignment": "left",
+            "characterSize": 60,
+            "color": "204;124;7"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "back_sloud_score",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2342.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21,
+                            "y": 1
+                          },
+                          {
+                            "x": 280,
+                            "y": 1
+                          },
+                          {
+                            "x": 280,
+                            "y": 877
+                          },
+                          {
+                            "x": 21,
+                            "y": 877
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "back_soil_score",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2296_copy.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 880,
+                            "y": 0
+                          },
+                          {
+                            "x": 880,
+                            "y": 490
+                          },
+                          {
+                            "x": 0,
+                            "y": 490
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "IMG_2359.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 442,
+                            "y": 0
+                          },
+                          {
+                            "x": 442,
+                            "y": 161
+                          },
+                          {
+                            "x": 0,
+                            "y": 161
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "LeaderboardTitle"
+          },
+          {
+            "objectName": "ScoreValue"
+          },
+          {
+            "objectName": "PlayerName"
+          },
+          {
+            "objectName": "PlaceValue"
+          },
+          {
+            "objectName": "ExitScene1"
+          },
+          {
+            "objectName": "ExitScene2"
+          },
+          {
+            "objectName": "back_sloud_score"
+          },
+          {
+            "objectName": "back_soil_score"
+          },
+          {
+            "objectName": "NewSprite"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
               },
               "parameters": [
                 ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+              },
+              "parameters": [
+                "ExitScene2",
+                "Tween",
+                "\"rightEtween\"",
+                "5",
+                "\"linear\"",
+                "0.5",
+                "no"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "PlaceValue",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "PlaceValue",
+                    "Text",
+                    "=",
+                    "PlaceValue.Number"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "function GetLeaderboard() {",
+            "        // Leaderboard key",
+            "        const leaderboardKey = 'escap_leaderboard_key'",
+            "",
+            "        // Get leaderboard data",
+            "        const leaderboardHTTP = new XMLHttpRequest()",
+            "        const amountOfEntries = 10",
+            "        const leaderboardUrl =",
+            "            'https://api.lootlocker.io/game/leaderboards/' + leaderboardKey + '/list?count=' + amountOfEntries",
+            "        leaderboardHTTP.open('GET', leaderboardUrl)",
+            "        leaderboardHTTP.setRequestHeader('Content-Type', 'application/json')",
+            "",
+            "        // Add session token",
+            "        leaderboardHTTP.setRequestHeader(",
+            "            'x-session-token',",
+            "            runtimeScene.getGame().getVariables().get('session_token').getValue()",
+            "        )",
+            "        // Send leaderboard request",
+            "        leaderboardHTTP.send('')",
+            "        leaderboardHTTP.onreadystatechange = e => {",
+            "            runtimeScene.getVariables().get('leaderboardString').setString(leaderboardHTTP.responseText);",
+            "            // var leaderboardData = runtimeScene.getVariables().get('leaderboardData');",
+            "",
+            "            // let placeData = {",
+            "            //     rank: 0,",
+            "            //     playerName: '',",
+            "            //     score: 0,",
+            "            // }",
+            "            // const leaderboardResponseText = JSON.parse(leaderboardHTTP.responseText)",
+            "            // for (let i = 0; i < leaderboardResponseText.items.length; i++) {",
+            "            //     // placeData[rank] = leaderboardResponseText.items[i].rank;",
+            "            //     placeData[playerName] = leaderboardResponseText.items[i].player.playerName",
+            "            //     // placeData[score] = leaderboardResponseText.items[i].score;",
+            "            //     console.log(placeData[playerName]);",
+            "            //     leaderboardData.pushVariableCopy(fromJSObject(placeData));",
+            "            // }",
+            "            // Save leaderboard data to sceneVariable",
+            "        }",
+            "}",
+            "",
+            "if (runtimeScene.getTimeManager().isFirstFrame()) {",
+            "    GetLeaderboard();",
+            "",
+            "}"
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": true
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "leaderboardString",
+                "!=",
+                "\"0\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "JSONToVariableStructure"
+              },
+              "parameters": [
+                "leaderboardString",
+                "leaderboardData"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "leaderboardString",
+                "=",
+                "\"0\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEachChildVariable",
+              "iterableVariableName": "leaderboardData[\"items\"]",
+              "valueIteratorVariableName": "child",
+              "keyIteratorVariableName": "",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "PlayerName",
+                    "280",
+                    "100+index*40",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "ScoreValue",
+                    "600",
+                    "80+index*40",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "index",
+                    "<",
+                    "9"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "index",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "PlayerName",
+                    "Text",
+                    "=",
+                    "VariableString(child[\"player\"][\"name\"])"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ScoreValue",
+                    "Text",
+                    "=",
+                    "VariableString(child[\"score\"])"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Escape"
               ]
             }
           ],
