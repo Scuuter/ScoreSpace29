@@ -1,5 +1,5 @@
 # E.S.C.A.P the wrong game
-2D side-runner web game made in 72 hours for ScoreSpace game jam 29.
+2D side-runner web game made in 72 hours for [ScoreSpace game jam 29](https://itch.io/jam/scorejam29/rate/2658467).
 
 You can play the game here: https://kruzhalovv.itch.io/escap
 
